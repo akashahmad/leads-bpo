@@ -1,0 +1,73 @@
+@media (max-width: 479px) and (min-width: 320px) { 
+
+    .headerLogo{
+        width: 45%;
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+    }
+    .section1-paragraph h4 {
+        font-size: 20px!important;
+        margin-right: -5px!important;
+    }
+    .anchor-section1{
+        font-size: 20px!important;
+        margin-top: -2px!important;
+    }
+    .d-flex.flex-column.below-anchor{
+        width: 84%!important;
+    }
+    .image{
+        height: 150vh!important;
+    }
+    .form{
+        padding-left: 0px!important;
+        margin-left: -23px!important;
+    }
+    .data{
+        width: 400px!important;
+        height:418px!important;
+    }
+    .data h1,h5{
+        font-size: 26px!important;
+        
+    }
+    .data ul li{
+        line-height: 28px!important;
+    }
+    .data ul li span{
+      
+        font-size: 15px!important;
+      
+    }
+    .data ul li p{
+        font-size: 18px!important;
+       
+    }
+    .button-section2-move{
+    height: 45px!important;
+    width: 250px!important;
+    margin-right: 20px!important;
+}
+.button-text{
+    font-size: 13px!important;
+}
+i.fa{
+    font-size: 18px!important;
+}
+.d-flex.paragraph-section3 p {
+    margin-top: -4px!important;
+    margin-left: -12px!important;
+    font-size: 10px!important;
+}
+
+.d-flex.paragraph-section3{
+    height: 20px!important;
+    margin-left: -20px!important;
+}
+.span{
+    padding:0px!important;
+    margin: 0px!important;
+}
+
+}

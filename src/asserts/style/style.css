@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.footer{
+    background-image: url(../images/gplay.png);
+    background-repeat: 100%;
+    
+    height: 500px;
+    background-color: #202020;
+}
+.image{
+    background-image:url(../images/hero-banner-bg.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section4{
+    background-image:url(../images/gplay.png);
+    height: 110vh;
+    background-repeat: repeat;
+
+}
+
+.image-section8{
+    background-image: url(../images/everyone-has-unique-store-bg.jpg);
+    height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
