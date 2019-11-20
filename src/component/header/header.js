@@ -16,7 +16,7 @@ export default ()=>{
                             <h4 className="paragragh1-section1">Contact for Support: </h4>
                             <a className="anchor-section1" href="https://www.national-debt-help.org.uk/qualify-now/">Blackberry Finance Solutions</a>
                            
-                      </div>
+                        </div>
                       <p className="mr-2">blackberryfinancesolutions.netlify.com</p>
                         </div>
                         {/* <div className="d-flex flex-column below-anchor">
@@ -28,13 +28,18 @@ export default ()=>{
                       </div>
                       
                         </div> */}
-                        <Link to={'/form2'}>
+
+                        {/* <Link to={'/form2'}>
                          <div className="animated infinite pulse button-section2-header clip-div1 d-flex mt-4" id="clip-div1">
                           <button className="btn btn-purple btn-ndh  scroll_btn pulse clip1" id="clip1"><p class="button-text-header">Contact</p> </button>
                           <i className="fa fa-chevron-circle-right icon movement-icon1"></i>
-                      </div>
-                      </Link>
-
+                        </div>
+                       </Link> */}
+                       <Link to={'/form2'}>
+                       <div>
+                       <button className="scroll_btn pulse  animated infinite pulse button-section2-header clip-div1 d-flex mt-4" id="clip-div1"><span className="button-header-text">Contact</span></button>
+                       </div>
+                       </Link>
                       </div>
 
                 </div>

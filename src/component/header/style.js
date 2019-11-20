@@ -3,24 +3,37 @@ export default()=>(
     <style js="true">{
         `
         .button-text-header {
-            padding-left: 2%;
+            // padding-left: 2%;
             font-size: 28px;
             margin-top: -1px;
-            margin-left: -24px;
+            // margin-left: -24px;
             color: white;
+            text-align:center;
         }
 
         .button-section2-header {
-            margin-left: 0!important;
+            // margin-left: 0!important;
             height: 53px!important;
             width: 200px!important;
             margin-top:40px!important;
+            background:#9c81b1;
+            font-size:28px;
+        
         }
-
+        .button-header-text {
+            /* text-align: center!important; */
+            padding-left: 45px;
+            color: white;
+        }
         .content{
             margin-right:30px;
         }
-
+        a{
+            text-decoration: none!important;
+        }
+        button#clip-div1 {
+            border-radius: 37px;
+        }
 
 
         /* section1  starts here*/
