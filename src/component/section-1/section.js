@@ -1,8 +1,10 @@
 import React from 'react'
 import Style from '../section-1/style'
 import 'animate.css/animate.css'
+import Move from '../qualificationdata/qualificationdata'
 // import { FontAwesomeIcon } from 'fortawesome/fortawesome'
 import '../../asserts/style/style.css'
+import {Link} from 'react-router-dom'
 export default()=>{
     return(
         <>
@@ -11,7 +13,7 @@ export default()=>{
         </head>
    {/* <!-- section 2 image and form --> */}
 
-<div className="container-fluid mt-2 image">
+<div className="container-fluid mt-3 image">
     <div className="form">
         <div className="data  ml-5 d-flex flex-column">
           <h1 className="">Receive free debt info</h1>
@@ -34,10 +36,12 @@ export default()=>{
             </ul>
 
             <section>
+                <Link to={"/help"}>
               <div className="animated infinite pulse button-section2-move clip-div d-flex" id="clip-div">
-                  <button className="btn btn-purple btn-ndh  scroll_btn pulse clip" id="clip"><p class="button-text">FIND A DEBT SOLUTION</p> </button>
+                  <button className="btn btn-purple btn-ndh  scroll_btn pulse clip" id="clip"><p class="button-text1">FIND A DEBT SOLUTION</p> </button>
                   <i  className="fa fa-chevron-circle-right icon movement-icon"/>
               </div>
+              </Link>
               </section>
               
 

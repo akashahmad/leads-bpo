@@ -11,8 +11,8 @@ export default ()=>{
             <div className="col-md-12">
             <div className="footer-div1">
             <div className="pt-5"><img style={{width:"300px"}} src={img}/></div>
-            <div className="pt-3"><p>Copyright 2019 National-Debt-Help.org.uk. All Rights Reserved.</p></div>
-            <div className="footer-div2 pt-4"><p>National-Debt-Help.org.uk is a trading style of Money Tree Media Limited. Registered office: National Debt Help, 3 Oswin Road, Leicester, LE3 1HR. Money Tree Media Limited is registered with the Information Commissioner Office (No. ZA068562)
+            <div className="pt-5"><p className="footer-p1">Copyright 2019 blackberryfinancesolutions.netlify.com All Rights Reserved.</p></div>
+            <div className="footer-div2 pt-4"><p>Blackberryfinancesolutions.netlify.com is a trading style of Money Tree Media Limited.
             </p>
             <p className="pt-4">We will never charge you any fees for using the services on this site whatsoever.
                 Therefore as an introducer we may receive a commission from our selected partners whom you may be referred to.</p>

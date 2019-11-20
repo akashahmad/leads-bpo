@@ -19,8 +19,8 @@ const useStyles = makeStyles({
       width: 42,
     },
     thumbColorPrimary:{
-height:42,
-width:42
+    height:42,
+    width:42
     },
   });
   
@@ -31,7 +31,7 @@ export default ()=>{
 
 // RangeNew Slider
 const classes = useStyles();
-const [value, setValue] = React.useState(300);
+const [value, setValue] = React.useState(30);
 
 const handleSliderChange = (event, newValue) => {
   setValue(newValue);
@@ -44,10 +44,10 @@ const handleInputChange = event => {
 };
 
 const handleBlur = () => {
-  if (value < 1000) {
+  if (value < 100) {
     setValue(0);
-  } else if (value > 1000) {
-    setValue(1000);
+  } else if (value > 100) {
+    setValue(100);
   }
 };
 
@@ -145,13 +145,13 @@ return (
           </div>
 
 
-        <div className="mt-4 steps" id="hide">
+        <div className="mt-5 steps" id="hide">
         <h3>Where do you live?</h3>
         </div>   
 
         <div className="row d-flex mt-5 hide2" >
             
-            <div className="box1" onClick={() => next()}>
+            <div className="box1 bb" onClick={() => next()}>
                     <p><b><a >England</a></b></p>
             </div>
 
@@ -171,7 +171,7 @@ return (
     </div>
     {/* NEXT 3 */}
     <div className="next2 d-flex flex-column align-items-center" >
-<div className="d-flex">
+<div className="inside-england d-flex">
 
 <i className="fa fa-chevron-circle-left icon movement-icon1"  onClick={()=> previous2()}></i>
 <h5>What is the total value of your debt?</h5>
@@ -238,7 +238,7 @@ return (
 
 <div className={classes.root}>
       
-      <div className="input d-flex justify-content-around">
+      {/* <div className="input d-flex justify-content-around">
       <Grid item>
           <Input
             className={classes.input}
@@ -248,13 +248,13 @@ return (
             onBlur={handleBlur}
             inputProps={{
               step: 100,
-              min: 500,
-              max: 1000,
+              min: 0,
+              max: 100,
               type: 'number',
             }}
           />
         </Grid>
-      </div>
+      </div> */}
 
 
       <Grid container spacing={2} alignItems="center" >
@@ -266,7 +266,6 @@ return (
           />
         </Grid>
 
-      
       </Grid>
     
     </div>
@@ -333,7 +332,7 @@ return (
 
 <div className={classes.root}>
       
-      <div className="input d-flex justify-content-around">
+      {/* <div className="input d-flex justify-content-around">
       <Grid item>
           <Input
             className={classes.input}
@@ -349,7 +348,7 @@ return (
             }}
           />
         </Grid>
-      </div>
+      </div> */}
 
 
       <Grid container spacing={2} alignItems="center" >

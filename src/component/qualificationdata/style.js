@@ -8,10 +8,13 @@ export default ()=>{
                 
                 box-shadow: 0 0 10px;
             }
-            // .section2
-            // {
-            //     background:#e7efff;
-            // }
+            .row.section1-row.d-flex.justify-content-around {
+                box-shadow: 0px 0px 5px;
+            }
+            .section2
+            {
+             
+            }
             .row.space-between {
                 display: flex;
                 justify-content: space-around;
@@ -33,7 +36,7 @@ export default ()=>{
                 height: 95px;
                 background: #e7efff;
                 border-radius: 180px;
-                width: 700px;
+                max-width: 700px;
                 height: 130px;
                 text-align: start;
                 padding: 10px;
@@ -43,8 +46,9 @@ export default ()=>{
                 
             .chat1 {
                 padding-left: 3%;
-                padding-top: 1%;
+                padding-top: 2%;
                 
+
             }
             .Loader {
                 padding-left: 3%;
@@ -56,9 +60,10 @@ export default ()=>{
             .chat-input-data {
                 float: right;
                 background: purple;
-                min-width: 800px;
+                max-width: 800px;
                 height: 120px;
                 border-radius: 55px;
+                
             }
             p.p {
                 float: left;
@@ -68,21 +73,43 @@ export default ()=>{
             }
             .input{
                 height: 70px;
-                border-radius: 20px;
+                border-radius: 7px;
                 background: #e7efff;
                 font-size: 22px;
                 width: 300px;
+                padding-left: 6px;
             }
             .button{
-                width: 100px;
-                height: 70px;
+                margin-right: 12px;
                 margin-bottom: 10px;
                 border-radius: 10px;
+                width: 100px;
+                height: 70px;
             }
+
             .chat-input {
                 padding-bottom: 127px;
             }
 
+            .chat-input2 {
+                padding-bottom: 127px;
+            }
+            .chat-input-data2 {
+                background: purple;
+                float: right;
+                border-radius: 10px;
+                max-width: 800px;
+                height: 120px;
+                border-radius: 55px;
+            }
+            .chat-input-data2 .btn{
+                border-radius: 10px;
+                width: 100px;
+                height: 70px;
+                margin-top: 20px;
+                margin-right: 25px;
+            
+            }
             `}
         </style>
     );

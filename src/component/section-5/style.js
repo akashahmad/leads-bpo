@@ -3,7 +3,9 @@ import React from 'react'
 export default ()=>{
     return(
         <style js="true">{`
-
+        .collapsible-container{
+            box-shadow: 0px 0px 5px;
+        }
         .img{
             height:30px;
         }
@@ -27,6 +29,9 @@ export default ()=>{
         .collapse-first{
             
         }
+        .button-text1{
+            padding-left:2%;
+        }
         .collapse-first {
             display: flex;
             flex-direction: column;
@@ -36,7 +41,7 @@ export default ()=>{
         }
         .collapse-image-heading-row{
             display: flex;
-    justify-content: space-between;
+            justify-content: space-between;
         }
         `}
         </style>

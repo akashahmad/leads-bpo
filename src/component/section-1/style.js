@@ -3,6 +3,14 @@ export default()=>(
     <style js="true">{
         `
 
+        a:hover {
+            /* color: #0056b3; */
+            text-decoration: none;
+        }
+
+        i.fa.fa-chevron-circle-right.icon.movement-icon {
+            margin-top: 7px;
+        }
         /* section 2 */
 
         // .image{
@@ -110,12 +118,11 @@ export default()=>(
             height: 65px;
             width: 330px;
         }
-        .button-text{
-            margin-left: -50px;
-            color: white;
-            font-size: 16px;
-            margin-top: 5px;
+      
+        .button-section2-move p{
+            padding-left: 21%;
         }
+
         .movement-icon{
             margin-right: 20px;
             margin-top: 14px;

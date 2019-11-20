@@ -1,6 +1,9 @@
 import React from 'react'
 import Style from '../section-4/style'
 import img1 from '../../asserts/images/purple-price-circle.png'
+import Move from '../Form/form'
+
+
 export default ()=>{
     return(
 <>
@@ -17,7 +20,7 @@ export default ()=>{
                     
                     <section>
                       <div className="animated infinite pulse button-section2-move1 clip-div1 d-flex" id="clip-div1">
-                          <button className="btn btn-purple btn-ndh  scroll_btn pulse clip1" id="clip1"><p class="button-text1">START FREE DEBT ASSESSMENT</p> </button>
+                          <button className="btn btn-purple btn-ndh  scroll_btn pulse clip1" id="clip1"><p class="button-text1">START FREE DEBT ASSESSMENT</p> </button>                        
                           <i className="fa fa-chevron-circle-right icon movement-icon1"></i>
                       </div>
                       </section> 
@@ -53,7 +56,7 @@ export default ()=>{
 
                     <div className="d-flex pt-2 justify-content-between pb-2 border5 section5-heading-all">
                         <h6 className="pt-2 ml-3">Debt written off</h6>    
-                        <span className="img-section6-circle "><img style={{marginLeft:"42px",marginBottom:"13px"}}  src={img1} width="100px" alt=""/>
+                        <span className="img-section6-circle "><img className="secondImg" style={{marginLeft:"42px",marginBottom:"13px"}}  src={img1} width="100px" alt=""/>
                            <h5 className="mr-3" style={{marginLeft:"50px",marginTop:"-50px"}}><b>£ 11,358</b></h5>
                         </span> 
                     </div>

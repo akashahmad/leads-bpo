@@ -2,6 +2,26 @@ import React from 'react'
 export default()=>(
     <style js="true">{
         `
+        .button-text-header {
+            padding-left: 2%;
+            font-size: 28px;
+            margin-top: -1px;
+            margin-left: -24px;
+            color: white;
+        }
+
+        .button-section2-header {
+            margin-left: 0!important;
+            height: 53px!important;
+            width: 200px!important;
+            margin-top:40px!important;
+        }
+
+        .content{
+            margin-right:30px;
+        }
+
+
 
         /* section1  starts here*/
         .section1-row{

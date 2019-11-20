@@ -5,6 +5,7 @@ import axios from "axios";
 import Style from "./style";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
+import { Link } from 'react-router-dom';
 
 export default () => {
     // const plugins = [ CSSPlugin, AttrPlugin ];
@@ -85,16 +86,15 @@ export default () => {
             takeInput: false
         },
         {
-            question: "My email is",
+            question: "My Email is.........",
             takeInput: true,
             value: "",
             name: "email"
-        }
+        },
     ]);
     const [showQuestions, setShowQuestions] = useState([{question: "typing"}]);
     const submitHandler = () => {
         let obj = {};
-        console.log("final payload for submit", obj);
         showQuestions.forEach(sing => {
             if (sing.takeInput) {
                 obj[sing.name] = sing.value;
@@ -155,9 +155,9 @@ export default () => {
                                 newMessate[index] = {question: "submit"};
                             }
                             setShowQuestions(newMessate);
-                        }, 1000);
+                        }, 3000);
                         return (
-                            <div className="ml-5 mt-4">
+                            <div className="ml-5 mt-5 mb-3">
                                 <div className="d-flex Loader">
                                     <Loader
                                         type="ThreeDots"
@@ -168,9 +168,9 @@ export default () => {
                                 </div>
                             </div>
                         );
-                    } else if (!single.takeInput && single.question !== "submit") {
+                    }else if (!single.takeInput && single.question !== "submit") {
                         return (
-                            <div className="chat1">
+                            <div className="chat1 mb-1">
                                 <div className="chat1-inside-data">
                                     <p className="ml-4 pt-4 p">{single.question}</p>
                                 </div>
@@ -189,7 +189,7 @@ export default () => {
                                                setShowQuestions(newMessate);
                                            }}
                                     />
-                                    <Button variant="secondary" className="button ml-2"
+                                   <Button variant="secondary" className="button ml-2"
                                             onClick={() => {
                                                 let newMessate = [...showQuestions];
                                                 newMessate.push({question: "typing"});
@@ -204,19 +204,19 @@ export default () => {
                         );
                     } else if (single.question === "submit") {
                         return (
-                            <div className="chat-input">
-                                <div className="chat-input-data">
+                            <div className="chat-input2">
+                                <div className="chat-input-data2">
 
                                     <p className="p ml-5" style={{color: "white"}}>Thank you for giving all
                                         information.</p>
-                                    <Button variant="secondary" className="button ml-2"
+                               <Link to={"./Thankyou"}>     <Button variant="secondary" className=" ml-2"
                                             onClick={() => {
                                                 submitHandler();
                                             }}
                                     >
                                         Submit
                                     </Button>
-
+                                </Link>                
                                 </div>
                             </div>
                         );

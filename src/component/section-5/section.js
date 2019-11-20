@@ -11,7 +11,7 @@ export default class MyComponent extends React.Component {
     
     render() {
         return (
-        <div className="container-fluid ">    
+        <div className="container-fluid collapsible-container">    
             <div className="center d-flex flex-column " >
         <div classNam="">
         <h1 class="pt-5">GOT QUESTIONS? HERE'S THE ANSWERS.</h1>
@@ -77,11 +77,14 @@ export default class MyComponent extends React.Component {
             </div>
             <section className="mt-5">
                       <div className="animated infinite pulse button-section2-move1 clip-div1 d-flex" id="clip-div1">
-                          <button className="btn btn-purple btn-ndh  scroll_btn pulse clip1" id="clip1"><p class="button-text1">START FREE DEBT ASSESSMENT</p> </button>
+                          <button className="btn btn-purple btn-ndh  scroll_btn pulse clip1" id="clip1"><p class="button-text1 ">START FREE DEBT ASSESSMENT</p> </button>
                           <i className="fa fa-chevron-circle-right icon movement-icon1"></i>
                       </div>
                       </section> 
 
+                <div className="mt-5">
+
+                </div>
 
 
             </div>

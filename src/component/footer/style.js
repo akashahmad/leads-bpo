@@ -13,11 +13,15 @@ export default()=>(
         //     height: 500px;
         //     background-color: #202020;
         // }
+        .footer{
+        background-color:#616569;
+        }
         .footer-div1{
             display: flex;
             flex-direction: column;
             align-items: center;
             color: white;
+
         }
         .footer-div1 a{
             color: #8a1082;
@@ -28,7 +32,7 @@ export default()=>(
             text-decoration: underline;
         }
         .footer-div2{
-            font-size: 14px;
+            font-size: 16px;
             font-weight: normal;
             color: #fff;
             text-align: center;
