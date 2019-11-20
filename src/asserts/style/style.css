@@ -28,3 +28,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.img-form{
+    background-image:url(../images/gplay.png);
+    height:40vh;
+    background-repeat: repeat;
+    background-color: #3b2148;
+}

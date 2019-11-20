@@ -3,6 +3,20 @@ import React from 'react'
 export default()=>{
    return(
    <style>{`
+
+
+   .header-logo {
+    width: 200px;
+}
+.img-form p{
+    font-size:40px;
+    color:white;
+   
+}
+p.para1 {
+    font-size: 17px;
+    text-align: center;
+}
    .label{
        color:black;
        font-weight: bold;

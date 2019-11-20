@@ -7,7 +7,28 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import { Link } from 'react-router-dom';
 
+
 export default () => {
+
+
+
+    const [name, setName] = useState("");
+    const [nameValiation, setNameValidation] = useState(false);
+    const [x, setx] = useState("");
+
+    const customValidation = () => {
+        if (!name) {
+            setNameValidation(true);
+        }
+        else{
+            let newMessate = [...showQuestions];
+            newMessate.push({question: "typing"});
+            setShowQuestions(newMessate);
+        }
+
+        
+    };
+
     // const plugins = [ CSSPlugin, AttrPlugin ];
     const listOfName = [
         "Lara",
@@ -109,8 +130,20 @@ export default () => {
 
             })
     };
+    const checkValid=()=>
+    {
+        if(!x || x==="true")
+        {
+            customValidation();
+        }
+        else{
+           
+        }
+
+    };
     return (
         <>
+        
         {/*<div className="container-fluid container-all">*/}
         {/*<div className="row space-between">*/}
         {/*<img className="mt-2" src={Image}></img>*/}
@@ -182,21 +215,28 @@ export default () => {
                                 <div className="chat-input-data">
 
                                     <p className="p ml-5" style={{color: "white"}}>{single.question}</p>
-                                    <input placeholder="" className="input mt-4 ml-4"
+                                    <input placeholder="" className="input mt-4 ml-4" style={nameValiation ? {border: "1px solid red"} : {}}
                                            onChange={event => {
                                                let newMessate = [...showQuestions];
                                                newMessate[index].value = event.target.value;
                                                setShowQuestions(newMessate);
+                                               setName(event.target.value)
+                                               setNameValidation(false)
                                            }}
                                     />
+                                     <p style={{color: "red", fontSize: "12px"}}>{nameValiation ? "Name is required" : ""}</p>
                                    <Button variant="secondary" className="button ml-2"
                                             onClick={() => {
-                                                let newMessate = [...showQuestions];
-                                                newMessate.push({question: "typing"});
-                                                setShowQuestions(newMessate);
+                                                checkValid()
+                                                // customValidation();
+                                                // let newMessate = [...showQuestions];
+                                                // newMessate.push({question: "typing"});
+                                                // setShowQuestions(newMessate);
+                                                
                                             }}
                                     >
-                                        Go
+                                        {x&&x==="false"?"Go":"Go"}
+                                        
                                     </Button>
 
                                 </div>
@@ -225,6 +265,7 @@ export default () => {
             </div>
         </div>
         <Style/>
+       
         </>
     );
 };
