@@ -17,7 +17,7 @@ export default ()=>{
                             <a className="anchor-section1" href="https://www.national-debt-help.org.uk/qualify-now/">Blackberry Finance Solutions</a>
                            
                       </div>
-                      <p className="mr-2">www.blackberryfinancesolutions.com</p>
+                      <p className="mr-2">blackberryfinancesolutions.netlify.com</p>
                         </div>
                         {/* <div className="d-flex flex-column below-anchor">
                             <p className="mr-2">www.blackberryfinancesolutions.com</p>
