@@ -4,6 +4,7 @@ import Style from './style'
 import img from '../../asserts/images/cropped-Header-logo-527-148-01.png'
 import '../../asserts/style/style.css'
 import Button from 'react-bootstrap/Button';
+import Footer from '../footer/footer'
 
 
 export default class Form extends Component{
@@ -92,7 +93,7 @@ export default class Form extends Component{
 </form>
 </section>
 
-
+<Footer/>
 <Style/>
 
 
