@@ -4,7 +4,13 @@ export default()=>{
    return(
    <style>{`
 
-
+   .container.d-flex.flex-column.align-items-center.form {
+    border: 2px solid purple;
+    height: 55vh;
+    width: 558px;
+    /* margin-bottom: 357px; */
+    margin-top: -1%;
+}
    .header-logo {
     width: 200px;
 }
@@ -17,6 +23,14 @@ p.para1 {
     font-size: 17px;
     text-align: center;
 }
+.fields{
+    width:395px;
+}
+.btn{
+    width:395px;
+    background-color:purple; 
+}
+
    .label{
        color:black;
        font-weight: bold;

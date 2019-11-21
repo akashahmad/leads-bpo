@@ -3,6 +3,7 @@ import axios from 'axios';
 import Style from './style'
 import img from '../../asserts/images/cropped-Header-logo-527-148-01.png'
 import '../../asserts/style/style.css'
+import Button from 'react-bootstrap/Button';
 
 
 export default class Form extends Component{
@@ -54,6 +55,33 @@ export default class Form extends Component{
 <p className="para1">Wheather you have a question about features,trails,pricing,need a demo or<br/> anything else
     ,our team is ready to<br/> answer all your questions.
 </p>
+</div>
+</div>
+<div className="d-flex flex-column align-items-center div-container">
+<div className="container d-flex flex-column align-items-center form">
+<div className="mt-5">
+  <h1>Get in touch with us</h1>  
+</div>
+<div className="d-flex justify-content-center mt-4">
+<div>
+  <input></input>  
+</div>
+<div className="ml-4">
+  <input></input>  
+</div>
+</div>
+<div className="mt-4">
+ <div> <input className="fields"></input> </div> 
+</div>
+<div className="mt-4">
+ <div> <input className="fields"></input> </div> 
+</div>
+<div className="mt-4">
+ <div> <textarea className="fields"/> </div> 
+</div>
+<div className="mt-4">
+ <div> <Button className="btn">Submit</Button> </div> 
+</div>
 </div>
 </div>
 

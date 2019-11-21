@@ -31,6 +31,7 @@ body{
 .img-form{
     background-image:url(../images/gplay.png);
     height:40vh;
-    background-repeat: repeat;
+    background-repeat: 100%;
     background-color: #3b2148;
+    /* background-size: cover; */
 }
