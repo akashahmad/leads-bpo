@@ -4,16 +4,20 @@ export default()=>{
    return(
    <style>{`
 
+
+   .input-first {
+    padding-bottom: 21px;
+}
    .container.d-flex.flex-column.align-items-center.form {
     border: 2px solid purple;
-    height: 60vh;
+    height: 65vh;
     width: 558px;
     /* margin-bottom: 357px; */
     margin-top: -1%;
     box-shadow: 8px 17px #d6d6d6;
 }
 .div-container{
-height: 65vh;
+height: 70vh;
 }
    .header-logo {
     width: 200px;
@@ -29,6 +33,11 @@ p.para1 {
 }
 .fields{
     width:395px;
+    padding-bottom: 10px;
+}
+.text-area{
+    width:395px!important;
+    padding-bottom: 30px;
 }
 .btn{
     width:395px;

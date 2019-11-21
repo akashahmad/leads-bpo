@@ -61,14 +61,14 @@ export default class Form extends Component{
 <div className="d-flex flex-column align-items-center div-container">
 <div className="container d-flex flex-column align-items-center form">
 <div className="mt-5">
-  <h1>Get in touch with us</h1>  
+  <h2 style={{color:"purple"}}>Get in touch with us</h2>  
 </div>
 <div className="d-flex justify-content-center mt-4">
 <div>
-  <input></input>  
+  <input className="input-first"></input>  
 </div>
 <div className="ml-4">
-  <input></input>  
+  <input className="input-first"></input>  
 </div>
 </div>
 <div className="mt-4">
@@ -78,7 +78,7 @@ export default class Form extends Component{
  <div> <input className="fields"></input> </div> 
 </div>
 <div className="mt-4">
- <div> <textarea className="fields"/> </div> 
+ <div> <textarea className="text-area"/> </div> 
 </div>
 <div className="mt-4">
  <div> <Button className="btn">Submit</Button> </div> 
