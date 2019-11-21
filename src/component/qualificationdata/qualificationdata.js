@@ -5,31 +5,10 @@ import axios from "axios";
 import Style from "./style";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 export default () => {
-
-
-
-    const [name, setName] = useState("");
-    const [nameValiation, setNameValidation] = useState(false);
-    const [x, setx] = useState("");
-
-    const customValidation = () => {
-        if (!name) {
-            setNameValidation(true);
-        }
-        else{
-            let newMessate = [...showQuestions];
-            newMessate.push({question: "typing"});
-            setShowQuestions(newMessate);
-        }
-
-        
-    };
-
-    // const plugins = [ CSSPlugin, AttrPlugin ];
     const listOfName = [
         "Lara",
         "Kate",
@@ -76,6 +55,7 @@ export default () => {
             question: "My First Name is",
             takeInput: true,
             value: "",
+            type: "text",
             name: "firstName"
         },
         {
@@ -86,6 +66,7 @@ export default () => {
             question: "My Last Name is",
             takeInput: true,
             value: "",
+            type: "text",
             name: "lastName"
         },
         {
@@ -99,6 +80,7 @@ export default () => {
         {
             question: "My Phone Number is",
             takeInput: true,
+            type: "number",
             value: "",
             name: "phone"
         },
@@ -109,6 +91,7 @@ export default () => {
         {
             question: "My Email is.........",
             takeInput: true,
+            type: "email",
             value: "",
             name: "email"
         },
@@ -130,20 +113,14 @@ export default () => {
 
             })
     };
-    const checkValid=()=>
-    {
-        if(!x || x==="true")
-        {
-            customValidation();
-        }
-        else{
-           
-        }
+
+    const fieldValidator = (type, value) => {
 
     };
+
     return (
         <>
-        
+
         {/*<div className="container-fluid container-all">*/}
         {/*<div className="row space-between">*/}
         {/*<img className="mt-2" src={Image}></img>*/}
@@ -188,7 +165,7 @@ export default () => {
                                 newMessate[index] = {question: "submit"};
                             }
                             setShowQuestions(newMessate);
-                        }, 3000);
+                        }, 500);
                         return (
                             <div className="ml-5 mt-5 mb-3">
                                 <div className="d-flex Loader">
@@ -201,7 +178,7 @@ export default () => {
                                 </div>
                             </div>
                         );
-                    }else if (!single.takeInput && single.question !== "submit") {
+                    } else if (!single.takeInput && single.question !== "submit") {
                         return (
                             <div className="chat1 mb-1">
                                 <div className="chat1-inside-data">
@@ -213,32 +190,54 @@ export default () => {
                         return (
                             <div className="chat-input">
                                 <div className="chat-input-data">
+                                    <form onSubmit={(event) => {
+                                        event.preventDefault();
+                                        if (single.type === "number") {
+                                            axios.get("https://www.national-debt-help.org.uk/HomeLocRegValidationCheck.php?telephone1=" + (showQuestions[index] && showQuestions[index].value ? showQuestions[index].value : null))
+                                                .then(res => {
+                                                    if (res.status) {
+                                                        let newMessate = [...showQuestions];
+                                                        newMessate.push({question: "typing"});
+                                                        setShowQuestions(newMessate);
+                                                    }
+                                                    else {
 
-                                    <p className="p ml-5" style={{color: "white"}}>{single.question}</p>
-                                    <input placeholder="" className="input mt-4 ml-4" style={nameValiation ? {border: "1px solid red"} : {}}
-                                           onChange={event => {
-                                               let newMessate = [...showQuestions];
-                                               newMessate[index].value = event.target.value;
-                                               setShowQuestions(newMessate);
-                                               setName(event.target.value)
-                                               setNameValidation(false)
-                                           }}
-                                    />
-                                     <p style={{color: "red", fontSize: "12px"}}>{nameValiation ? "Name is required" : ""}</p>
-                                   <Button variant="secondary" className="button ml-2"
-                                            onClick={() => {
-                                                checkValid()
-                                                // customValidation();
-                                                // let newMessate = [...showQuestions];
-                                                // newMessate.push({question: "typing"});
-                                                // setShowQuestions(newMessate);
-                                                
-                                            }}
-                                    >
-                                        {x&&x==="false"?"Go":"Go"}
-                                        
-                                    </Button>
-
+                                                    }
+                                                })
+                                        } else {
+                                            let newMessate = [...showQuestions];
+                                            newMessate.push({question: "typing"});
+                                            setShowQuestions(newMessate);
+                                        }
+                                    }}>
+                                        <p className="p ml-5" style={{color: "white"}}>{single.question}</p>
+                                        {single.type === "number" ?
+                                            <input placeholder="" className="input mt-4 ml-4"
+                                                   type="number"
+                                                   required={true}
+                                                   autoFocus
+                                                   value={showQuestions[index] && showQuestions[index].value ? showQuestions[index].value : null}
+                                                   onChange={event => {
+                                                       let newMessate = [...showQuestions];
+                                                       let value = event.target.value;
+                                                       if (value.length <= 11) {
+                                                           newMessate[index].value = value;
+                                                           setShowQuestions(newMessate);
+                                                       }
+                                                   }}/> :
+                                            <input placeholder="" className="input mt-4 ml-4"
+                                                   type={single.type}
+                                                   required={true}
+                                                   autoFocus
+                                                   onChange={event => {
+                                                       let newMessate = [...showQuestions];
+                                                       newMessate[index].value = event.target.value;
+                                                       setShowQuestions(newMessate);
+                                                   }}/>}
+                                        <Button type="submit" variant="secondary" className="button ml-2">
+                                            Go
+                                        </Button>
+                                    </form>
                                 </div>
                             </div>
                         );
@@ -249,14 +248,14 @@ export default () => {
 
                                     <p className="p ml-5" style={{color: "white"}}>Thank you for giving all
                                         information.</p>
-                               <Link to={"./Thankyou"}>     <Button variant="secondary" className=" ml-2"
-                                            onClick={() => {
-                                                submitHandler();
-                                            }}
+                                    <Link to={"./Thankyou"}> <Button variant="secondary" className=" ml-2"
+                                                                     onClick={() => {
+                                                                         submitHandler();
+                                                                     }}
                                     >
                                         Submit
                                     </Button>
-                                </Link>                
+                                    </Link>
                                 </div>
                             </div>
                         );
@@ -265,7 +264,7 @@ export default () => {
             </div>
         </div>
         <Style/>
-       
+
         </>
     );
 };
