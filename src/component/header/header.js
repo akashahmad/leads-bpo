@@ -9,7 +9,7 @@ export default ()=>{
              <div className="container-fluid">
                 <div className="row section1-row d-flex justify-content-around">
 
-                    <img className="headerLogo" src={img} width="380px" height="100px" alt="logo" />
+                    <Link to={'/'}><img className="headerLogo" src={img} width="380px" height="100px" alt="logo" /></Link>
                     <div className="d-flex justify-content-between header">
                     <div className="d-flex flex-column align-items-end content">
                         <div className="section1-paragraph">

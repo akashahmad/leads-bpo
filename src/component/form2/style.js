@@ -3,6 +3,47 @@ import React from 'react'
 export default()=>{
    return(
    <style>{`
+
+
+   .input-first {
+    padding-bottom: 21px;
+}
+   .container.d-flex.flex-column.align-items-center.form {
+    border: 2px solid purple;
+    height: 65vh;
+    width: 558px;
+    /* margin-bottom: 357px; */
+    margin-top: -1%;
+    box-shadow: 8px 17px #d6d6d6;
+}
+.div-container{
+height: 70vh;
+}
+   .header-logo {
+    width: 200px;
+}
+.img-form p{
+    font-size:40px;
+    color:white;
+   
+}
+p.para1 {
+    font-size: 17px;
+    text-align: center;
+}
+.fields{
+    width:395px;
+    padding-bottom: 10px;
+}
+.text-area{
+    width:395px!important;
+    padding-bottom: 30px;
+}
+.btn{
+    width:395px;
+    background-color:purple; 
+}
+
    .label{
        color:black;
        font-weight: bold;
