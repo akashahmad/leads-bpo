@@ -44,7 +44,7 @@ export default()=>(
         .box1{
             width: 260px;
             text-align: center;
-            background:#8a1082;
+            background:#006a90;
             height: 150px;
             border-radius: 5px;
             transition: background 0.5s;

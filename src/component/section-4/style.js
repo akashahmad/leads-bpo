@@ -6,7 +6,7 @@ export default()=>(
         /* section 5 starts here */
 
         .left-side-section5 h2{
-            color: #8b6ba3;
+            color: #006a90;
             font-size: 29px;
             font-weight: 800px;
             line-height: 40px;

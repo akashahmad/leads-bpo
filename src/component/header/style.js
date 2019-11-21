@@ -16,7 +16,7 @@ export default()=>(
             height: 53px!important;
             width: 200px!important;
             margin-top:40px!important;
-            background:#9c81b1;
+          
             font-size:28px;
         
         }
@@ -33,6 +33,7 @@ export default()=>(
         }
         button#clip-div1 {
             border-radius: 37px;
+            background-color:#f37f00;
         }
 
 
@@ -53,7 +54,7 @@ export default()=>(
         }
         .anchor-section1
         {
-            color: #8a1082;
+            color: #006a90;
             text-decoration: none;
             font-size: 29px;
             font-weight: bold;
@@ -65,7 +66,7 @@ export default()=>(
             font-size: 35px;
             font-weight: bold;
             padding-top: 1.5%;
-        
+            color:#006a90;
         }
         .section1-paragraph p{
             padding-top: 10px;

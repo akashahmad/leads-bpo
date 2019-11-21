@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../asserts/images/cropped-Header-logo-527-148-01.png'
+import img from '../../asserts/images/logo.png'
 import Style from '../footer/style'
 import '../../asserts/style/style.css'
 export default ()=>{

@@ -16,7 +16,7 @@ export default()=>(
             font-size: 32px;
         }
         .span {
-            background-color: #8a1082;
+            background-color: #f37f00;
             padding: 15px 21px;
             display: inline-block;
             margin: 0 10px 0 0;

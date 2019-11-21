@@ -30,7 +30,7 @@ export default()=>(
             font-size: 42px;
             line-height: 42px;
             font-weight: 700;
-            color: #8a1082;
+            color: #006a90;
             padding-top: 5%;
             margin-left: 8%;
             
@@ -46,7 +46,7 @@ export default()=>(
             padding: 0px;
         }
         .data ul li span {
-            border: 2px solid #8b6ba3;
+            border: 2px solid #006a90;
             border-radius: 90px;
             -webkit-border-radius: 90px;
             -moz-border-radius: 90px;
@@ -60,7 +60,7 @@ export default()=>(
             position: absolute;
             /* left: 0; */
             color: #fff;
-            background: #8b6ba3;
+            background: #006a90;
         }
         .data ul li {
             display: block;
@@ -84,26 +84,26 @@ export default()=>(
         
         } 
         .clip{
-            background-color:  #8b6ba3 !important;    
+            background-color:  #f37f00 !important;    
             clip-path: polygon(0% 0%, 75% 0%, 90% 59%, 100% 100%, 0% 100%);
             width: 100%;
         
         }
         .clip-div{
             width: 400px;
-            background-color: #9c81b1 ;
+            background-color: #F5CC00 ;
             cursor: pointer;
             border-radius: 3px;
         
         }
         .clip-div:hover .clip{
-            background-color:rgba(137, 27, 132, 1) !important;
+            background-color:#DC7300!important;
             clip-path: polygon(0% 0%, 67% 0, 81% 61%, 88% 100%, 0% 100%);
             transition: clip-path 1s;
             transition-timing-function: ease-in-out;    
         }
         .clip-div:hover{
-            background-color: rgba(154, 52, 148, 1);
+            background-color:#FFB300;
             
         }
         .icon{
@@ -120,13 +120,17 @@ export default()=>(
         }
       
         .button-section2-move p{
-            padding-left: 21%;
+            padding-left: 11%;
+            padding-top: 8px;
         }
 
         .movement-icon{
             margin-right: 20px;
             margin-top: 14px;
             
+        }
+        i.fa.fa-chevron-circle-right.icon.movement-icon {
+            margin-top: 19px;
         }
         i.fa {
             color: #fff;
