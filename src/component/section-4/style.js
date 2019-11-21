@@ -21,24 +21,24 @@ export default()=>(
         
         
         .clip1{
-            background-color:  #8b6ba3 !important;    
+            background-color:  #F37F00 !important;    
             clip-path: polygon(0% 0%, 75% 0%, 89% 58%, 100% 100%, 0% 100%);
             width: 100%;
         }
         .clip-div1{
             width: 400px;
-            background-color: #9c81b1 ;
+            background-color: #F5CC00;
             cursor: pointer;
             border-radius: 3px;
         }
         .clip-div1:hover .clip1{
-            background-color:rgba(137, 27, 132, 1) !important;
+            background-color:#DC7300!important;
             clip-path: polygon(0% 0%, 67% 0, 82% 63%, 90% 100%, 0% 100%);
             transition: clip-path 2s;
             transition-timing-function: ease-in-out;
         }
         .clip-div1:hover{
-            background-color: rgba(154, 52, 148, 1);
+            background-color:#FFB300;
         }
         .icon1{
         color:rgba(137, 27, 132, 1) ;
@@ -75,9 +75,9 @@ export default()=>(
         }
         .table-section-5{
             background: white;
-            border-right:  1px solid purple;
-            border-top:  1px solid purple;
-            border-bottom:  1px solid purple;
+            border-right:  1px solid #f37f00;
+            border-top:  1px solid #f37f00;
+            border-bottom:  1px solid #f37f00;
         }
         .table-section-5{
             width: 500px;
@@ -104,7 +104,7 @@ export default()=>(
         
         }
         .border1, .border2,  .border4 ,  .border6{
-            border-left:1px solid purple;
+            border-left:1px solid #f37f00;
             
             
         }
