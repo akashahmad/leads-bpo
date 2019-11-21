@@ -58,33 +58,38 @@ export default class Form extends Component{
 </div>
 </section>
 <section>
+<form onSubmit={this.submitHandler}>
 <div className="d-flex flex-column align-items-center div-container">
 <div className="container d-flex flex-column align-items-center form">
 <div className="mt-5">
   <h2 style={{color:"purple"}}>Get in touch with us</h2>  
 </div>
+
 <div className="d-flex justify-content-center mt-4">
+   
 <div>
-  <input className="input-first"></input>  
+  <input placeholder="First Name" className="input-first"  value={firstName} onChange={this.changeHandler}></input>  
 </div>
 <div className="ml-4">
-  <input className="input-first"></input>  
+  <input placeholder="Last Name" className="input-first"  value={lastName} onChange={this.changeHandler}></input>  
 </div>
 </div>
 <div className="mt-4">
- <div> <input className="fields"></input> </div> 
+ <div> <input type="phone" placeholder="Phone"  className="fields"  onChange={this.changeHandler}></input> </div> 
 </div>
 <div className="mt-4">
- <div> <input className="fields"></input> </div> 
+ <div> <input placeholder="Email" className="fields"  value={email} onChange={this.changeHandler}></input> </div> 
 </div>
 <div className="mt-4">
- <div> <textarea className="text-area"/> </div> 
+ <div> <textarea placeholder="Your Question" className="text-area" value={postBody} onChange={this.changeHandler}/> </div> 
 </div>
 <div className="mt-4">
- <div> <Button className="btn">Submit</Button> </div> 
+ <div> <Button type="submit" className="btn">Submit</Button> </div> 
 </div>
 </div>
+
 </div>
+</form>
 </section>
 
 
