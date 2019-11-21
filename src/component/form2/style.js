@@ -6,10 +6,14 @@ export default()=>{
 
    .container.d-flex.flex-column.align-items-center.form {
     border: 2px solid purple;
-    height: 55vh;
+    height: 60vh;
     width: 558px;
     /* margin-bottom: 357px; */
     margin-top: -1%;
+    box-shadow: 8px 17px #d6d6d6;
+}
+.div-container{
+height: 65vh;
 }
    .header-logo {
     width: 200px;

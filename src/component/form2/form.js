@@ -45,7 +45,6 @@ export default class Form extends Component{
         return(
 <>
 <section>
-
 <div className="d-flex justify-content-center">
 <img className="header-logo mt-3" src={img}/>
 </div>
@@ -57,6 +56,8 @@ export default class Form extends Component{
 </p>
 </div>
 </div>
+</section>
+<section>
 <div className="d-flex flex-column align-items-center div-container">
 <div className="container d-flex flex-column align-items-center form">
 <div className="mt-5">
@@ -84,8 +85,8 @@ export default class Form extends Component{
 </div>
 </div>
 </div>
-
 </section>
+
 
 <Style/>
 
