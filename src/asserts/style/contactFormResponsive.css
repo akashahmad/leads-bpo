@@ -1,0 +1,288 @@
+@media (max-width: 479px) and (min-width: 320px) { 
+
+    .container.d-flex.flex-column.align-items-center.form{
+        height: 75vh!important;
+        width: 200px!important;
+    }
+    .img-form{
+        background-repeat:no-repeat!important;
+        background-size: cover!important;
+    }
+   
+    .img-form p{
+        font-size: 25px!important;
+    }
+    p.para1 {
+        font-size: 13px!important;
+        }
+        .fields{
+            width:200px!important;
+            padding-bottom: 0px!important;
+        }
+        .form h2{
+            font-size: 20px!important;
+            text-align: center!important;
+           
+            width: 192px!important;
+        }
+        .input-first{
+            padding: 0px!important;
+            width: 60px!important;
+        }
+        .fields{
+            width:100px!important;
+        }
+        .text-area{
+            width:100px!important;
+        }
+        .btn-form{
+            width: 100px!important;
+        }
+    .headerLogo{
+        width: 45%;
+    }
+.footer-p1{
+    font-size:15px!important;
+}
+.footer-div{
+    padding: 0!important;
+}
+.footer-div2{
+    padding: 0!important;
+}
+.footer-div2 p{
+    font-size:15px!important;
+    margin-left: -40px!important;
+    padding: 0!important;
+}
+.footer-list{
+    padding: 0!important;
+}  
+.footer-ul{
+    padding: 0!important;
+    font-size: 6px!important;
+}   
+}
+@media (max-width: 567px) and (min-width: 480px) { 
+    .container.d-flex.flex-column.align-items-center.form{
+        height: 50vh!important;
+        width: 200px!important;
+    }
+    .div-container{
+        height: 60vh!important;
+        }
+    .img-form{
+        background-repeat:no-repeat!important;
+        background-size: cover!important;
+    }
+   
+    .img-form p{
+        font-size: 25px!important;
+    }
+    p.para1 {
+        font-size: 13px!important;
+        }
+        .fields{
+            width:200px!important;
+            padding-bottom: 0px!important;
+        }
+        .form h2{
+            font-size: 20px!important;
+            text-align: center!important;
+           
+            width: 192px!important;
+        }
+        .input-first{
+            padding: 0px!important;
+            width: 60px!important;
+        }
+        .fields{
+            width:100px!important;
+        }
+        .text-area{
+            width:100px!important;
+        }
+        .btn-form{
+            width: 100px!important;
+        }
+    .headerLogo{
+        width: 45%;
+    }
+.footer-p1{
+    font-size:15px!important;
+}
+.footer-div{
+    padding: 0!important;
+}
+.footer-div2{
+    padding: 0!important;
+}
+.footer-div2 p{
+    font-size:15px!important;
+    margin-left: -40px!important;
+    padding: 0!important;
+}
+.footer-list{
+    padding: 0!important;
+}  
+.footer-ul{
+    padding: 0!important;
+    font-size: 6px!important;
+}   
+}
+@media (max-width: 684px) and (min-width: 568px) {
+    .header-logo{
+        width: 150px!important;
+    }
+    .img-form p{
+        font-size: 12px!important;
+    }
+    .div-container{
+        height: 150vh!important;
+        }
+    .container.d-flex.flex-column.align-items-center.form{
+        height: 120vh!important;
+        width: 250px!important;
+    }
+    .form h2{
+        font-size: 15px!important;
+        margin-top: -20px!important;
+    }
+    .input-first{
+        padding: 0px!important;
+        width: 100px!important;
+    }
+    .fields{
+        width:220px!important;
+    }
+  
+        .text-area{
+            width:220px!important;
+            padding: 0px!important;
+        }
+        .btn-form{
+            width: 220px!important;
+            margin-top:-20px!important;
+        }
+        .footer-list{
+            padding: 0!important;
+        }  
+        .footer-ul{
+            padding: 0!important;
+            font-size: 12px!important;
+        } 
+ }
+ @media (max-width: 767px) and (min-width: 685px) { 
+    .header-logo{
+        width: 150px!important;
+    }
+    .img-form p{
+        font-size: 12px!important;
+    }
+    .div-container{
+        height: 110vh!important;
+        }
+        .container.d-flex.flex-column.align-items-center.form{
+            height: 100vh!important;
+            width: 300px!important;
+        }
+        .form h2{
+            font-size: 17px!important;
+            margin-top: -20px!important;
+        }
+        .input-first{
+            padding: 0px!important;
+            width: 100px!important;
+        }
+        .fields{
+            width:220px!important;
+        }
+      
+            .text-area{
+                width:220px!important;
+                padding: 0px!important;
+            }
+            .btn-form{
+                width: 220px!important;
+                margin-top:-20px!important;
+            }
+            .footer-list{
+                padding: 0!important;
+            }  
+            .footer-ul{
+                padding: 0!important;
+                font-size: 12px!important;
+            } 
+ }
+ @media (max-width: 991px) and (min-width: 768px) { 
+    .header-logo{
+        width: 200px!important;
+    }
+    .img-form p{
+        font-size: 15px!important;
+    }
+    .div-container{
+        height: 110vh!important;
+        }
+        .container.d-flex.flex-column.align-items-center.form{
+            height: 100vh!important;
+            width: 300px!important;
+        }
+        .form h2{
+            font-size: 17px!important;
+            margin-top: -20px!important;
+        }
+        .input-first{
+            padding: 0px!important;
+            width: 100px!important;
+        }
+        .fields{
+            width:220px!important;
+        }
+      
+            .text-area{
+                width:220px!important;
+                padding: 0px!important;
+            }
+            .btn-form{
+                width: 220px!important;
+                margin-top:-20px!important;
+            }
+ }
+ @media (max-width: 1023px) and (min-width: 992px) {
+    .header-logo{
+        width: 300px!important;
+    }
+    .container.d-flex.flex-column.align-items-center.form{
+        height: 50vh!important;
+        
+    }
+    .div-container{
+        height: 60vh!important;
+        }
+        
+        .fields{
+            width: 377px!important;
+        }
+        .text-area{
+            width: 377px!important;
+           
+        }
+        .btn-form{
+            width: 377px!important;
+            
+        }
+  }
+  @media (max-width: 1199px) and (min-width: 1024px) { 
+    .fields{
+        width: 376px!important;
+    }
+    .text-area{
+        width: 375px!important;
+       
+    }
+    .btn-form{
+        width: 376px!important;
+        
+    }
+  }

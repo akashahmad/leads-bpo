@@ -111,7 +111,7 @@ export default()=>(
         
         }
         .clip-div:hover .icon{
-            color: rgba(25, 181, 154, 1);
+            color:#006a90;
         }
         .button-section2-move{
             margin-left: 11%;
@@ -131,6 +131,7 @@ export default()=>(
         }
         i.fa.fa-chevron-circle-right.icon.movement-icon {
             margin-top: 19px;
+            color: #f37f00!important;
         }
         i.fa {
             color: #fff;
