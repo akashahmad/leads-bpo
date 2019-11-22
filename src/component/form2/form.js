@@ -4,7 +4,8 @@ import Style from './style'
 import img from '../../asserts/images/logo.png'
 import '../../asserts/style/style.css'
 import Button from 'react-bootstrap/Button';
-import Footer from '../footer/footer'
+import Footer from '../footer/footer';
+import {Link} from 'react-router-dom';
 export default()=>
 
 {
@@ -95,7 +96,7 @@ export default()=>
 </div>
 <div className="mt-4">
  <div> <input required type="email" placeholder="Email" className="fields"  value={email} 
- onChange={(event) => setemail(event.target.value)}required
+ onChange={(event) => setemail(event.target.value)}
  
  ></input> </div> 
 </div>
@@ -105,7 +106,9 @@ export default()=>
   </textarea> </div> 
 </div>
 <div className="mt-4">
- <div> <Button type="submit" className="btn-form">Submit</Button> </div> 
+ <div>
+     <Link to={"./thankuPage"}> <Button type="submit" className="btn-form">Submit</Button></Link>
+ </div>
 </div>
 </div>
 
