@@ -274,6 +274,13 @@
         }
   }
   @media (max-width: 1199px) and (min-width: 1024px) { 
+    .container.d-flex.flex-column.align-items-center.form{
+        height: 110vh!important;
+        
+    }
+    .div-container{
+        height: 120vh!important;
+        }
     .fields{
         width: 376px!important;
     }
