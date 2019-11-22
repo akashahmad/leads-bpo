@@ -14,10 +14,10 @@ export default()=>(
             background-color:#dcdcdc;
             border-radius:10px;
         }
-        
+
         .next2,.next3,.next4,.next5{
             display:none!important;
-    
+
         }
         .next1.d-flex.flex-column.align-items-center{
             display:none!important;
@@ -26,7 +26,7 @@ export default()=>(
 
         .icon{
             color:rgba(137, 27, 132, 1)!important ;
-            
+
         }
         .cc{
             display: flex;
@@ -51,11 +51,11 @@ export default()=>(
             transition-timing-function: ease-in-out;
         }
         .box1:hover{
-            
+
             background-color: #8b6ba3;
         }
         .box1 p{
-            
+
             font-size: 25px;
             padding-top: 23%;
             color: white;
@@ -65,10 +65,10 @@ export default()=>(
             font-size:33px;
 
         }
-        
-        
+
+
         /* section 4 ends here */
-        
+
         /* section 4 Range Slider */
         .multislidergreen{
             height: 40px;
@@ -82,7 +82,7 @@ export default()=>(
             height: 40px;
             border-radius: 30px;
         }
-    
+
         Dot{
             height:30px;
         }
@@ -93,10 +93,10 @@ export default()=>(
             display: flex;
             align-items: center;
             padding-top: 1%;
-            
+
         }
         i.fa.fa-chevron-circle-left.icon.movement-icon1 {
-             margin-top: -2px; 
+             margin-top: -2px;
         }
 
         .inputall {
@@ -108,9 +108,9 @@ export default()=>(
          border-radius: 3px;
         }
         .para-input{
-            font-weight: bold;    
+            font-weight: bold;
                 font-size: 19px;
-            
+
         }
         .span2{
             font-weight: bold;
@@ -129,19 +129,19 @@ export default()=>(
 span.MuiSlider-rail {
     height: 30px;
     padding-top:10px;
-    
+
 }
 span.MuiSlider-track {
     height: 30px;
     background: #8a1082;
     border-radius:5px;
-    
+
 }
 span.MuiSlider-thumbColorPrimary {
     color: purple!important;
     width: 40px;
     height: 40px;
-   
+
 }
 
 

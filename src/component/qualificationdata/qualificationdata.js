@@ -78,7 +78,7 @@ export default () => {
             takeInput: false
         },
         {
-            question: "My Phone Number is",
+            question: "My Phone Number is +44",
             takeInput: true,
             type: "number",
             value: "",
@@ -89,7 +89,7 @@ export default () => {
             takeInput: false
         },
         {
-            question: "My Email is.........",
+            question: "My Email is",
             takeInput: true,
             type: "email",
             value: "",
@@ -105,17 +105,18 @@ export default () => {
             }
         })
         obj.postBody = "";
-        axios.post(apiPath + "/team", obj)
+        axios.post(apiPath + "/api/team", obj)
             .then(res => {
-
+                window.location.replace("/thank-you");
             })
             .catch(err => {
 
             })
     };
 
-    const fieldValidator = (type, value) => {
-
+    const phoneNumberValidator = number => {
+        let re = /^(\+44\s?\d{10}|0044\s?\d{10}|0\s?\d{10})?$/;
+        return re.test(String(number).toLowerCase());
     };
 
     return (
@@ -193,17 +194,16 @@ export default () => {
                                     <form onSubmit={(event) => {
                                         event.preventDefault();
                                         if (single.type === "number") {
-                                            axios.get("https://www.national-debt-help.org.uk/HomeLocRegValidationCheck.php?telephone1=" + (showQuestions[index] && showQuestions[index].value ? showQuestions[index].value : null))
-                                                .then(res => {
-                                                    if (res.status) {
-                                                        let newMessate = [...showQuestions];
-                                                        newMessate.push({question: "typing"});
-                                                        setShowQuestions(newMessate);
-                                                    }
-                                                    else {
-
-                                                    }
-                                                })
+                                            if (!phoneNumberValidator("0" + showQuestions[index].value)) {
+                                                let newMessate = [...showQuestions];
+                                                newMessate[index].message = "Number is Invalid";
+                                                setShowQuestions(newMessate);
+                                            } else {
+                                                let newMessate = [...showQuestions];
+                                                newMessate[index].value = "+44" + showQuestions[index].value;
+                                                newMessate.push({question: "typing"});
+                                                setShowQuestions(newMessate);
+                                            }
                                         } else {
                                             let newMessate = [...showQuestions];
                                             newMessate.push({question: "typing"});
@@ -212,19 +212,24 @@ export default () => {
                                     }}>
                                         <p className="p ml-5" style={{color: "white"}}>{single.question}</p>
                                         {single.type === "number" ?
-                                            <input placeholder="" className="input mt-4 ml-4"
-                                                   type="number"
-                                                   required={true}
-                                                   autoFocus
-                                                   value={showQuestions[index] && showQuestions[index].value ? showQuestions[index].value : null}
-                                                   onChange={event => {
-                                                       let newMessate = [...showQuestions];
-                                                       let value = event.target.value;
-                                                       if (value.length <= 11) {
-                                                           newMessate[index].value = value;
+                                            <div>
+                                                <input placeholder="" className="input mt-4 ml-4"
+                                                       type="number"
+                                                       required={true}
+                                                       autoFocus
+                                                       value={showQuestions[index] && showQuestions[index].value ? showQuestions[index].value : null}
+                                                       onChange={event => {
+                                                           let newMessate = [...showQuestions];
+                                                           let value = event.target.value;
+                                                           newMessate[index].message = "";
+                                                           if (value.length <= 10) {
+                                                               newMessate[index].value = value;
+                                                           }
                                                            setShowQuestions(newMessate);
-                                                       }
-                                                   }}/> :
+                                                       }}/>
+                                                <p>{showQuestions[index].message ? showQuestions[index].message : ""}</p>
+                                            </div>
+                                            :
                                             <input placeholder="" className="input mt-4 ml-4"
                                                    type={single.type}
                                                    required={true}
@@ -234,7 +239,8 @@ export default () => {
                                                        newMessate[index].value = event.target.value;
                                                        setShowQuestions(newMessate);
                                                    }}/>}
-                                        <Button type="submit" variant="secondary" className="button ml-2">
+                                        <Button style={{position: "relative", zIndex: "1"}} type="submit"
+                                                variant="secondary" className="button ml-2">
                                             Go
                                         </Button>
                                     </form>
@@ -246,16 +252,14 @@ export default () => {
                             <div className="chat-input2">
                                 <div className="chat-input-data2">
 
-                                    <p className="p ml-5" style={{color: "white"}}>Thank you for giving all
-                                        information.</p>
-                                    <Link to={"./Thankyou"}> <Button variant="secondary" className=" ml-2"
-                                                                     onClick={() => {
-                                                                         submitHandler();
-                                                                     }}
+                                    <p className="p ml-5" style={{color: "white"}}>Submit Message here...?</p>
+                                    <Button variant="secondary" className=" ml-2"
+                                            onClick={() => {
+                                                submitHandler();
+                                            }}
                                     >
                                         Submit
                                     </Button>
-                                    </Link>
                                 </div>
                             </div>
                         );

@@ -1,7 +1,6 @@
 import React from 'react'
 import Style from '../section-4/style'
 import img1 from '../../asserts/images/purple-price-circle.png'
-import Move from '../Form/form'
 
 
 export default ()=>{
