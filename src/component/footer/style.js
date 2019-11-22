@@ -24,11 +24,11 @@ export default()=>(
 
         }
         .footer-div1 a{
-            color: #8a1082;
+            color: #006a90;
             text-decoration: underline;
         }
         .footer-div1 a:hover{
-            color: #8a1082;
+            color: #006a90;
             text-decoration: underline;
         }
         .footer-div2{

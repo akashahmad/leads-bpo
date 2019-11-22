@@ -10,8 +10,8 @@ body{
     background-color: #202020;
 }
 .image{
-    background-image:url(../images/hero-banner-bg.jpg);
-    height: 80vh;
+    background-image:url(../images/home-1-slide-1.jpg);
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
 }

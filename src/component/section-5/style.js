@@ -3,6 +3,12 @@ import React from 'react'
 export default ()=>{
     return(
         <style js="true">{`
+
+        .sect5 h1{
+            color:#006a90;
+        }
+
+
         .collapsible-container{
             box-shadow: 0px 0px 5px;
         }
@@ -18,7 +24,7 @@ export default ()=>{
          
         }
         .accordion-head {
-            background-color: #8a1082;
+            background-color:#f37f00;
         }
         .center {
             display: flex;
@@ -26,9 +32,7 @@ export default ()=>{
             justify-content: space-around;
             padding-top: 2%;
         }
-        .collapse-first{
-            
-        }
+       
         .button-text1{
             padding-left:2%;
         }

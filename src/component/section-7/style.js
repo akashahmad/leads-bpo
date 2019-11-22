@@ -29,27 +29,27 @@ export default()=>(
         
         
         .clip2{
-            background-color:  rgba(137, 27, 132, 1) !important;    
+            background-color:#F37F00!important;    
             clip-path: polygon(0% 0%, 81% 0, 92% 56%, 100% 100%, 0% 100%);
             width: 100%;
         }
         .clip-div2{
             width: 400px;
-            background-color:  rgba(154, 52, 148, 1) ;
+            background-color:#F5CC00;
             cursor: pointer;
             border-radius: 3px;
         }
         .clip-div2:hover .clip2{
-            background-color: #8b6ba3  !important;
+            background-color: #DC7300important;
             clip-path: polygon(0% 0%, 63% 1%, 81% 58%, 93% 100%, 0% 100%);
             transition: clip-path 1s;
             transition-timing-function: ease-in-out;
         }
         .clip-div2:hover{
-            background-color:#9c81b1;
+            background-color:#FFB300;
         }
         .icon2{
-        color:rgba(137, 27, 132, 1) ;
+        color:#F37F00!important;
         
         }
         .clip-div2:hover .icon{
@@ -69,9 +69,11 @@ export default()=>(
         .movement-icon2{
             margin-right: 20px;
             margin-top: 14px;
-            
+           
         }
-        
+        i.fa.fa-chevron-circle-right.icon.movement-icon2 {
+            color: #f37f00!important;
+        }
         
         
         /* --------------------------------- */

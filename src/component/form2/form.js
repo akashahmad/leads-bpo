@@ -8,6 +8,13 @@ import Footer from '../footer/footer'
 export default()=>
 
 {
+
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+
+};
+
     const [data, setdata]= useState([]);
     
     const [firstName, setfirstName] = useState("");
@@ -57,7 +64,7 @@ export default()=>
 </div>
 </section>
 <section>
-<form >
+<form onSubmit={event => submitHandler(event)}>
 <div className="d-flex flex-column align-items-center div-container">
 <div className="container d-flex flex-column align-items-center form">
 <div className="mt-5">
@@ -67,38 +74,38 @@ export default()=>
 <div className="d-flex justify-content-center mt-4">
    
 <div>
-  <input placeholder="First Name" className="input-first"  value={firstName} 
-   onChange={(event) => setfirstName(event.target.value)}>
+  <input type="text" name="firstname" placeholder="First Name" className="input-first"  value={firstName} 
+   onChange={(event) => setfirstName(event.target.value)} required>
        </input>  
 </div>
 <div className="ml-4">
-  <input placeholder="Last Name" className="input-first"  value={lastName}
-   onChange={(event) => setlastName(event.target.value)}>
+  <input type="text" name="lastname" placeholder="Last Name" className="input-first"  value={lastName}
+   onChange={(event) => setlastName(event.target.value)} required>
    
        </input>  
 </div>
 </div>
 <div className="mt-4">
- <div> <input type="phone" placeholder="Phone"  className="fields" 
+ <div> <input type="number" placeholder="Phone"  className="fields" 
  value={phone}
- onChange={(event) => setphone(event.target.value)}>
+ onChange={(event) => setphone(event.target.value)} required>
   
       </input> 
   </div> 
 </div>
 <div className="mt-4">
- <div> <input placeholder="Email" className="fields"  value={email} 
- onChange={(event) => setemail(event.target.value)}
+ <div> <input required type="email" placeholder="Email" className="fields"  value={email} 
+ onChange={(event) => setemail(event.target.value)}required
  
  ></input> </div> 
 </div>
 <div className="mt-4">
- <div> <textarea placeholder="Your Question" className="text-area" value={postBody} 
- onChange={(event) => setpostBody(event.target.value)}>
+ <div> <textarea type="text" placeholder="Your Question" className="text-area" value={postBody} 
+ onChange={(event) => setpostBody(event.target.value)}required>
   </textarea> </div> 
 </div>
 <div className="mt-4">
- <div> <Button  className="btn" onClick={()=>{AddItem()}}>Submit</Button> </div> 
+ <div> <Button type="submit" className="btn">Submit</Button> </div> 
 </div>
 </div>
 

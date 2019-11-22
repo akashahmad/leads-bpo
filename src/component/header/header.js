@@ -14,7 +14,7 @@ export default ()=>{
                     <div className="d-flex flex-column align-items-end content">
                         <div className="section1-paragraph">
                             <h4 className="paragragh1-section1">Contact for Support: </h4>
-                            <a className="anchor-section1" href="https://www.national-debt-help.org.uk/qualify-now/">Blackberry Finance Solutions</a>
+                         <a className="anchor-section1"><Link to={'/help'}>Blackberry Finance Solutions</Link></a>
                            
                         </div>
                       <p className="mr-2">blackberryfinancesolutions.netlify.com</p>
@@ -35,7 +35,7 @@ export default ()=>{
                           <i className="fa fa-chevron-circle-right icon movement-icon1"></i>
                         </div>
                        </Link> */}
-                       <Link to={'/form2'}>
+                       <Link to={'/formPage'}>
                        <div>
                        <button className="scroll_btn pulse  animated infinite pulse button-section2-header clip-div1 d-flex mt-4" id="clip-div1"><span className="button-header-text">Contact</span></button>
                        </div>

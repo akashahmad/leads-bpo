@@ -4,7 +4,7 @@ export default()=>(
         `
 
         /* section 5 starts here */
-
+        
         .left-side-section5 h2{
             color: #006a90;
             font-size: 29px;
@@ -41,7 +41,7 @@ export default()=>(
             background-color:#FFB300;
         }
         .icon1{
-        color:rgba(137, 27, 132, 1) ;
+        color:#006a90;
         
         }
         .clip-div1:hover .icon{
@@ -61,6 +61,8 @@ export default()=>(
         .movement-icon1{
             margin-right: 20px;
             margin-top: 14px;
+            color: #f37f00!important;
+           
             
         }
         
