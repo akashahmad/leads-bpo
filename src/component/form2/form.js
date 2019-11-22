@@ -1,45 +1,33 @@
 import React,{useState,useEffect, Component} from 'react'
 import axios from 'axios';
 import Style from './style'
-import img from '../../asserts/images/logo.png'
+import img from '../../asserts/images/cropped-Header-logo-527-148-01.png'
 import '../../asserts/style/style.css'
 import Button from 'react-bootstrap/Button';
 import Footer from '../footer/footer'
 export default()=>
 
 {
-    const [data, setdata]= useState([]);
-    
     const [firstName, setfirstName] = useState("");
     const [lastName, setlastName] = useState("");
     const [email, setemail] = useState("");
     const [phone, setphone] = useState("");
     const [postBody, setpostBody] = useState("");
-    useEffect(()=>{
 
-        axios.post('https://json-team-crud.herokuapp.com/api/team',
-       // {firstName:firstName,lastNamme:lastName,phone:phone,email:email,postBody:postBody}
-       data)
-       .then(response=>{
-            console.log(response)
-            console.log(data)
 
-        });
-    
-    },[]);
+    const AddItem=(event)=> {
+        event.preventDefault();
+        let payLoad={firstName:firstName,lastName:lastName,phone:phone,email:email,postBody:postBody};
+        axios.post('https://json-team-crud.herokuapp.com/api/team',payLoad).then(response=>{
+                console.log(response)
+            });
 
-    const AddItem=()=> {
-    data.push({firstName:firstName,lastNamme:lastName,phone:phone,email:email,postBody:postBody});
-        setdata(data);
         setfirstName("");
         setlastName("");
         setemail("");
         setphone("");
         setpostBody("");
-        // console.log(newdataa);
-         console.log(data);
 
-        
     };
     return(
         <>
@@ -95,10 +83,10 @@ export default()=>
 <div className="mt-4">
  <div> <textarea placeholder="Your Question" className="text-area" value={postBody} 
  onChange={(event) => setpostBody(event.target.value)}>
-  </textarea> </div> 
+  </textarea>> </div> 
 </div>
 <div className="mt-4">
- <div> <Button  className="btn" onClick={()=>{AddItem()}}>Submit</Button> </div> 
+ <div> <Button  className="btn" onClick={(event)=>{AddItem(event)}}>Submit</Button> </div>
 </div>
 </div>
 

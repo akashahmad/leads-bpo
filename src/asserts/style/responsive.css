@@ -1,1228 +1,393 @@
-@media (max-width: 479px) and (min-width: 320px) { 
-
-    .headerLogo{
-        width: 45%;
-    }
-    .section1-paragraph{
-        margin-top: 5px!important;
-    }
-    .section1-paragraph h4 {
-        font-size: 20px!important;
-        margin-right: -5px!important;
-    }
-    .anchor-section1{
-        font-size: 20px!important;
-        margin-top: -2px!important;
-    }
-    .d-flex.flex-column.below-anchor{
-        width: 84%!important;
-    }
-    .image{
-        height: 150vh!important;
-    }
-    .form{
-        padding-left: 0px!important;
-        margin-left: -23px!important;
-    }
-    .data{
-        width: 400px!important;
-        height:418px!important;
-    }
-    .data h1,h5{
-        font-size: 26px!important;
-        
-    }
-    .data ul li{
-        line-height: 28px!important;
-    }
-    .data ul li span{
-      
-        font-size: 15px!important;
-      
-    }
-    .data ul li p{
-        font-size: 18px!important;
-       
-    }
-    .button-section2-move{
-    height: 45px!important;
-    width: 250px!important;
-    margin-right: 20px!important;
-}
-.button-text{
-    font-size: 13px!important;
-}
-i.fa{
-    font-size: 18px!important;
-}
-.d-flex.paragraph-section3 p {
-    margin-top: -4px!important;
-    margin-left: -12px!important;
-    font-size: 10px!important;
-}
-
-.d-flex.paragraph-section3{
-    height: 20px!important;
-    margin-left: -20px!important;
-}
-.span{
-    padding:0px!important;
-    margin: 0px!important;
-}
-
-}
-
-@media (max-width: 1199px) and (min-width: 1024px) { 
-    .container-fluid.section4 {
-        height:0px!important;
-    }
-    .form {
-        padding-top: 31px!important;
-        padding-left: 0!important;
-    }
-    .button-text-header {
-        padding-left: 2%!important;
-        font-size: 28px!important;
-        margin-top: -2px!important;
-        margin-left: 2px!important;
-        color: white!important;
-    }
-    .button-text1 {
-        
-        margin-top: 14px!important;
-    }
-
-    .headerLogo {
-        width: 211px!important;
-        height: 101px!important;
-    }
-    .container-fluid.mt-3.image {
-        height: 49vh!important;
-
-    }
-    .container-fluid.section4 {
-        height: 83vh!important;
-    }
-
-}
-@media (max-width: 1366px) and (min-width: 384px){
-
-    .container-fluid.section4 {
-        height: 140vh!important;
-    }
-
-    .image{
-      
-        height: 90vh!important;
-      
-    }
-    .headerLogo{
-    width: 241px;
-                }
-                .data{
-                    width: 400px!important;
-                    height:418px!important;
-                }
-                .data h1,h5{
-                    font-size: 26px!important;
-                    
-                }
-                .data ul li{
-                    line-height: 28px!important;
-                }
-                .data ul li span{
-                  
-                    font-size: 15px!important;
-                  
-                }
-                .data ul li p{
-                    font-size: 18px!important;
-                   
-                }
-                .button-section2-move{
-                height: 45px!important;
-                width: 250px!important;
-                margin-right: 20px!important;
-            }
-            .button-text1{
-                font-size: 13px!important;
-            }
-           
-          
-            .data2 h3{
-                width: 600px!important;
-            }
-            .data2 h1{
-            font-size: 41px!important;
-        }
-        .text-area {
-            width: 624px!important;
-            height: 100px!important;
-        }
-        .second {
-            margin-top: 9px!important;
-        }
-        }
-        @media (max-width: 1023px) and (min-width: 992px) { 
-
-            .headerLogo {
-                width: 230px!important;
-                height: 80px!important;
-            }
-
-            .section1-paragraph h4 {
-                font-size: 26px!important;
-                font-weight: bold!important;
-                padding-top: 1.5%!important;
-            }
-            
-            .anchor-section1 {
-                color: #8a1082;
-                text-decoration: none;
-                font-size: 17px!important;
-                font-weight: bold;
-                margin-top: 9px!important;
-                padding: 5px;
-            }
-            .d-flex.justify-content-between {
-                width: 733px!important;
-            }
-            .animated.infinite {
-              
-                margin-top: 25px!important;
-            }
-            i.fa.fa-user.span {
-                font-size: 25px!important;
-            }
-            .row.pad.d-flex.justify-content-center {
-                display: flex!important;
-                justify-content: space-between!important;
-            }
-            .box1 {
-                width: 226px!important;
-               
-            }
-            .paragraph-section3 {
-                
-                font-size: 16px!important;
-                
-            }
-            .container-fluid.section4 {
-                height: 90vh!important;
-            }
-            .d-flex.pt-2.justify-content-between.section5-heading-all.border3 {
-                width: 495px!important;
-            }
-            .d-flex.justify-content-between {
-                width: 498px!important;
-            }
-            .secondImg {
-                height: 53px!important;
-                width: 124px!important;
-            }
-            .d-flex.justify-content-between.header {
-                width: 750px!important;
-            }
-            .table-section-5 {
-                
-                margin-left: 26px!important;
-            }
-            .data.ml-5.d-flex.flex-column {
-                margin-top: -46px!important;
-              
-            }
-            .image {
-              
-                height: 52vh!important;
-            }
-            .form {
-               
-                padding-left: 0!important;
-            }
-        }
-      
-
-
-         /* FORM Shohaib*/
-
-         @media (max-width: 479px) and (min-width: 320px) {
-
-            .form-contactUs h1{
-                font-size: 21px;
-            }
-            .form-contactUs {
-                width: 70%!important;
-                height: 210vh!important;
-            }
-            .label {
-                color: black!important;
-                font-size: 16px!important;
-                padding-left: 6%!important;
-            }
-            input.form-control {
-                width: 182px!important;
-                margin-left: 6%!important;
-            }
-            .span-name {
-                margin-left: 27px!important;
-                color: black;
-            }
-            .form-control.second {
-                margin-top: -27px!important;
-            }
-            .form-control.text-area {
-                width: 267px!important;
-                margin-left: 20px;
-            }
-            .form-container {
-                background-color: grey;
-                position: absolute;
-                height: 224vh!important;
-            }
-            .btn_submit {
-                margin-left: 20px;
-            }
-            .line-below-contact{
-                margin-top: -20px;
-            }
-            .label-phone {
-                padding-top: 13px!important;
-            }
-         
-         }
-         
-         @media (max-width: 567px) and (min-width: 480px) {
-            h1.contact {
-                font-size: 33px!important;
-            }
-            .contactus {
-                font-size: 21px!important;
-            }
-            .form-contactUs {
-                width: 398px!important;
-            }
-            .label{
-                font-size: 19px!important;
-            }
-            .form-control {
-                width: 268px!important;
-                margin-left: 7px!important;
-            }
-            .span-name {
-                margin-left: 10px!important;
-            }
-            .second {
-                margin-top: -20px!important;
-            
-            }
-            .label-phone {
-                padding-top: 14px!important;
-            }
-            .form-container {
-                height: 765px!important;
-            }
-            .form-contactUs {
-                height: 754px!important;
-            }
-         }
-         
-         @media (max-width: 684px) and (min-width: 568px) {
-         
-            .text-area {
-                width: 310px!important;
-            }
-            .form-contactUs {
-                width: 65%!important;
-                height: 138vh!important;
-            }
-            input.form-container {
-                height: 150vh!important;
-            
-            }
-            .contactus{
-                font-size: 22px!important;
-            }
-            .second {
-                margin-top: -32px!important;
-              
-            }
-            input.form-control {
-                width: 300px!important;
-            }
-            .label {
-                margin-top: 2%;
-                font-size: 21px;
-                margin-left: -2%;
-            }
-            .form-container {
-                height: 150vh!important;
-            }
-            .label-phone
-            {
-            padding-top: 10px!important;
-            }
-         
-         
-         }
-         
-         @media (max-width: 767px) and (min-width: 685px) {
-            .text-area {
-                width: 303px!important;
-            
-            }
-            .form-contactUs {
-                width: 500px!important;
-            }
-            .form-control {
-                width: 300px!important;
-            }
-            .second {
-                margin-top: -36px!important;
-            }
-            .label {
-                margin-left: -2%!important;
-            }
-         }
-         @media (max-width: 991px) and (min-width: 768px) {
-            .text-area {
-                width: 410px!important;
-            }
-            .second {
-                margin-top: 14px!important;
-                margin-top: 2px;
-            }
-            .contact{
-                font-size: 42px!important;
-                color: black;
-            }
-            .contactus {
-                font-size: 24px!important;
-            }
-            .form-contactUs{
-                width: 50%;
-                 margin-top: 2%;
-                height: 94vh!important;
-           }
-           .label {
-            font-size: 24px;
-            margin-left: -2%!important;
-         }
-         }
-         @media (max-width: 1023px) and (min-width: 992px) {
-            .text-area {
-                width: 422px!important;
-            }
-         
-            .second {
-            margin-top: 13px!important;
-            margin-top: 2px;
-            }
-            .form-container {
-                height: 107vh!important;
-            }
-            .label {
-            
-                margin-left: -2%!important;
-            }
-            .form-contactUs {
-            margin-top: 15%!important;
-            height: 80vh!important;
-            }
-            .contactus {
-            font-size: 28px!important;
-            }
-         
-         }
-         @media (max-width: 1199px) and (min-width: 1024px) {
-            .form {
-                padding-top: 0%!important;
-                padding-left: 0!important;
-            }
-         
-            .text-area {
-                width: 422px!important;
-            }
-         
-            .second {
-            margin-top: 9px!important;
-            margin-top: 2px;
-            }
-            .label {
-            
-                margin-left: -2%!important;
-            }
-            .form-contactUs{
-            margin-top: 5%!important;
-            height: 90vh!important;
-            width: 700px!important;
-            }
-            .contactus {
-            font-size: 28px!important;
-            }
-            .form-container {
-                height: 107vh!important;
-            }
-         }
-
-
-         /* HAJRA */
-
-         @media (max-width: 479px) and (min-width: 320px) {
-            .container-fluid.section4 {
-                height: 250vh!important;
-            }
-            img.secondImg {
-                width: 124px;
-                height: 49px;
-            }
-            .section4 {
-                height: 240vh !important;
-        
-            }
-            body {
-                width: fit-content!important;
-        
-            }
-            .headerLogo{
-                width: 45%!important;
-            }
-            .content {
-        
-                margin-right: 33px;
-                margin-top: 20px;
-            }
-            .pad{
-                justify-content: space-around!important;
-            }
-            .box1 {
-                width: 192px!important;
-                height: 115px!important;
-            }
-            .next5 .mt-5 {
-                margin-top: 2rem!important;
-            }
-            .hide2{
-                margin-top: 2rem!important;
-            }
-            .footer{
-                font-size: 1em!important;
-                height: 601px!important;
-            }
-            .pt-4{
-                font-size: 1em!important;
-            }
-            .cc .mt-5{
-                margin-top: 2rem!important;
-            }
-            .table-section-5 {
-                width: 650px!important;
-                margin-left: 0px!important;
-            }
-            .left-side-section5 p {
-                font-size: 20px!important;
-        
-                line-height: 35px!important;
-        
-            }
-            .left-side-section5 h2 {
-                line-height: 50px!important;
-                font-size: 40px!important;
-        
-            }
-            .heading-section8 {
-                margin-top: 2.5rem!important;
-        
-            }
-            .section1-paragraph{
-                margin-top: 5px!important;
-            }
-            .section1-paragraph h4 {
-                font-size: 20px!important;
-                margin-right: -5px!important;
-            }
-            .anchor-section1{
-                font-size: 20px!important;
-                margin-top: -2px!important;
-            }
-            .d-flex.flex-column.below-anchor{
-                width: 84%!important;
-            }
-            .image{
-                height: 136vh!important;
-                width: 100%!important;
-            }
-            .form{
-                padding-left: 0px!important;
-                margin-left: -23px!important;
-                height: 0!important;
-        
-                padding-top: 1%!important;
-        
-            }
-            .data{
-                width: 400px!important;
-                height:418px!important;
-            }
-            .data h1,h5{
-                font-size: 26px!important;
-        
-            }
-            .data ul li{
-                line-height: 28px!important;
-            }
-            .data ul li span{
-        
-                font-size: 15px!important;
-        
-            }
-            .data ul li p{
-                font-size: 18px!important;
-        
-            }
-            .button-section2-move{
-                height: 45px!important;
-                width: 250px!important;
-                margin-right: 20px!important;
-            }
-            .button-text{
-                font-size: 13px!important;
-            }
-            i.fa{
-                font-size: 18px!important;
-            }
-            .d-flex.paragraph-section3 p {
-                font-size: 14px!important;
-                margin-top: -4px!important;
-                margin-left: -12px!important;
-        
-                padding-top: 3%!important;
-                padding-left: 19px!important;
-        
-            }
-        
-            .d-flex.paragraph-section3{
-                height: 20px!important;
-                margin-left: -20px!important;
-            }
-            .span{
-                padding:0!important;
-                margin: 0!important;
-            }
-        
-        }
-/* Hajra2 */
-@media (max-width: 684px) and (min-width: 568px) {
-    img.secondImg {
-        width: 125px;
-        height: 55px;
-    }
-    .section4 {
-        height: 240vh !important;
-
-    }
+@media (max-width: 1199px) and (min-width: 1024px) {}
+@media (max-width: 1023px) and (min-width: 992px) {
     body {
         width: fit-content!important;
 
     }
+    .container-fluid {
+        width: 100%;
+    }
     .headerLogo{
-        width: 45%!important;
-    }
-    .content {
-
-        margin-right: 33px;
-        margin-top: 20px;
-    }
-    .pad{
-        justify-content: space-around!important;
-    }
-    .box1 {
-        width: 192px!important;
-        height: 115px!important;
-    }
-    .next5 .mt-5 {
-        margin-top: 2rem!important;
-    }
-    .hide2{
-        margin-top: 2rem!important;
-    }
-    .footer{
-        font-size: 1em!important;
-        height: 601px!important;
-    }
-    .pt-4{
-        font-size: 1em!important;
-    }
-    .cc .mt-5{
-        margin-top: 2rem!important;
-    }
-    .table-section-5 {
-        width: 650px!important;
-        margin-left: 0px!important;
-    }
-    .left-side-section5 p {
-        font-size: 20px!important;
-
-        line-height: 35px!important;
-
-    }
-    .left-side-section5 h2 {
-        line-height: 50px!important;
-        font-size: 40px!important;
-
-    }
-    .heading-section8 {
-        margin-top: 2.5rem!important;
+        width: 80%!important;
+        margin-left: 10%;
+        height: 100%;
 
     }
     .section1-paragraph{
+        font-size: 46px!important;
         margin-top: 5px!important;
+        width: 92%;
     }
     .section1-paragraph h4 {
-        font-size: 20px!important;
-        margin-right: -5px!important;
+        margin-left: -19px;
+        font-size: 46px!important;
     }
-    .anchor-section1{
-        font-size: 20px!important;
-        margin-top: -2px!important;
+    .anchor-section1
+    {
+        margin-left: -64%;
+        margin-top: 39px!important;
+        font-size: 43px!important;
+        padding: 21px!important;
     }
-    .d-flex.flex-column.below-anchor{
-        width: 84%!important;
-    }
-    .image{
-        height: 136vh!important;
-        width: 100%!important;
-    }
-    .form{
-        padding-left: 0px!important;
-        margin-left: -23px!important;
-        height: 0!important;
-
-        padding-top: 1%!important;
-
-    }
-    .data{
-        width: 400px!important;
-        height:418px!important;
-    }
-    .data h1,h5{
-        font-size: 26px!important;
-
-    }
-    .data ul li{
-        line-height: 28px!important;
-    }
-    .data ul li span{
-
-        font-size: 15px!important;
-
-    }
-    .data ul li p{
-        font-size: 18px!important;
-
-    }
-    .button-section2-move{
-        height: 45px!important;
-        width: 250px!important;
-        margin-right: 20px!important;
-    }
-    .button-text{
-        font-size: 13px!important;
-    }
-    i.fa{
-        font-size: 18px!important;
-    }
-    .d-flex.paragraph-section3 p {
-        font-size: 14px!important;
-        margin-top: -4px!important;
-        margin-left: -12px!important;
-
-        padding-top: 3%!important;
-        padding-left: 19px!important;
-
-    }
-
-    .d-flex.paragraph-section3{
-        height: 20px!important;
-        margin-left: -20px!important;
-    }
-    .span{
-        padding:0!important;
-        margin: 0!important;
-    }
-
+    .mr-2 {
+        margin-top: -26px!important;
+        margin-right: -1.5rem!important;
+        padding: 0px;
+        font-size: 42px;
 }
 
-
-
-/* Rida */
-@media (max-width: 767px) and (min-width: 685px) {
-
-
-
-    
-    body {
-        width: fit-content!important;
-
+.scroll_btn{
+    margin-left: -21%;
+    padding: 43px;
+}
+.button-header-text {
+    padding-left: 33px!important;
+    margin-top: -26px;
+    margin-left: -31px;
+    font-size: 37px;
+}
+    .ml-5{
+        margin-left: 6rem!important;
     }
-    .content {
-        margin-right: -193px!important;
-    }
-    .chat1-inside-data {
-
-        max-width: 582px!important;
-
-    }
-    .chat-input-data {
-        max-width: 600px!important;
-        margin-left: 0!important;
-    }
-    .chat-input-data >button{
-        width: 75px!important;
-    }
-    .chat-input-data >input{
-        width: 265px!important;
-    }
-    .section4 {
-        height: 115vh !important;
-
-    }
-
-    .headerLogo{
-        width: 25%!important;
-    }
-    .content {
-
-        margin-right: 33px;
-        margin-top: 20px;
-    }
-    .pad{
-        justify-content: space-around!important;
-    }
-    /* .box1 .bb {
-        width: 161px!important;
-        height: 115px!important;
-    } */
-
-    .box1 {
-        width: 160px!important;
-    }
-
-    .next5 .mt-5 {
-        margin-top: 1rem!important;
-    }
-    .cc.hide2{
-        margin-top: 5rem!important;
-    }
-    .footer{
-        font-size: 18px!important;
-        height: 675px!important;
-    }
-    .pt-4{
-        font-size: 1em!important;
-    }
-    .cc .mt-5{
-        margin-top: 3rem!important;
-    }
-    .table-section-5 {
-        width: 650px!important;
-        margin-left: 0px!important;
-    }
-    .left-side-section5 p {
-        font-size: 20px!important;
-
-        line-height: 35px!important;
-
-    }
-    .left-side-section5 h2 {
-        line-height: 50px!important;
-        font-size: 40px!important;
-
-    }
-    .image-section8 {
-
-        height: 730px!important;
-
-    }
-    .heading-section8 {
-        margin-top: 2.5rem!important;
-
-    }
-    .section1-paragraph{
-        margin-top: 5px!important;
-    }
-    .section1-paragraph h4 {
-        font-size: 20px!important;
-        margin-right: -5px!important;
-    }
-    .anchor-section1{
-        font-size: 20px!important;
-        margin-top: -2px!important;
-    }
-    .d-flex.flex-column.below-anchor{
-        width: 84%!important;
-    }
-    .image{
-
-    }
-    .form{
-        padding-left: 0px!important;
-        margin-left: -23px!important;
-        height: 0!important;
-
-        padding-top: 11%!important;
-
-    }
-    .data{
-        width: 400px!important;
-        height:418px!important;
-    }
-    .data h1,h5{
-        font-size: 26px!important;
-
-    }
-    .data ul li{
-        line-height: 28px!important;
-    }
-    .data ul li span{
-
-        font-size: 15px!important;
-
-    }
-    .data ul li p{
-        font-size: 18px!important;
-
-    }
-    .button-section2-move{
-        height: 45px!important;
-        width: 250px!important;
-        margin-right: 20px!important;
-    }
-    .button-text{
-        font-size: 13px!important;
-    }
-    i.fa{
-        font-size: 18px!important;
-    }
-    .d-flex.paragraph-section3 p {
-        font-size: 18px!important;
-        margin-top: -4px!important;
-        margin-left: -12px!important;
-
-        padding-top: 1%!important;
-        padding-left: 19px!important;
-
-    }
-
-    .d-flex.paragraph-section3{
-        height: 20px!important;
-        margin-left: -20px!important;
-    }
-    .span{
-        padding:0px!important;
-        margin: 0px!important;
-    }
-
+p.p {
+    font-size: 33px!important;
+}
+.chat1-inside-data {
+    max-width: 864px!important;
 }
 
-/* Zubair */
+.footer-div2 {
+    margin-top: -49px;
+    font-size: 34px!important;
 
+}
+.footer-p1{
+    margin-bottom: 3rem;
+    font-size: 35px;
+    text-align: center;
+}
+.footer {
+    height: 853px!important;
+}
+.footer-ul{
+    margin: 0;
+    font-size: 29px;
+    text-align: center;
+    padding: 0;
+}
+}
 @media (max-width: 991px) and (min-width: 768px) {
-    .container-fluid.section4 {
-        height: 110vh!important;
-    }
-    body {
-        padding: 0!important;
-        margin: 0!important;
-        width: 102%!important;
-    }
-    img.headerLogo {
-       
-        width: 249px!important;
-        height: 76px!important;
-    }
-    a {
-        margin-top: -35px;
-        
-    }
-    .row.section1-row.d-flex.justify-content-around {
-        width: 1000px!important;
-    }
-    a.anchor-section1 {
-        font-size: 12px!important;
-    }
-    
-    h4.paragragh1-section1 {
-        font-size: 28px!important;
-    }
-    
-    .section1-paragraph {
-        width: 460px!important;
-        margin-top: -17px!important;
-    }
-    
-    
-    .d-flex.paragraph-section3 {
-        /* display: flex; */
-        /* justify-content: space-between; */
-        margin-right: -18px!important;
-        width: 225px!important;
-    }
-   
-    .right-side.mt-3.table-section-5.section5-paragraph-all {
-        /* font-size: 49px; */
-        font-weight: 61px!important;
-        margin-right: 188px!important;
-    }
-    .box1 {
-        width: 232px!important;
-        
-    }
-    p.second-para {
-        margin-top: -21px!important;
-    }
-    .container-fluid.image-section8 {
-        height: 738px!important;
-    }
-    
- }
-        /* Shohaib second */
-        @media (max-width: 479px) and (min-width: 320px) { 
-            p.footer-p1 {
-                font-size: 12px;
-            }
-            .footer-div1 a {
-                
-                font-size: 10px!important;
-                
-            }
-            .chat1-inside-data {
-                width: 295px!important;
-                height: 140px!important;
-            }
-            p.p {
-                
-                font-size: 13px!important;
-            
-            }
-            .chat-input-data {
-                width: 351px!important;
-                border-radius: 31px!important;
-            }
-            .input {
-                width: 184px!important;
-                height: 54px!important;
-                margin-top: -20px!important;
-                font-size: 15px!important;
-            }
-            .input {
-                width: 191px!important;
-            }      
-            
-            .button {
-                height: 47px!important;
-            }
-            .chat1-inside-data {
-                padding-left: 20px!important;
-            }
-            }
-            @media (max-width: 567px) and (min-width: 480px) {
-                p.footer-p1 {
-                    font-size: 12px;
-                }
-                .footer-div1 a {
-                    
-                    font-size: 10px!important;
-                    
-                }
+body {
+    width: fit-content!important;
 
-                .chat1-inside-data {
-                    width: 295px!important;
-                    height: 140px!important;
-                }
-                p.p {
-                    
-                    font-size: 13px!important;
-                
-                }
-                .chat-input-data {
-                    width: 351px!important;
-                    border-radius: 31px!important;
-                }
-                .input {
-                    width: 184px!important;
-                    height: 54px!important;
-                    margin-top: -20px!important;
-                    font-size: 15px!important;
-                }
-                .input {
-                    width: 191px!important;
-                }      
-                
-                .button {
-                    height: 47px!important;
-                }
-                .chat1-inside-data {
-                    padding-left: 20px!important;
-                }
+}
+.container-fluid {
+    width: 100%;
+}
+.headerLogo{
+    width: 55%!important;
+    margin-left: 22.5%;
+    height: 100%;
 
+}
+.section1-paragraph{
+    margin-top: 5px!important;
+    width: 92%;
+}
+.section1-paragraph h4 {
+    margin-left: -19px;
+}
+.anchor-section1{
+    margin-left: -70%;
+    margin-top: 39px!important;
+    font-size: 34px!important;}
+.mr-2 {
+    margin-right: -8.5rem!important;
+    padding: 0px;
+    font-size: 35px;
+    font-weight: initial;
+}
 
+.scroll_btn{
+    margin-left: -23%;
+    padding: 35px;
+}
+.button-header-text {
+    text-align: center!important;
+    padding-left: 34px!important;
+    margin-top: -18px;
+    margin-left: -15px;
+}
+p.p {
+    font-size: 33px!important;
+}
+.chat1-inside-data {
+    max-width: 864px!important;
+}
 
+.footer-div2 {
+    margin-top: -49px;
+    font-size: 28px!important;
 
+}
+.footer-p1{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 29px;
+}
+.footer {
+    height: 833px!important;
+}
+.footer-ul{
+    margin: 0;
+    font-size: 27px;
+    text-align: center;
+    padding: 0;
+}
+}
+@media (max-width: 767px) and (min-width: 685px) {
+body {
+    width: fit-content!important;
 
+}
+.container-fluid {
+    width: 100%;
+}
+.headerLogo{
+    width: 50%!important;
+    margin-left: 25%;
+    height: 100%;
 
+}
+.section1-paragraph{
+    margin-top: 5px!important;
+    width: 92%;
+}
+.section1-paragraph h4 {
+    margin-left: -10px;
+}
+.anchor-section1{
+    margin-left: -70%;
+    margin-top: 30px!important;
+}
+.mr-2 {
+    margin-right: 0.5rem!important;
+    padding: 0px;
+    font-size: 25px;
+    font-weight: initial;
+}
 
+.scroll_btn{
+    margin-left: -10%;
+}
+p.p {
+    font-size: 29px!important;
+}
+.footer-div2 {
+    margin-top: -49px;
+    font-size: 24px!important;
 
+}
+.footer-p1{
+    margin-bottom: 3rem;
+    font-size: 22px;
+}
+.footer {
+    height: 666px!important;
+}
+.footer-ul{
+    margin: 0;
+    font-size: 23px;
+    text-align: center;
+    padding: 0;
+}
+}
+@media (max-width: 684px) and (min-width: 568px) {
+body {
+    width: fit-content!important;
 
+}
+.container-fluid {
+    width: 100%;
+}
+.headerLogo{
+    width: 40%!important;
+    margin-left: 30%;
+    height: 100%;
 
+}
+.section1-paragraph{
+    margin-top: 5px!important;
+    margin-left: 30%;
+    width: 92%;
+}
+.section1-paragraph h4 {
+    font-size: 23px!important;
+    margin-right: -4px!important;
+    margin-left: 3%;
+    width: 349px;
+}
+.anchor-section1{
+    margin-left: -80%;
+    font-size: 23px!important;
+    margin-top: 30px!important;
+}
+.mr-2 {
+    margin-right: 0.5rem!important;
+    padding: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
 
+.scroll_btn{
+    margin-left: -10%;
+}
+p.p {
+    padding-top: 6%;
+    font-size: 27px;
+    margin-left: 16px;
+}
+.footer-div2 {
+    margin-top: -49px;
+    font-size: 24px!important;
 
+}
+.footer-p1{
+    margin-bottom: 3rem;
+    font-size: 20px;
+     }
+.footer {
+    height: 666px!important;
+}
+.footer-ul{
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+}
+}
+@media (max-width: 567px) and (min-width: 480px) {
+body {
+    width: fit-content!important;
 
+}
+.container-fluid {
+    width: 100%;
+}
+.headerLogo{
+    width: 40%!important;
+    margin-left: 30%;
+    height: 100%;
 
+}
+.section1-paragraph{
+    margin-top: 5px!important;
+    margin-left: 30%;
+    width: 92%;
+}
+.section1-paragraph h4 {
+    font-size: 23px!important;
+    margin-right: -4px!important;
+    margin-left: 3%;
+    width: 349px;
+}
+.anchor-section1{
+    margin-left: -80%;
+    font-size: 23px!important;
+    margin-top: 30px!important;
+}
+.mr-2 {
+    margin-right: 0.5rem!important;
+    padding: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
 
+.scroll_btn{
+    margin-left: -10%;
+}
 
+p.p {
+    padding-top: 6%;
+    font-size: 27px;
+    margin-left: 16px;
+}
+.footer-div2 {
+    margin-top: -49px;
+    font-size: 24px!important;
 
-                /* Robo Chat End */
-                .container-fluid.section4 {
-                    height: 180vh!important;
-                }
-                img.secondImg {
-                    width: 124px;
-                    height: 49px;
-                }
-                .section4 {
-                    height: 240vh !important;
-            
-                }
-                body {
-                    width: fit-content!important;
-            
-                }
-                .headerLogo{
-                    width: 45%!important;
-                }
-                .content {
-            
-                    margin-right: 33px;
-                    margin-top: 20px;
-                }
-                .pad{
-                    justify-content: space-around!important;
-                }
-                .box1 {
-                    width: 192px!important;
-                    height: 115px!important;
-                }
-                .next5 .mt-5 {
-                    margin-top: 2rem!important;
-                }
-                .hide2{
-                    margin-top: 2rem!important;
-                }
-                .footer{
-                    font-size: 1em!important;
-                    height: 601px!important;
-                }
-                .pt-4{
-                    font-size: 1em!important;
-                }
-                .cc .mt-5{
-                    margin-top: 2rem!important;
-                }
-                .table-section-5 {
-                    width: 650px!important;
-                    margin-left: 0px!important;
-                }
-                .left-side-section5 p {
-                    font-size: 20px!important;
-            
-                    line-height: 35px!important;
-            
-                }
-                .left-side-section5 h2 {
-                    line-height: 50px!important;
-                    font-size: 40px!important;
-            
-                }
-                .heading-section8 {
-                    margin-top: 2.5rem!important;
-            
-                }
-                .section1-paragraph{
-                    margin-top: 5px!important;
-                }
-                .section1-paragraph h4 {
-                    font-size: 20px!important;
-                    margin-right: -5px!important;
-                }
-                .anchor-section1{
-                    font-size: 20px!important;
-                    margin-top: -2px!important;
-                }
-                .d-flex.flex-column.below-anchor{
-                    width: 84%!important;
-                }
-                .image{
-                    height: 136vh!important;
-                    width: 100%!important;
-                }
-                .form{
-                    padding-left: 0px!important;
-                    margin-left: -23px!important;
-                    height: 0!important;
-            
-                    padding-top: 1%!important;
-            
-                }
-                .data{
-                    width: 400px!important;
-                    height:418px!important;
-                }
-                .data h1,h5{
-                    font-size: 26px!important;
-            
-                }
-                .data ul li{
-                    line-height: 28px!important;
-                }
-                .data ul li span{
-            
-                    font-size: 15px!important;
-            
-                }
-                .data ul li p{
-                    font-size: 18px!important;
-            
-                }
-                .button-section2-move{
-                    height: 45px!important;
-                    width: 250px!important;
-                    margin-right: 20px!important;
-                }
-                .button-text{
-                    font-size: 13px!important;
-                }
-                i.fa{
-                    font-size: 18px!important;
-                }
-                .d-flex.paragraph-section3 p {
-                    font-size: 14px!important;
-                    margin-top: -4px!important;
-                    margin-left: -12px!important;
-            
-                    padding-top: 3%!important;
-                    padding-left: 19px!important;
-            
-                }
-            
-                .d-flex.paragraph-section3{
-                    height: 20px!important;
-                    margin-left: -20px!important;
-                }
-                .span{
-                    padding:0!important;
-                    margin: 0!important;
-                }
-            
+}
+.footer-p1{
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
 
-             }
+.footer-ul{
+    margin: 0;
+    font-size: 17px;
+    text-align: center;
+    padding: 0;
+}
+}
+@media (max-width: 479px) and (min-width: 320px) {
+body {
+    width: fit-content!important;
 
+}
+.container-fluid {
+    width: 100%;
+}
+.headerLogo{
+    width: 40%!important;
+    margin-left: 30%;
+    height: 100%;
+
+}
+.section1-paragraph{
+    margin-top: 5px!important;
+}
+.section1-paragraph h4 {
+    font-size: 23px!important;
+    margin-right: -4px!important;
+    margin-left: 3%;
+    width: 349px;
+}
+.anchor-section1{
+    margin-left: -74%;
+    font-size: 23px!important;
+    margin-top: 30px!important;
+}
+.mr-2 {
+    margin-right: 0.5rem!important;
+    padding: 1px;
+    font-size: 24px;
+}
+
+.scroll_btn{
+    margin-left: -10%;
+}
+
+p.p {
+    padding-top: 6%;
+    font-size: 27px;
+    margin-left: 16px;
+}
+.footer-div2 {
+    margin-top: -49px;
+    font-size: 24px!important;
+
+}
+.footer-p1{
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
+.footer {
+    height: 673px!important;
+}
+.footer-ul{
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+}
+}
