@@ -68,7 +68,7 @@ export default()=>
 <div className="d-flex flex-column align-items-center div-container">
 <div className="container d-flex flex-column align-items-center form">
 <div className="mt-5">
-  <h2 style={{color:"purple"}}>Get in touch with us</h2>  
+  <h2 style={{color:"#006a90"}}>Get in touch with us</h2>  
 </div>
 
 <div className="d-flex justify-content-center mt-4">

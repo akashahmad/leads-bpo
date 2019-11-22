@@ -9,7 +9,7 @@ export default()=>{
     padding-bottom: 21px;
 }
    .container.d-flex.flex-column.align-items-center.form {
-    border: 2px solid purple;
+    border: 2px solid #006a90;
     height: 70vh;
     width: 558px;
     /* margin-bottom: 357px; */
@@ -41,7 +41,7 @@ p.para1 {
 }
 .btn-form{
     width:395px;
-    background-color:purple; 
+    background-color:#f37f00; 
 }
 
    .label{
