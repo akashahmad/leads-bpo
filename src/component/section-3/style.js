@@ -7,7 +7,7 @@ export default()=>(
             width:60%;
         }
         .prog1{
-            background-color:#8b6ba3!important;
+            background-color:#006a90!important;
             border-radius:10px;
         }
         .prog2{
@@ -36,7 +36,7 @@ export default()=>(
         }
         .cc h1{
             font-size: 50px;
-            color: #8b6ba3;
+            color: #006a90;
         }
         .step-portion h3{
             font-size:35px;
@@ -61,7 +61,7 @@ export default()=>(
             color: white;
         }
         .steps h3{
-            color: #8b6ba3;
+            color: #006a90;
             font-size:33px;
 
         }

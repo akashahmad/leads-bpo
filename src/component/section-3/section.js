@@ -58,27 +58,27 @@ const handleBlur = () => {
     const handleSlide = newProgress => setProgress( newProgress );
 
     const next5=()=>{
-        document.getElementById("p5").style.backgroundColor="#8b6ba3";
+        document.getElementById("p5").style.backgroundColor="#006a90";
         document.getElementsByClassName("next4")[0].setAttribute('style', 'display:none !important');
         document.getElementsByClassName("next5")[0].setAttribute('style', 'display:flex !important');
     };
     const next4=()=>{
-        document.getElementById("p4").style.backgroundColor="#8b6ba3";
+        document.getElementById("p4").style.backgroundColor="#006a90";
         document.getElementsByClassName("next3")[0].setAttribute('style', 'display:none !important');
         document.getElementsByClassName("next4")[0].setAttribute('style', 'display:flex !important');
     };
     const next3=()=>{
-        document.getElementById("p3").style.backgroundColor="#8b6ba3";
+        document.getElementById("p3").style.backgroundColor="#006a90";
         document.getElementsByClassName("next2")[0].setAttribute('style', 'display:none !important');
         document.getElementsByClassName("next3")[0].setAttribute('style', 'display:flex !important');
     };
     const next2=()=>{
-        document.getElementById("p2").style.backgroundColor="#8b6ba3";
+        document.getElementById("p2").style.backgroundColor="#006a90";
         document.getElementsByClassName("next1")[0].setAttribute('style','display:none!important');
         document.getElementsByClassName("next2")[0].setAttribute('style', 'display:flex !important');
     };
     const next = () => {
-        document.getElementById("p1").style.backgroundColor="#8b6ba3";
+        document.getElementById("p1").style.backgroundColor="#006a90";
         document.getElementById("hide").style.display="none";
         document.getElementsByClassName("box1")[0].style.display="none";
         document.getElementsByClassName("box1 ml-3")[0].style.display="none";
