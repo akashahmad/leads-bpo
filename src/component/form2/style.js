@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default()=>{
-   return(
-   <style>{`
+export default() => {
+    return (
+        <style>{`
 
 
    .input-first {
@@ -17,7 +17,7 @@ export default()=>{
     box-shadow: 8px 17px #d6d6d6;
 }
 .div-container{
-height: 80vh;
+height: 70vh;
 }
    .header-logo {
     width: 200px;
@@ -109,5 +109,5 @@ p.para1 {
        margin-top: 2px;
    }
    `}</style>
-   );
+    );
 }
