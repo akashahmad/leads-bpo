@@ -10,8 +10,8 @@ body{
     background-color: #202020;
 }
 .image{
-    background-image:url(../images/hero-banner-bg.jpg);
-    height: 80vh;
+    background-image:url(../images/home-1-slide-1.jpg);
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,6 @@ body{
 .img-form{
     background-image:url(../images/Group-1.png);
     height:40vh;
-    background-repeat: 100%;
-    background-color: #3b2148;
-    /* background-size: cover; */
+    background-repeat:no-repeat;
+    background-size: cover;
 }

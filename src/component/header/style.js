@@ -48,13 +48,17 @@ export default()=>(
             padding-top: 2%;
         }
         .section1-paragraph a:hover{
-            color: #8a1082;
+            color: #006a90;
             text-decoration: none;
             list-style: none;
         }
-        .anchor-section1
+        .section1-paragraph a{
+            color: #006a90!important;
+        }
+
+        .anchor-section1 
         {
-            color: #006a90;
+            color: #006a90!important;
             text-decoration: none;
             font-size: 29px;
             font-weight: bold;

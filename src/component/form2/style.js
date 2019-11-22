@@ -36,10 +36,10 @@ p.para1 {
     padding-bottom: 10px;
 }
 .text-area{
-    width:395px!important;
+    width:395px;
     padding-bottom: 30px;
 }
-.btn{
+.btn-form{
     width:395px;
     background-color:purple; 
 }
@@ -51,9 +51,7 @@ p.para1 {
        font-size: 24px;
        padding-left: 2%;
    }
-   .text-area{
-       width:729px
-   }
+  
    .ds{
        display:flex;
      

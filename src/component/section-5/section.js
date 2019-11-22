@@ -13,7 +13,7 @@ export default class MyComponent extends React.Component {
         return (
         <div className="container-fluid collapsible-container">    
             <div className="center d-flex flex-column " >
-        <div classNam="">
+        <div className="sect5">
         <h1 class="pt-5">GOT QUESTIONS? HERE'S THE ANSWERS.</h1>
         </div>
      
