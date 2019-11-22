@@ -73,12 +73,12 @@ export default()=>
 
 <div className="d-flex justify-content-center mt-4">
    
-<div>
+<div className="firstname">
   <input type="text" name="firstname" placeholder="First Name" className="input-first"  value={firstName} 
    onChange={(event) => setfirstName(event.target.value)} required>
        </input>  
 </div>
-<div className="ml-4">
+<div className="lastname ml-4">
   <input type="text" name="lastname" placeholder="Last Name" className="input-first"  value={lastName}
    onChange={(event) => setlastName(event.target.value)} required>
    
@@ -105,7 +105,7 @@ export default()=>
   </textarea> </div> 
 </div>
 <div className="mt-4">
- <div> <Button type="submit" className="btn">Submit</Button> </div> 
+ <div> <Button type="submit" className="btn-form">Submit</Button> </div> 
 </div>
 </div>
 
