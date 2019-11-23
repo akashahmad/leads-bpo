@@ -11,14 +11,21 @@
     }
     .section4 {
         height: 240vh !important;
-
     }
-    body {
+    .link-header{
+        font-size: 27px!important;
+        
+    }
+    button#clip-div1 {
+        margin-top: -37px!important;
+    }
+        /* body {
         width: fit-content!important;
-
-    }
-    .headerLogo{
-        width: 45%!important;
+    } */
+    .headerLogo {
+        width: 40%!important;
+        margin-left: -39%!important;
+        height: 100%;
     }
     .content {
 
@@ -69,11 +76,16 @@
     }
     .section1-paragraph{
         margin-top: 5px!important;
+        margin-left: 38px!important;
     }
-    .section1-paragraph a {
-        margin-right: -116px!important;
+       .section1-paragraph a {
+        width: 193px;
         color: #006a90!important;
+        margin-left: -52px;
+        margin-top: -1px!important;
     }
+    
+    
     div#clip-div1 {
         margin-left: 47px!important;
     }
@@ -86,7 +98,7 @@
         width: 84%!important;
     }
     .image{
-        height: 136vh!important;
+        height: 432px!important;
         width: 100%!important;
     }
     .form{
@@ -160,7 +172,10 @@
     .image-section8 {
            height: 741px!important;
     }
-
+    .align-items-end.content {
+        margin-top: -62px;
+        margin-left: 176px;
+    }
 
 }
 
@@ -475,7 +490,20 @@
         
         
         @media (max-width: 991px) and (min-width: 768px) {
-
+            .image {
+                height: 44vh!important;
+            }
+            .align-items-end.content {
+                margin-left: 10px!important;
+            }
+            .section1-paragraph a {
+                margin-left: -113px!important;
+            }
+            .data {
+                margin-top: -33px!important;
+                width: 400px!important;
+                height: 411px!important;
+            }
             .section1-paragraph a {
                 color: #006a90!important;
                 font-size: 27px;
@@ -509,6 +537,7 @@
                 width: 249px!important;
                 height: 76px!important;
             }
+
             .row.section1-row.d-flex.justify-content-around {
                 width: 1000px!important;
             }
@@ -717,68 +746,58 @@
             .container-fluid.section4 {
                 height: 140vh!important;
             }
-        
-            .image{
-              
-                height: 90vh!important;
-              
-            }
             .headerLogo{
             width: 241px;
-                        }
-                        .data{
-                            width: 400px!important;
-                            height:418px!important;
-                        }
-                        .data h1,h5{
-                            font-size: 26px!important;
-                            
-                        }
-                        .data ul li{
-                            line-height: 28px!important;
-                        }
-                        .data ul li span{
-                          
-                            font-size: 15px!important;
-                          
-                        }
-                        .data ul li p{
-                            font-size: 18px!important;
-                           
-                        }
-                        .button-section2-move{
-                        height: 45px!important;
-                        width: 250px!important;
-                        margin-right: 20px!important;
-                    }
-                    .button-text1{
-                        font-size: 13px!important;
-                    }
-                   
-                  
-                    .data2 h3{
-                        width: 600px!important;
-                    }
-                    .data2 h1{
-                    font-size: 41px!important;
                 }
-                .text-area {
-                    width: 624px!important;
-                    height: 100px!important;
-                }
-                .second {
-                    margin-top: 9px!important;
-                }
-                }
-
-
-
+        .data h1,h5{
+            font-size: 26px!important;
+            
+        }
+        .data ul li{
+            line-height: 28px!important;
+        }
+        .data ul li span{
+            
+            font-size: 15px!important;
+            
+        }
+        .data ul li p{
+            font-size: 18px!important;
+            
+        }
+        .button-section2-move{
+        height: 45px!important;
+        width: 250px!important;
+        margin-right: 20px!important;
+    }
+    .button-text1{
+        font-size: 13px!important;
+    }
+    
+    
+    .data2 h3{
+        width: 600px!important;
+    }
+    .data2 h1{
+    font-size: 41px!important;
+}
+.text-area {
+    width: 624px!important;
+    height: 100px!important;
+}
+.second {
+    margin-top: 9px!important;
+}
+}
 
 
  @media (max-width: 1460px) and (min-width: 1199px){
     i.fa.fa-chevron-circle-right.icon.movement-icon {
         margin-top: 12px!important;
         color: #f37f00!important;
+    }
+    .image-section8 {
+        height: 783px!important;
     }
     .headerLogo {
         width: 285px;
