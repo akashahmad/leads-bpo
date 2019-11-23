@@ -8,33 +8,45 @@ import Button from 'react-bootstrap/Button';
 import Footer from '../footer/footer';
 import {Link} from 'react-router-dom';
 export default() => {
-    const submitHandler = (event) => {
-        event.preventDefault();
 
-    };
 
-    const [data, setdata] = useState([]);
     const [firstName, setfirstName] = useState("");
     const [lastName, setlastName] = useState("");
     const [email, setemail] = useState("");
     const [phone, setphone] = useState("");
     const [postBody, setpostBody] = useState("");
 
+    const addFirstName = e => {
+        setfirstName(e.target.value)
+    };
 
-    const AddItem = (event) => {
-        event.preventDefault();
+    const addLastname = e => {
+        setlastName(e.target.value)
+    };
+    const addEmail = e => {
+        setemail(e.target.value)
+    };
+    const addPhone = e => {
+        setphone(e.target.value)
+    };
+    const addPostBody = e => {
+        setpostBody(e.target.value)
+    };
+
+    const addMember = () => {
         let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
-        axios.post(apiPath + '/api/team', payLoad).then(response => {
-            console.log(response)
-        });
+        axios.post(apiPath + "/api/team", payLoad)
+            .then(response => {
+                // window.location.replace("/thank-you");
+                console.log(response);
 
-        setfirstName("");
-        setlastName("");
-        setemail("");
-        setphone("");
-        setpostBody("");
+            })
+            .catch(err => {
+            });
 
     };
+
+
     return (
         <>
         <section>
@@ -52,7 +64,7 @@ export default() => {
             </div>
         </section>
         <section>
-            <form onSubmit={event => submitHandler(event)}>
+            <form >
                 <div className="d-flex flex-column align-items-center div-container">
                     <div className="container d-flex flex-column align-items-center form">
                         <div className="mt-5">
@@ -63,47 +75,58 @@ export default() => {
 
                             <div className="firstname">
                                 <input type="text" name="firstname" placeholder="First Name" className="input-first"
-                                       value={firstName}
-                                       onChange={(event) => setfirstName(event.target.value)} required>
-                                </input>
+                                       onChange={addFirstName} required/>
                             </div>
+
                             <div className="lastname ml-4">
                                 <input type="text" name="lastname" placeholder="Last Name" className="input-first"
-                                       value={lastName}
-                                       onChange={(event) => setlastName(event.target.value)} required>
+                                       value={lastName} onChange={addLastname} required/>
 
-                                </input>
+                            </div>
+
+                            <div className="fieldset mt-4">
+                                <div>
+                                    <input type="email" placeholder="Email" className="fields"
+                                           name='email' value={email}
+                                           onChange={addEmail}
+                                           pattern='[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\.[A-Za-z]{2,4}'
+                                           title="for example: abc@gmail.com" required/>
+                                </div>
                             </div>
                         </div>
+
                         <div className="mt-4">
-                            <div><input type="number" placeholder="Phone" className="fields"
+                            <div><input placeholder="Phone" className="fields"
                                         value={phone}
-                                        onChange={(event) => setphone(event.target.value)} required>
-
-                            </input>
+                                        onChange={addPhone}
+                                        pattern='"\+([0-9]{1})?\(?([0-9]{3})\)?([0-9]{3})?[-.]?([0-9]{4})?"'
+                                        title="example: ...." required/>
                             </div>
-                        </div>
-                        <div className="mt-4">
-                            <div>
-                                <input required type="email" placeholder="Email" className="fields" value={email}
-                                       onChange={(event) => setemail(event.target.value)}
+                            <p className="p ml-5" style={{color: "black"}}>Pattern: +44 1434634996</p>
 
-                                />
-                            </div>
+
                         </div>
+
+
                         <div className="mt-4">
                             <div> <textarea type="text" placeholder="Your Question" className="text-area"
                                             value={postBody}
-                                            onChange={(event) => setpostBody(event.target.value)} required>
-  </textarea></div>
-                        </div>
-                        <div className="mt-4">
-                            <div>
-                            <Button type="submit" className="btn-form">Submit</Button>
+                                            onChange={addPostBody}
+                                            required
+                            />
                             </div>
                         </div>
-                    </div>
 
+
+                        <div className="mt-4">
+                            <div>
+                                <button onClick={() => addMember()} className="btn-form">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </form>
         </section>
@@ -112,7 +135,5 @@ export default() => {
         <Style/>
 
         </>
-
     );
 }
-

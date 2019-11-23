@@ -3,8 +3,18 @@ import React from 'react'
 export default() => {
     return (
         <style>{`
+
+         // input[type=number]::-webkit-outer-spin-button,
+         //                        input[type=number]::-webkit-inner-spin-button {
+         //                        -webkit-appearance: none;
+         //                        margin: 0;
+         //                    }
    .input-first {
     padding-bottom: 21px;
+}
+.fieldset{
+margin-top: 7%!important;
+    margin-left: -50%!important;
 }
    .container.d-flex.flex-column.align-items-center.form {
     border: 2px solid #006a90;

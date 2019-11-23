@@ -8,6 +8,7 @@ body{
     
     height: 500px;
     background-color: #202020;
+    margin-top: 4%;
 }
 .image{
     background-image:url(../images/home-1-slide-1.jpg);
