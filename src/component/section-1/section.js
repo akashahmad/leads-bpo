@@ -36,7 +36,7 @@ export default()=>{
             </ul>
 
             <section>
-                <Link to={"/help"}>
+                <Link to={"/chat"}>
               <div className="animated infinite pulse button-section2-move clip-div d-flex" id="clip-div">
                   <button className="btn btn-purple btn-ndh  scroll_btn pulse clip" id="clip"><p class="button-text1">FIND A DEBT SOLUTION</p> </button>
                   <i  className="fa fa-chevron-circle-right icon movement-icon"/>

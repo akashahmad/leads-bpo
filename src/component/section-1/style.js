@@ -4,7 +4,6 @@ export default()=>(
         `
 
         a:hover {
-            /* color: #0056b3; */
             text-decoration: none;
         }
 
@@ -19,6 +18,7 @@ export default()=>(
         //     background-repeat: no-repeat;
         //     background-size: cover;
         // }
+        
         .data{
         
             width: 500px;

@@ -1,5 +1,6 @@
 import React from 'react'
 import Style from '../section-7/style'
+import {Link} from 'react-router-dom'
 export default ()=>{
 
 return(
@@ -35,10 +36,12 @@ return(
         </div>    
 
         <section>
+            <Link to={"/chat"}>
           <div className="animated mt-5 infinite pulse button-section2-move2 clip-div2 d-flex" id="clip-div2">
               <button className="btn btn-purple btn-ndh  scroll_btn pulse clip2" id="clip2"><p className="button-text2">FIND A DEBT SOLUTION</p> </button>
               <i className="fa fa-chevron-circle-right icon movement-icon2"></i>
           </div>
+          </Link>
           </section>
     </div>
 </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Style from '../section-4/style'
 import img1 from '../../asserts/images/purple-price-circle.png'
-
+import {Link} from 'react-router-dom'
 
 export default ()=>{
     return(
@@ -17,11 +17,12 @@ export default ()=>{
                     <h2 className="mt-3"><b>How Much Of Your Debt Could<br/>You Potentially Write-Off?..</b></h2>
                     <p className="mt-3 pp">Here is an example of how your debt could be managed.<br/> Please note debt write off is dependent on<br/> personal circumstances, so find out now:</p>    
                     
-                    <section>
+                    <section><Link to={"/chat"}>
                       <div className="animated infinite pulse button-section2-move1 clip-div1 d-flex" id="clip-div1">
                           <button className="btn btn-purple btn-ndh  scroll_btn pulse clip1" id="clip1"><p class="button-text1">START FREE DEBT ASSESSMENT</p> </button>                        
                           <i className="fa fa-chevron-circle-right icon movement-icon1"></i>
                       </div>
+                      </Link>
                       </section> 
                 
                 

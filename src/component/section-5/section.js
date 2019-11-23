@@ -2,6 +2,7 @@ import React from 'react';
 import Style from '../../component/section-5/style'
 import {CollapsibleComponent, CollapsibleHead, CollapsibleContent} from 'react-collapsible-component'
 import image from '../../asserts/images/pull-down.png'  
+import {Link} from 'react-router-dom'
 
 export default class MyComponent extends React.Component {
     
@@ -74,14 +75,14 @@ export default class MyComponent extends React.Component {
                 </CollapsibleContent>
             </CollapsibleComponent>
 
-            </div>
+            </div><Link to={"/chat"}>
             <section className="mt-5">
                       <div className="animated infinite pulse button-section2-move1 clip-div1 d-flex" id="clip-div1">
                           <button className="btn btn-purple btn-ndh  scroll_btn pulse clip1" id="clip1"><p class="button-text1 ">START FREE DEBT ASSESSMENT</p> </button>
                           <i className="fa fa-chevron-circle-right icon movement-icon1"></i>
                       </div>
                       </section> 
-
+                      </Link>
                 <div className="mt-5">
 
                 </div>

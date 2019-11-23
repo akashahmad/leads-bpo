@@ -8,7 +8,7 @@ export default()=>(
 
       
         .first-para{
-            color: #006a90; 
+            color: #06536f; 
             font-size: 22px;
             font-weight: 400;
         }
@@ -19,7 +19,7 @@ export default()=>(
             margin-top: -10px;
         }
         .heading-section8{
-            color: #006a90;
+            color: #035f80;
         }
         .last-heading-h5{
             color: white;

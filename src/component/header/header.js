@@ -17,7 +17,7 @@ export default ()=>{
                          <a className="anchor-section1"><Link to={'/help'}>Blackberry Finance Solutions</Link></a>
                            
                         </div>
-                      <p className="mr-2">blackberryfinancesolutions.netlify.com</p>
+                      <p className="mr-2 link-header">blackberryfinancesolutions.netlify.com</p>
                         </div>
                         {/* <div className="d-flex flex-column below-anchor">
                             <p className="mr-2">www.blackberryfinancesolutions.com</p>
@@ -35,7 +35,7 @@ export default ()=>{
                           <i className="fa fa-chevron-circle-right icon movement-icon1"></i>
                         </div>
                        </Link> */}
-                       <Link to={'/formPage'}>
+                       <Link to={'/contact-form'}>
                        <div>
                        <button className="scroll_btn pulse  animated infinite pulse button-section2-header clip-div1 d-flex mt-4" id="clip-div1"><span className="button-header-text">Contact</span></button>
                        </div>

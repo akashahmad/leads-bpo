@@ -14,7 +14,8 @@ export default()=>(
         //     background-color: #202020;
         // }
         .footer{
-        background-color:#616569;
+        // background-color:#616569;
+        background-color:black;
         }
         .footer-div1{
             display: flex;
