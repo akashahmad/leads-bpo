@@ -99,8 +99,7 @@ export default() => {
                         </div>
                         <div className="mt-4">
                             <div>
-                                <Link to={"./thankuPage"}> <Button type="submit"
-                                                                   className="btn-form">Submit</Button></Link>
+                            <Button type="submit" className="btn-form">Submit</Button>
                             </div>
                         </div>
                     </div>

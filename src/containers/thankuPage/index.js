@@ -1,15 +1,16 @@
 import React from 'react'
 import Layout from '../../component/layout/layout'
 import Style from './style';
+import '../../asserts/style/ridaresponsive.css';
 
 export default ()=>{
 
     return(
         <>
-
+        <section className="thankuPage">
         <Layout>
             <hr/>
-            <section className="thankuPage">
+
                 <div className="container">
                         <div className="row" >
                             <div className="twelve columns text-center" >
@@ -24,8 +25,9 @@ export default ()=>{
                         </div>
 
                 </div>
-            </section>
+
         </Layout>
+        </section>
         <Style/>
         </>
     );
