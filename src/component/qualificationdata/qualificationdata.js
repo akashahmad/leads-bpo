@@ -5,7 +5,6 @@ import axios from "axios";
 import Style from "./style";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
-import {Link} from 'react-router-dom';
 import '../../asserts/style/Roboresponsive.css';
 
 
@@ -56,6 +55,7 @@ export default () => {
             question: "My First Name is",
             takeInput: true,
             value: "",
+            disable: false,
             type: "text",
             name: "firstName"
         },
@@ -67,6 +67,7 @@ export default () => {
             question: "My Last Name is",
             takeInput: true,
             value: "",
+            disable: false,
             type: "text",
             name: "lastName"
         },
@@ -79,9 +80,10 @@ export default () => {
             takeInput: false
         },
         {
-            question: "My Phone Number is +44",
+            question: "My Phone Number is",
             takeInput: true,
             type: "number",
+            disable: false,
             value: "",
             name: "phone"
         },
@@ -92,6 +94,7 @@ export default () => {
         {
             question: "My Email is",
             takeInput: true,
+            disable: false,
             type: "email",
             value: "",
             name: "email"
@@ -168,7 +171,7 @@ export default () => {
                                 newMessate[index] = {question: "submit"};
                             }
                             setShowQuestions(newMessate);
-                        }, 3000);
+                        }, 300);
                         return (
                             <div className="ml-5 mt-5 mb-3">
                                 <div className="d-flex Loader">
@@ -196,18 +199,21 @@ export default () => {
                                     <form onSubmit={(event) => {
                                         event.preventDefault();
                                         if (single.type === "number") {
-                                            if (!phoneNumberValidator("0" + showQuestions[index].value)) {
+                                            console.log(showQuestions[index].value);
+                                            if (!phoneNumberValidator("+" + showQuestions[index].value)) {
                                                 let newMessate = [...showQuestions];
-                                                newMessate[index].message = "Number is Invalid";
+                                                newMessate[index].message = "Mobile number Pattern +441234567890";
                                                 setShowQuestions(newMessate);
                                             } else {
                                                 let newMessate = [...showQuestions];
-                                                newMessate[index].value = "+44" + showQuestions[index].value;
+                                                newMessate[index].disable = true;
+                                                newMessate[index].value = "+" + showQuestions[index].value;
                                                 newMessate.push({question: "typing"});
                                                 setShowQuestions(newMessate);
                                             }
                                         } else {
                                             let newMessate = [...showQuestions];
+                                            newMessate[index].disable = true;
                                             newMessate.push({question: "typing"});
                                             setShowQuestions(newMessate);
                                         }
@@ -224,16 +230,16 @@ export default () => {
                                                            let newMessate = [...showQuestions];
                                                            let value = event.target.value;
                                                            newMessate[index].message = "";
-                                                           if (value.length <= 10) {
+                                                           if (value.length <= 13) {
                                                                newMessate[index].value = value;
                                                            }
                                                            setShowQuestions(newMessate);
                                                        }}/>
                                                 <p className="req-msg">
-                                                {  showQuestions[index].message ? showQuestions[index].message : ""}</p>
+                                                    {  showQuestions[index].message ? showQuestions[index].message : ""}</p>
                                             </div>
                                             :
-                                            <input  placeholder="" className="input mt-4 ml-4"
+                                            <input placeholder="" className="input mt-4 ml-4"
                                                    type={single.type}
                                                    required={true}
                                                    autoFocus
@@ -242,7 +248,8 @@ export default () => {
                                                        newMessate[index].value = event.target.value;
                                                        setShowQuestions(newMessate);
                                                    }}/>}
-                                        <Button style={{marginTop: "-1%", marginLeft: "8%!important"}} type="submit"
+                                        <Button style={{marginTop: "-1%", marginLeft: "8%!important"}}
+                                                disabled={showQuestions[index].disable} type="submit"
                                                 variant="secondary" className="button ml-2">
                                             Go
                                         </Button>
