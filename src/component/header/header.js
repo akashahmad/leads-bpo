@@ -16,7 +16,7 @@ export default ()=>{
                             <h4 className="paragragh1-section1">Contact for Support: </h4>
                          <a className="anchor-section1"><Link to={'/help'}>Debt Expert UK</Link></a>                           
                         </div>
-                      <p className="mr-2 link-header">blackberryfinancesolutions.netlify.com</p>
+                      <p className="mr-2 link-header">debtexpertuk.netlify.com</p>
                         </div>
 
                         {/* <div className="d-flex flex-column below-anchor">
