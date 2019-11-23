@@ -3,32 +3,32 @@ import React from 'react'
 export default() => {
     return (
         <style>{`
-
-         // input[type=number]::-webkit-outer-spin-button,
-         //                        input[type=number]::-webkit-inner-spin-button {
-         //                        -webkit-appearance: none;
-         //                        margin: 0;
-         //                    }
    .input-first {
     padding-bottom: 21px;
 }
-.fieldset{
-margin-top: 7%!important;
-    margin-left: -50%!important;
+.header-logo {
+    width: 17%!important;
+    margin-left: -5%;
+
 }
-   .container.d-flex.flex-column.align-items-center.form {
+.container.d-flex.flex-column.align-items-center.form {
     border: 2px solid #006a90;
-    height: 70vh;
+    height: 114vh;
     width: 558px;
     /* margin-bottom: 357px; */
     margin-top: -1%;
     box-shadow: 8px 17px #d6d6d6;
 }
+.fieldset{
+margin-top: 7%!important;
+    margin-left: -50%!important;
+}
+
 .div-container{
 height: 70vh;
 }
    .header-logo {
-    width: 200px;
+    height: 50%;
 }
 .img-form p{
     font-size:40px;

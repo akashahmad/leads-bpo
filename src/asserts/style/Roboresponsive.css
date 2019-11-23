@@ -1,8 +1,13 @@
    /*robo chat responsive start*/
+   @media (max-width: 1400px) and (min-width: 1200px) {
+       .chat-input-data {
+           width: 710px!important;
+           margin-top: 2%;
+       }
+   }
 @media (max-width: 1199px) and (min-width: 1024px) {
     body {
         width: fit-content!important;
-
     }
 
     .container-fluid {
