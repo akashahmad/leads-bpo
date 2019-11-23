@@ -1,0 +1,639 @@
+/*thankuPage*/
+
+/*(max-width: 479px)- (min-width: 320px)*/
+
+@media (max-width: 479px) and (min-width: 320px) {
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 40%!important;
+        margin-left: 30%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+    }
+    .section1-paragraph h4 {
+        font-size: 23px!important;
+        margin-right: -4px!important;
+        margin-left: 3%;
+        width: 349px;
+    }
+    .anchor-section1{
+        margin-left: -74%;
+        font-size: 23px!important;
+        margin-top: 30px!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+        padding: 1px;
+        font-size: 24px;
+    }
+
+    .scroll_btn{
+        margin-left: -10%;
+    }
+
+    p.p {
+        padding-top: 6%;
+        font-size: 27px;
+        margin-left: 16px;
+    }
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        margin-bottom: 3rem;
+        font-size: 20px;
+    }
+    .footer {
+        height: 673px!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .thankuPage.container {
+        margin: 0 auto;
+        max-width: 100%!important;
+        width: 90%;
+    }
+    .thankuPage .twelve{
+
+    }
+    .twelve.columns >h3 {
+        font-size: 60px!important;
+        font-weight: 700;
+        color: #8a108ba8!important;
+        margin: 0 0 10px 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+    .twelve.columns >strong >p{
+        font-size: 30px!important;
+        line-height: 67px;
+        overflow-wrap: break-word;
+    }
+
+    .thankuPage .twelve.columns>p.leads {
+        line-height: 67px;
+        overflow-wrap: break-word;
+        font-size: 30px!important;
+    }
+}
+
+
+/*(max-width: 567px) - (min-width: 480px)*/
+
+@media (max-width: 567px) and (min-width: 480px) {
+
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 40%!important;
+        margin-left: 30%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+        margin-left: 30%;
+        width: 92%;
+    }
+    .section1-paragraph h4 {
+        font-size: 23px!important;
+        margin-right: -4px!important;
+        margin-left: 3%;
+        width: 349px;
+    }
+    .anchor-section1{
+        margin-left: -80%;
+        font-size: 23px!important;
+        margin-top: 30px!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+        padding: 0px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .scroll_btn{
+        margin-left: -10%;
+    }
+
+    p.p {
+        padding-top: 6%;
+        font-size: 27px;
+        margin-left: 16px;
+    }
+    .footer{
+        height: 100%!important;
+    }
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        margin-bottom: 3rem;
+        font-size: 20px;
+    }
+
+    .footer-ul{
+        margin: 0;
+        font-size: 17px;
+        text-align: center;
+        padding: 0;
+    }
+    .thankuPage.container {
+        margin: 0 auto;
+        max-width: 100%!important;
+        width: 90%;
+    }
+    .thankuPage .twelve{
+        background: #F4F4F4;
+        padding: 40px;
+        margin:50px;
+    }
+    .twelve.columns >h3 {
+        font-size: 60px!important;
+        font-weight: 700;
+        color: #8a108ba8!important;
+        margin: 0 0 10px 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+    .twelve.columns >strong >p{
+        font-size: 30px!important;
+        line-height: 67px;
+        overflow-wrap: break-word;
+    }
+
+    .thankuPage .twelve.columns>p.leads {
+        line-height: 67px;
+        overflow-wrap: break-word;
+        font-size: 30px!important;
+    }
+}
+
+/*(max-width: 684px)-(min-width: 568px)*/
+
+@media (max-width: 684px) and (min-width: 568px) {
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 40%!important;
+        margin-left: 30%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+        margin-left: 30%;
+        width: 92%;
+    }
+    .section1-paragraph h4 {
+        font-size: 23px!important;
+        margin-right: -4px!important;
+        margin-left: 3%;
+        width: 349px;
+    }
+    .anchor-section1{
+        margin-left: -80%;
+        font-size: 23px!important;
+        margin-top: 30px!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+        padding: 0px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .scroll_btn{
+        margin-left: -10%;
+    }
+    p.p {
+        padding-top: 6%;
+        font-size: 27px;
+        margin-left: 16px;
+    }
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        margin-bottom: 3rem;
+        font-size: 20px;
+    }
+    .footer {
+        height: 666px!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+    .thankuPage.container {
+        margin: 0 auto;
+        max-width: 100%!important;
+        width: 90%;
+    }
+    .thankuPage .twelve{
+        background: #F4F4F4;
+        padding: 40px;
+        margin:50px;
+    }
+    .twelve.columns >h3 {
+        font-size: 60px!important;
+        font-weight: 700;
+        color: #8a108ba8!important;
+        margin: 0 0 10px 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+    .twelve.columns >strong >p{
+        font-size: 30px!important;
+        line-height: 67px;
+        overflow-wrap: break-word;
+    }
+
+    .thankuPage .twelve.columns>p.leads {
+        line-height: 67px;
+        overflow-wrap: break-word;
+        font-size: 30px!important;
+    }
+}
+
+/*(max-width: 767px)- (min-width: 685px)*/
+
+@media (max-width: 767px) and (min-width: 685px) {
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 50%!important;
+        margin-left: 25%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+        width: 92%;
+    }
+    .section1-paragraph h4 {
+        margin-left: -10px;
+    }
+    .anchor-section1{
+        margin-left: -70%;
+        margin-top: 75px!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+        padding: 0px;
+        font-size: 25px;
+        font-weight: initial;
+    }
+
+    .scroll_btn{
+        margin-left: -10%;
+    }
+    p.p {
+        font-size: 29px!important;
+    }
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        margin-bottom: 3rem;
+        font-size: 22px;
+    }
+    .footer {
+        height: 666px!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .thankuPage.container-fluid.footer{
+        height: 685px!important;
+    }
+    .thankuPage.container {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 90%;
+    }
+    .thankuPage .twelve{
+        background: #F4F4F4;
+        padding: 40px;
+        margin:50px;
+    }
+    .twelve.columns >h3 {
+        font-size: 60px!important;
+        font-weight: 700;
+        color: #8a108ba8!important;
+        margin: 0 0 10px 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+    .twelve.columns >strong >p{
+        font-size: 30px!important;
+        line-height: 67px;
+        overflow-wrap: break-word;
+    }
+
+    .thankuPage .twelve.columns>p.leads {
+        line-height: 67px;
+        overflow-wrap: break-word;
+        font-size: 30px!important;
+    }
+}
+
+/*(max-width: 991px)- (min-width: 768px)*/
+
+@media (max-width: 991px) and (min-width: 768px) {
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 55%!important;
+        margin-left: 22.5%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+        width: 92%;
+    }
+    .section1-paragraph h4 {
+        margin-left: -19px;
+    }
+    .anchor-section1{
+        margin-left: -26%;
+        margin-top: 39px!important;
+        font-size: 34px!important;}
+    .mr-2 {
+        margin-right: -8.5rem!important;
+        padding: 0px;
+        font-size: 35px;
+        font-weight: initial;
+    }
+
+    .scroll_btn{
+        margin-left: -23%;
+        padding: 35px;
+    }
+    .button-header-text {
+        text-align: center!important;
+        padding-left: 34px!important;
+        margin-top: -18px;
+        margin-left: -15px;
+    }
+    p.p {
+        font-size: 33px!important;
+    }
+    .chat1-inside-data {
+        max-width: 864px!important;
+    }
+
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 28px!important;
+
+    }
+    .footer-p1{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 29px;
+    }
+    .footer {
+        height: 833px!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 27px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .content {
+        margin-right: 50px!important;
+    }
+    .thankuPage.container {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 90%;
+    }
+    .thankuPage .twelve{
+        background: #F4F4F4;
+        padding: 40px;
+        margin:50px;
+    }
+    .twelve.columns >h3 {
+        font-size: 60px!important;
+        font-weight: 700;
+        color: #8a108ba8!important;
+        margin: 0 0 10px 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+    .twelve.columns >strong >p{
+        font-size: 30px!important;
+        line-height: 67px;
+        overflow-wrap: break-word;
+    }
+
+    .thankuPage .twelve.columns>p.leads {
+        line-height: 67px;
+        overflow-wrap: break-word;
+        font-size: 30px!important;
+    }
+}
+
+/*(max-width: 1023px)-(min-width: 992px)*/
+
+@media (max-width: 1023px) and (min-width: 992px) {
+
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 80%!important;
+        margin-left: 10%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        font-size: 46px!important;
+        margin-top: 5px!important;
+        width: 92%;
+    }
+    .section1-paragraph h4 {
+        margin-left: -19px;
+        font-size: 46px!important;
+    }
+    .anchor-section1
+    {
+        margin-left: -64%;
+        margin-top: 39px!important;
+        font-size: 43px!important;
+        padding: 21px!important;
+    }
+    .mr-2 {
+        margin-top: -26px!important;
+        margin-right: -1.5rem!important;
+        padding: 0px;
+        font-size: 42px;
+    }
+
+    .scroll_btn{
+        margin-left: -21%;
+        padding: 43px;
+    }
+    .button-header-text {
+        padding-left: 33px!important;
+        margin-top: -26px;
+        margin-left: -31px;
+        font-size: 37px;
+    }
+    .ml-5{
+        margin-left: 6rem!important;
+    }
+    p.p {
+        font-size: 33px!important;
+    }
+    .chat1-inside-data {
+        max-width: 864px!important;
+    }
+
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 34px!important;
+
+    }
+    .footer-p1{
+        margin-bottom: 3rem;
+        font-size: 35px;
+        text-align: center;
+    }
+    .footer {
+        height: 853px!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 29px;
+        text-align: center;
+        padding: 0;
+    }
+    .thankuPage.container {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 90%;
+    }
+    .thankuPage .twelve{
+        background: #F4F4F4;
+        padding: 40px;
+        margin:50px;
+    }
+    .twelve.columns >h3 {
+        font-size: 60px!important;
+        font-weight: 700;
+        color: #8a108ba8!important;
+        margin: 0 0 10px 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+    .twelve.columns >strong >p{
+        font-size: 30px!important;
+        line-height: 67px;
+        overflow-wrap: break-word;
+    }
+
+    .thankuPage .twelve.columns>p.leads {
+        line-height: 67px;
+        overflow-wrap: break-word;
+        font-size: 30px!important;
+    }
+}
+
+/*(max-width: 1199px)-(min-width: 1024px)*/
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .thankuPage.container {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 90%;
+    }
+    .thankuPage .twelve{
+        background: #F4F4F4;
+        padding: 40px;
+        margin:50px;
+    }
+    .twelve.columns >h3 {
+        font-size: 60px!important;
+        font-weight: 700;
+        color: #8a108ba8!important;
+        margin: 0 0 10px 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+    .twelve.columns >strong >p{
+        font-size: 30px!important;
+        line-height: 67px;
+        overflow-wrap: break-word;
+    }
+
+    .thankuPage .twelve.columns>p.leads {
+        line-height: 67px;
+        overflow-wrap: break-word;
+        font-size: 30px!important;
+    }
+}
+
+/*thankuPage*/
+
+
+
+
+
