@@ -3,10 +3,8 @@ export default()=>(
     <style js="true">{
         `
         .button-text-header {
-            // padding-left: 2%;
             font-size: 28px;
             margin-top: -1px;
-            // margin-left: -24px;
             color: white;
             text-align:center;
         }
@@ -62,7 +60,7 @@ export default()=>(
             text-decoration: none;
             font-size: 29px;
             font-weight: bold;
-            margin-top: 9px;
+            margin-top: 5px;
             padding: 5px;
         
         }

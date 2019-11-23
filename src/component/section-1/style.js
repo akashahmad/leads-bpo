@@ -18,13 +18,15 @@ export default()=>(
         //     background-repeat: no-repeat;
         //     background-size: cover;
         // }
-        
+
         .data{
         
             width: 500px;
             height: 500px;
-            background:rgb(0, 0, 0);
-            background:rgba(0, 0, 0,0.8);
+            // background:rgb(0, 0, 0);
+            // background:rgba(0, 0, 0,0.8);
+
+            background: rgb(243, 127, 0,0.5);
         }
         .data h1{
             font-size: 42px;
@@ -91,7 +93,7 @@ export default()=>(
         }
         .clip-div{
             width: 400px;
-            background-color: #F5CC00 ;
+            background-color: #006a90 ;
             cursor: pointer;
             border-radius: 3px;
         
@@ -103,7 +105,7 @@ export default()=>(
             transition-timing-function: ease-in-out;    
         }
         .clip-div:hover{
-            background-color:#FFB300;
+            background-color:#006a90;
             
         }
         .icon{
@@ -137,6 +139,12 @@ export default()=>(
             color: #fff;
             font-size: 32px;
         }
+        
+        button#clip-div1:hover {
+            background: #075875;
+        }
+        
+        
         /* section 2 ends here  */
         /* --------------------------- */
 

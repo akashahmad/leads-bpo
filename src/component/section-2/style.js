@@ -7,8 +7,8 @@ export default()=>(
 
         .pad{
             background: gainsboro;
-            border-bottom: 1px solid #8b6ba3;
-            border-top: 1px solid #8b6ba3;
+            border-bottom: 1px solid #006a90;
+            border-top: 1px solid #006a90;
                 
         }
         i.fa {

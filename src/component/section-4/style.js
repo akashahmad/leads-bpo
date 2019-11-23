@@ -27,7 +27,7 @@ export default()=>(
         }
         .clip-div1{
             width: 400px;
-            background-color: #F5CC00;
+            background-color: #006a90;
             cursor: pointer;
             border-radius: 3px;
         }
@@ -38,7 +38,7 @@ export default()=>(
             transition-timing-function: ease-in-out;
         }
         .clip-div1:hover{
-            background-color:#FFB300;
+            background-color:#006a90;
         }
         .icon1{
         color:#006a90;

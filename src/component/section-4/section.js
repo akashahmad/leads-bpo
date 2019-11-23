@@ -14,7 +14,7 @@ export default ()=>{
                 
                 <div className="left-side-section5 d-flex  flex-column mt-5 mr-5">
                     
-                    <h2 className="mt-3"><b>How Much Of Your Debt Could<br/>You Potentially Write-Off?..</b></h2>
+                    <h2 className="mt-3"><b className="color">How Much Of Your Debt Could<br/>You Potentially Write-Off?..</b></h2>
                     <p className="mt-3 pp">Here is an example of how your debt could be managed.<br/> Please note debt write off is dependent on<br/> personal circumstances, so find out now:</p>    
                     
                     <section><Link to={"/chat"}>
