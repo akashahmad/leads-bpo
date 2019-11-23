@@ -4,6 +4,19 @@ export default ()=>{
     return(
         <style js="true">
             {`
+             // input[type=number]::-webkit-outer-spin-button,
+             //                    input[type=number]::-webkit-inner-spin-button {
+             //                    -webkit-appearance: none;
+             //                    margin: 0;
+             //                }
+            .req-msg
+            {
+            margin-left: 52%;
+            margin-top: 0;
+            margin-bottom: 1rem;
+             color: red;
+            }
+
             .container-all{
                 
                 box-shadow: 0 0 10px;
@@ -60,7 +73,7 @@ export default ()=>{
             .chat-input-data {
                 float: right;
                 background: purple;
-                max-width: 800px;
+                width: 39%;
                 height: 120px;
                 border-radius: 55px;
                 
@@ -95,13 +108,14 @@ export default ()=>{
                 padding-bottom: 127px;
             }
             .chat-input-data2 {
-                background: purple;
-                float: right;
-                border-radius: 10px;
-                max-width: 800px;
-                height: 120px;
-                border-radius: 55px;
-            }
+    margin-top: 2%;
+    background: purple;
+    float: right;
+    border-radius: 10px;
+    max-width: 800px;
+    height: 110px;
+    border-radius: 55px;
+}
             .chat-input-data2 .btn{
                 border-radius: 10px;
                 width: 100px;

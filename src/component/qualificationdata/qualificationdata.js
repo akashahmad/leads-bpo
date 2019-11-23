@@ -6,6 +6,7 @@ import Style from "./style";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import {Link} from 'react-router-dom';
+import '../../asserts/style/Roboresponsive.css';
 
 
 export default () => {
@@ -119,6 +120,7 @@ export default () => {
         return re.test(String(number).toLowerCase());
     };
 
+
     return (
         <>
 
@@ -166,7 +168,7 @@ export default () => {
                                 newMessate[index] = {question: "submit"};
                             }
                             setShowQuestions(newMessate);
-                        }, 500);
+                        }, 3000);
                         return (
                             <div className="ml-5 mt-5 mb-3">
                                 <div className="d-flex Loader">
@@ -227,10 +229,11 @@ export default () => {
                                                            }
                                                            setShowQuestions(newMessate);
                                                        }}/>
-                                                <p>{showQuestions[index].message ? showQuestions[index].message : ""}</p>
+                                                <p className="req-msg">
+                                                {  showQuestions[index].message ? showQuestions[index].message : ""}</p>
                                             </div>
                                             :
-                                            <input placeholder="" className="input mt-4 ml-4"
+                                            <input  placeholder="" className="input mt-4 ml-4"
                                                    type={single.type}
                                                    required={true}
                                                    autoFocus
@@ -239,7 +242,7 @@ export default () => {
                                                        newMessate[index].value = event.target.value;
                                                        setShowQuestions(newMessate);
                                                    }}/>}
-                                        <Button style={{position: "relative", zIndex: "1"}} type="submit"
+                                        <Button style={{marginTop: "-1%", marginLeft: "8%!important"}} type="submit"
                                                 variant="secondary" className="button ml-2">
                                             Go
                                         </Button>

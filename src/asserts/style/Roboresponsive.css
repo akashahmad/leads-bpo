@@ -1,0 +1,563 @@
+   /*robo chat responsive start*/
+@media (max-width: 1199px) and (min-width: 1024px) {
+    body {
+        width: fit-content!important;
+
+    }
+
+    .container-fluid {
+        width: 99%;
+    }
+    /*.headerLogo{*/
+    /*width: 50%!important;*/
+    /*margin-left: 25%;*/
+    /*height: 100%;*/
+
+    /*}*/
+    /*.section1-paragraph{*/
+    /*margin-top: 5px!important;*/
+    /*width: 92%;*/
+    /*}*/
+    /*.section1-paragraph h4 {*/
+    /*margin-left: -6%;*/
+    /*margin-top: 1px;*/
+    /*font-size: 35px!important;*/
+    /*}*/
+    /*.anchor-section1{*/
+    /*margin-left: -62%;*/
+    /*margin-top: 42px!important;*/
+    /*font-size: 33px!important;*/
+    /*}*/
+    /*.mr-2 {*/
+    /*margin-right: 0.5rem!important;*/
+    /*padding: 0px;*/
+    /*font-size: 25px;*/
+    /*font-weight: initial;*/
+    /*}*/
+
+    /*.scroll_btn{*/
+    /*margin-left: -10%;*/
+    /*}*/
+    /*p.p {*/
+    /*font-size: 29px!important;*/
+    /*}*/
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 22px;
+    }
+    .footer {
+        height: 680px!important;
+        margin-top: 18%!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 23px;
+        text-align: center;
+        padding: 0;
+    }
+    .chat-input-data {
+        width: 800px!important;
+        margin-top: 2%;
+    }
+    .chat1-inside-data {
+        margin-top: 11%;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 1023px) and (min-width: 992px) {
+    body {
+        width: fit-content!important;
+
+    }
+
+    .container-fluid {
+        width: 99%;
+    }
+    /*.headerLogo{*/
+    /*width: 50%!important;*/
+    /*margin-left: 25%;*/
+    /*height: 100%;*/
+
+    /*}*/
+    /*.section1-paragraph{*/
+    /*margin-top: 5px!important;*/
+    /*width: 92%;*/
+    /*}*/
+    /*.section1-paragraph h4 {*/
+    /*margin-left: -6%;*/
+    /*margin-top: 1px;*/
+    /*font-size: 35px!important;*/
+    /*}*/
+    /*.anchor-section1{*/
+    /*margin-left: -62%;*/
+    /*margin-top: 42px!important;*/
+    /*font-size: 33px!important;*/
+    /*}*/
+    /*.mr-2 {*/
+    /*margin-right: 0.5rem!important;*/
+    /*padding: 0px;*/
+    /*font-size: 25px;*/
+    /*font-weight: initial;*/
+    /*}*/
+
+    /*.scroll_btn{*/
+    /*margin-left: -10%;*/
+    /*}*/
+    /*p.p {*/
+    /*font-size: 29px!important;*/
+    /*}*/
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 22px;
+    }
+    .footer {
+        height: 680px!important;
+        margin-top: 18%!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 23px;
+        text-align: center;
+        padding: 0;
+    }
+    .chat-input-data {
+        width: 800px!important;
+        margin-top: 2%;
+    }
+    .chat1-inside-data {
+        margin-top: 11%;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    body {
+        width: fit-content!important;
+
+    }
+
+    .container-fluid {
+        width: 99%;
+    }
+    /*.headerLogo{*/
+        /*width: 50%!important;*/
+        /*margin-left: 25%;*/
+        /*height: 100%;*/
+
+    /*}*/
+    /*.section1-paragraph{*/
+        /*margin-top: 5px!important;*/
+        /*width: 92%;*/
+    /*}*/
+    /*.section1-paragraph h4 {*/
+        /*margin-left: -6%;*/
+        /*margin-top: 1px;*/
+        /*font-size: 35px!important;*/
+    /*}*/
+    /*.anchor-section1{*/
+        /*margin-left: -62%;*/
+        /*margin-top: 42px!important;*/
+        /*font-size: 33px!important;*/
+    /*}*/
+    /*.mr-2 {*/
+        /*margin-right: 0.5rem!important;*/
+        /*padding: 0px;*/
+        /*font-size: 25px;*/
+        /*font-weight: initial;*/
+    /*}*/
+
+    /*.scroll_btn{*/
+        /*margin-left: -10%;*/
+    /*}*/
+    /*p.p {*/
+        /*font-size: 29px!important;*/
+    /*}*/
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 22px;
+    }
+    .footer {
+        height: 680px!important;
+        margin-top: 18%!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 23px;
+        text-align: center;
+        padding: 0;
+    }
+    .chat-input-data {
+        width: 800px!important;
+        margin-top: 2%;
+    }
+    .chat1-inside-data {
+        margin-top: 11%;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 767px) and (min-width: 685px) {
+    body {
+        width: fit-content!important;
+
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 50%!important;
+        margin-left: 25%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+        width: 92%;
+    }
+    .section1-paragraph h4 {
+        margin-left: -6%;
+        margin-top: 1px;
+        font-size: 35px!important;
+    }
+    .anchor-section1{
+        margin-left: -62%;
+        margin-top: 42px!important;
+        font-size: 33px!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+        padding: 0px;
+        font-size: 25px;
+        font-weight: initial;
+    }
+
+    .scroll_btn{
+        margin-left: -10%;
+    }
+    p.p {
+        font-size: 29px!important;
+    }
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 22px;
+    }
+    .footer {
+        height: 680px!important;
+        margin-top: 18%!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 23px;
+        text-align: center;
+        padding: 0;
+    }
+    .chat-input-data {
+        width: 800px!important;
+        margin-top: 2%;
+    }
+    .chat1-inside-data {
+        margin-top: 11%;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 684px) and (min-width: 568px) {
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+        margin-top: 11%!important;
+    }
+    .headerLogo{
+        width: 40%!important;
+        margin-left: 30%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+        margin-left: 30%;
+        width: 92%;
+    }
+    .section1-paragraph h4 {
+        font-size: 23px!important;
+        margin-right: -4px!important;
+        margin-left: 3%;
+        width: 349px;
+    }
+    .anchor-section1{
+        margin-left: -80%;
+        font-size: 23px!important;
+        margin-top: 30px!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+        padding: 0px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .scroll_btn{
+        margin-left: -10%;
+    }
+    p.p {
+        padding-top: 6%;
+        font-size: 27px;
+        margin-left: 16px;
+    }
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        margin-bottom: 3rem;
+        font-size: 20px;
+    }
+    .footer {
+        height: 666px!important;
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+    .chat-input-data {
+        width: 95%!important;
+        margin-top: 2%;
+    }
+    .chat1-inside-data {
+        margin-top: 11%;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 567px) and (min-width: 480px) {
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 40%!important;
+        margin-left: 30%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+        margin-left: 30%;
+        width: 92%;
+    }
+    .section1-paragraph h4 {
+        font-size: 23px!important;
+        margin-right: -4px!important;
+        margin-left: 3%;
+        width: 349px;
+    }
+    .anchor-section1{
+        margin-left: -80%;
+        font-size: 23px!important;
+        margin-top: 30px!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+        padding: 0px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .scroll_btn{
+        margin-left: -10%;
+    }
+
+    p.p {
+        padding-top: 6%;
+        font-size: 27px;
+        margin-left: 16px;
+    }
+    .footer-div2 {
+        margin-top: 3%;
+        font-size: 63px!important;
+    }
+    .footer-p1{
+        margin-bottom: 3rem;
+        font-size: 20px;
+    }
+
+    .footer-ul{
+        margin: 0;
+        font-size: 17px;
+        text-align: center;
+        padding: 0;
+    }
+    .chat-input-data {
+        margin: 2%;
+        width: 96%!important;
+        border-radius: 31px!important;
+    }
+    .chat1-inside-data {
+        margin-top: 10%;
+
+    }
+}
+@media (max-width: 479px) and (min-width: 320px) {
+    body {
+        width: fit-content!important;
+
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .headerLogo{
+        width: 40%!important;
+        margin-left: 30%;
+        height: 100%;
+
+    }
+    .section1-paragraph{
+        margin-top: 5px!important;
+    }
+    .section1-paragraph h4 {
+        font-size: 23px!important;
+        margin-right: -4px!important;
+        margin-left: 3%;
+        width: 349px;
+    }
+    .anchor-section1{
+        margin-left: -74%;
+        font-size: 23px!important;
+        margin-top: 30px!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+        padding: 1px;
+        font-size: 24px;
+    }
+
+    .scroll_btn{
+        margin-left: -10%;
+    }
+
+    p.p {
+        padding-top: 6%;
+        font-size: 27px;
+        margin-left: 16px;
+    }
+    .footer-div2 {
+        margin-top: -49px;
+        font-size: 24px!important;
+
+    }
+    .footer-p1{
+        margin-bottom: 3rem;
+        font-size: 20px;
+    }
+    .footer {
+        margin-top: 8%!important;
+        /*height: 673px!important;*/
+    }
+    .footer-ul{
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+    .chat-input-data {
+        margin: 2%;
+        width: 96%!important;
+        border-radius: 31px!important;
+    }
+    .chat1-inside-data {
+        margin-top: 7%;
+
+    }
+}
+         /*robo chat responsive end*/
+
+   @media (max-width: 991px) and (min-width: 768px) {
+       .container-fluid.section4 {
+           height: 110vh!important;
+       }
+       body {
+           padding: 0!important;
+           margin: 0!important;
+           width: 102%!important;
+       }
+       img.headerLogo {
+
+           width: 249px!important;
+           height: 76px!important;
+       }
+       a {
+           margin-top: -35px;
+
+       }
+       .row.section1-row.d-flex.justify-content-around {
+           width: 1000px!important;
+       }
+       a.anchor-section1 {
+           font-size: 12px!important;
+       }
+
+       h4.paragragh1-section1 {
+           font-size: 28px!important;
+       }
+
+       .section1-paragraph {
+           width: 460px!important;
+           margin-top: -17px!important;
+       }
+
+
+       .d-flex.paragraph-section3 {
+           /* display: flex; */
+           /* justify-content: space-between; */
+           margin-right: -18px!important;
+           width: 225px!important;
+       }
+
+       .right-side.mt-3.table-section-5.section5-paragraph-all {
+           /* font-size: 49px; */
+           font-weight: 61px!important;
+           margin-right: 188px!important;
+       }
+       .box1 {
+           width: 232px!important;
+
+       }
+       p.second-para {
+           margin-top: -21px!important;
+       }
+       .container-fluid.image-section8 {
+           height: 738px!important;
+       }
+
+   }
+
