@@ -41,19 +41,30 @@
     .headerLogo{
         width: 45%;
     }
+    .footer{
+        height: 95vh!important;
+    }
+    .footer-ul li:first-child {
+        border-left: none;
+        padding-top: 0px!important;
+       
+    }
 .footer-p1{
-    font-size:15px!important;
+    padding-top: 39px!important;
+    font-size: 11px!important;
+    padding-bottom: 26px!important;
+    text-align: center!important;
 }
 .footer-div{
-    padding: 0!important;
+    padding: 2px!important;
 }
 .footer-div2{
     padding: 0!important;
 }
 .footer-div2 p{
-    font-size:15px!important;
-    margin-left: -40px!important;
-    padding: 0!important;
+    font-size: 13px!important;
+    margin-left: -12px!important;
+    padding-top: 1!important;
 }
 .footer-list{
     padding: 0!important;
