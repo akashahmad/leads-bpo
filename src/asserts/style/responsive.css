@@ -791,13 +791,18 @@
 }
 
 
- @media (max-width: 1460px) and (min-width: 1199px){
+ @media (max-width: 1460px) and (min-width: 1200px){
     i.fa.fa-chevron-circle-right.icon.movement-icon {
         margin-top: 12px!important;
         color: #f37f00!important;
     }
     .image-section8 {
         height: 783px!important;
+    }
+    .data{
+        margin-top:-55px;
+        width: 500px;
+        height: 460px!important;
     }
     .headerLogo {
         width: 285px;
