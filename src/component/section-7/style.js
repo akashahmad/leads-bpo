@@ -74,6 +74,7 @@ export default()=>(
         i.fa.fa-chevron-circle-right.icon.movement-icon2 {
             color: #f37f00!important;
         }
+
         
         
         /* --------------------------------- */

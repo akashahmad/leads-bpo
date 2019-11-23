@@ -11,7 +11,7 @@ export default()=>{
                     <p className="pt-3 ml-5" style={{width:"805px",lineHeight:"30px",fontWeight:"600px"}}> Customers can also get free debt Counselling, debt adjusting and provision of credit information services from the
                             money advice service an organisation set up by the Government to offer practical advice to those in
                             debt.
-                           </p>
+                    </p>
                 </div>
         </div>
     

@@ -1,6 +1,6 @@
 import React from 'react'
 import Style from '../section-4/style'
-import img1 from '../../asserts/images/purple-price-circle.png'
+import img1 from '../../asserts/images/blue-circle.png'
 import {Link} from 'react-router-dom'
 
 export default ()=>{
