@@ -147,10 +147,7 @@ export default() => {
                 </div>
             </form>
         </section>
-
-        <Footer/>
         <Style/>
-
         </>
     );
 }
