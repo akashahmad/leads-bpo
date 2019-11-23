@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ee61ca-bd6b-4f5f-af47-065c3397e128" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/asserts/images/cropped-Header-logo-527-148-01.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asserts/style/Roboresponsive.css" afterPath="$PROJECT_DIR$/src/asserts/style/Roboresponsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asserts/style/contactFormResponsive.css" afterPath="$PROJECT_DIR$/src/asserts/style/contactFormResponsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asserts/style/style.css" afterPath="$PROJECT_DIR$/src/asserts/style/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/form2/form.js" afterPath="$PROJECT_DIR$/src/component/form2/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/form2/style.js" afterPath="$PROJECT_DIR$/src/component/form2/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/qualificationdata/style.js" afterPath="$PROJECT_DIR$/src/component/qualificationdata/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="qualificationdata.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="qualificationdata.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/qualificationdata/qualificationdata.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1079">
-              <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="249" column="38" lean-forward="true" selection-start-line="249" selection-start-column="38" selection-end-line="249" selection-end-column="38" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -94,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Roboresponsive.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Roboresponsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/asserts/style/Roboresponsive.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -529,15 +518,15 @@
       <workItem from="1574495791076" duration="54000" />
       <workItem from="1574495930977" duration="10171000" />
       <workItem from="1574514534989" duration="2353000" />
-      <workItem from="1574524982708" duration="12318000" />
+      <workItem from="1574524982708" duration="14893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47182000" />
+    <option name="totallyTimeSpent" value="49757000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31994048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -873,16 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/qualificationdata/qualificationdata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1079">
-          <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/asserts/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -915,16 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/form2/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/qualificationdata/style.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -946,6 +915,26 @@
             <element signature="e#7465#8845#0" expanded="false" />
             <element signature="e#8846#10246#0" expanded="false" />
             <element signature="e#10289#11686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/form2/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/qualificationdata/qualificationdata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="249" column="38" lean-forward="true" selection-start-line="249" selection-start-column="38" selection-end-line="249" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
