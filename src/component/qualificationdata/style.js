@@ -5,12 +5,13 @@ export default ()=>{
         <style js="true">
             {`
 
-            .req-msg
-            {
-            margin-left: 52%;
-            margin-top: 0;
-            margin-bottom: 1rem;
-             color: red;
+        .req-msg
+           {
+    width: 97%!important;
+    margin-left: 6%;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: red;
             }
 
             .container-all{
@@ -43,7 +44,7 @@ export default ()=>{
             }
             .chat1-inside-data {
                 height: 95px;
-                background: #e7efff;
+                  background:#e7efff!important;
                 border-radius: 180px;
                 max-width: 700px;
                 height: 130px;
@@ -68,23 +69,25 @@ export default ()=>{
             }
             .chat-input-data {
                 float: right;
-                background: purple;
-                width: 39%;
+                background: #006a90 ;
+               width: 42%;
                 height: 120px;
                 border-radius: 55px;
+
                 
             }
+
             p.p {
-                float: left;
-                padding-top: 6%;
+
                 font-size: 22px;
-                margin-left: 16px;
+                margin-left: 0px!important;
+
             }
             .input{
                 height: 70px;
                 border-radius: 7px;
-                background: #e7efff;
-                font-size: 22px;
+                 background: #e7efff;
+                 font-size: 22px;
                 width: 300px;
                 padding-left: 6px;
             }
@@ -94,7 +97,19 @@ export default ()=>{
                 border-radius: 10px;
                 width: 100px;
                 height: 70px;
+                background-color:orange ;
             }
+            button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #f49226;
+}
+
+            .button:hover {
+  background-color: #f49226;
+}
+
 
             .chat-input {
                 padding-bottom: 127px;
@@ -104,20 +119,22 @@ export default ()=>{
                 padding-bottom: 127px;
             }
             .chat-input-data2 {
-    margin-top: 2%;
-    background: purple;
-    float: right;
-    border-radius: 10px;
-    max-width: 800px;
-    height: 110px;
+           float: right;
+    background: #006a90;
+    width: 42%;
+    height: 120px;
     border-radius: 55px;
+
+
+             // float: right;
+             //    background: #006a90 ;
+             //   width: 42%;
+             //    height: 120px;
+             //    border-radius: 55px;
+
 }
             .chat-input-data2 .btn{
-                border-radius: 10px;
-                width: 100px;
-                height: 70px;
-                margin-top: 20px;
-                margin-right: 25px;
+                margin-top: 19%;
             
             }
             `}

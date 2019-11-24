@@ -2,21 +2,14 @@ import React, {useState, useEffect, Component} from 'react'
 import axios from 'axios';
 import Style from './style';
 import {apiPath} from '../../config'
-import img from '../../asserts/images/logo(1).png'
 import '../../asserts/style/style.css'
 import '../../asserts/style/contactFormResponsive.css';
-import Button from 'react-bootstrap/Button';
-import Footer from '../footer/footer';
-import {Link} from 'react-router-dom';
-
 export default() => {
     const [firstName, setfirstName] = useState("");
     const [lastName, setlastName] = useState("");
     const [email, setemail] = useState("");
     const [phone, setphone] = useState("");
     const [postBody, setpostBody] = useState("");
-
-    const [fieldType, setfieldType] = useState("");
 
     const addFirstName = e => {
         setfirstName(e.target.value)
@@ -36,23 +29,19 @@ export default() => {
     };
 
     const addMember = () => {
-        if (!fieldType || fieldType === "true") {
 
-        }
+            let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
+            axios.post(apiPath + "/api/team", payLoad)
+                .then(response => {
+                    window.location.replace("/thank-you");
+                    console.log(response);
 
-        else {
-            // let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
-            // axios.post(apiPath + "/api/team", payLoad)
-            //     .then(response => {
-            //         window.location.replace("/thank-you");
-            //         console.log(response);
-            //
-            //     })
-            //     .catch(err => {
-            //     });
+                })
+                .catch(err => {
+                });
 
 
-        }
+
 
 
     };
@@ -60,9 +49,6 @@ export default() => {
     return (
         <>
         <section>
-            <div className="d-flex justify-content-center" >
-                <img className="header-logo mt-3" src={img}/>
-            </div>
             <div className="d-flex justify-content-center img-form mt-1 align-items-center">
                 <div className="d-flex flex-column align-items-center">
                     <p>We'd love to hear from you</p>
@@ -133,9 +119,7 @@ export default() => {
 
                         <div className="mt-4">
                             <div>
-                                <button onClick={() => addMember() } className="btn-form">
-                                    {fieldType && fieldType==="false"?
-                                        "Submit":"Submit"
+                                <button onClick={() => addMember() } className="btn-form">Submit
                                     }
 
 

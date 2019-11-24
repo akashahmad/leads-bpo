@@ -171,13 +171,13 @@ export default () => {
                                 newMessate[index] = {question: "submit"};
                             }
                             setShowQuestions(newMessate);
-                        }, 300);
+                        }, 200);
                         return (
                             <div className="ml-5 mt-5 mb-3">
                                 <div className="d-flex Loader">
                                     <Loader
                                         type="ThreeDots"
-                                        color="purple"
+                                        color="#006a90"
                                         height={80}
                                         width={80}
                                     />
@@ -188,7 +188,7 @@ export default () => {
                         return (
                             <div className="chat1 mb-1">
                                 <div className="chat1-inside-data">
-                                    <p className="ml-4 pt-4 p">{single.question}</p>
+                                   <div style={{marginLeft:"41px"}}> <p className="ml-4 pt-4 p">{single.question}</p></div>
                                 </div>
                             </div>
                         );
@@ -196,7 +196,7 @@ export default () => {
                         return (
                             <div className="chat-input">
                                 <div className="chat-input-data">
-                                    <form onSubmit={(event) => {
+                                    <form className="d-flex" onSubmit={(event) => {
                                         event.preventDefault();
                                         if (single.type === "number") {
                                             console.log(showQuestions[index].value);
@@ -218,7 +218,10 @@ export default () => {
                                             setShowQuestions(newMessate);
                                         }
                                     }}>
-                                        <p className="p ml-5" style={{color: "white"}}>{single.question}</p>
+                                      <div className="set-input" style ={{marginLeft: "27px", padding: 0, width: "209px",marginTop: "39px"}}>
+                                          <p className=" p ml-5" style={{color: "white"}}>{single.question}</p>
+
+                                      </div>
                                         {single.type === "number" ?
                                             <div>
                                                 <input placeholder="" className="input mt-4 ml-4"
@@ -248,30 +251,34 @@ export default () => {
                                                        newMessate[index].value = event.target.value;
                                                        setShowQuestions(newMessate);
                                                    }}/>}
-                                        <Button style={{marginTop: "-1%", marginLeft: "8%!important"}}
+                                       <div> <Button style={{marginTop: "19%", marginLeft: "8%!important"}}
                                                 disabled={showQuestions[index].disable} type="submit"
                                                 variant="secondary" className="button ml-2">
                                             Go
-                                        </Button>
+                                       </Button></div>
                                     </form>
                                 </div>
                             </div>
                         );
                     } else if (single.question === "submit") {
                         return (
-                            <div className="chat-input2">
-                                <div className="chat-input-data2">
 
-                                    <p className="p ml-5" style={{color: "white"}}>Submit Message here...?</p>
-                                    <Button variant="secondary" className=" ml-2"
-                                            onClick={() => {
-                                                submitHandler();
-                                            }}
-                                    >
-                                        Submit
-                                    </Button>
+                                <div className="  chat-input-data2">
+                                    <div className="d-flex chat-inside-data">
+                                        <div style={{marginTop: "49px",marginLeft: "60px"}}>
+                                            <p className="p ml-5" style={{color: "white"}}>Submit Message here...?</p></div>
+                                        <div style={{marginLeft: "34%"}}>
+                                            <Button
+                                                style={{padding:"21px", borderRadius: "11px"}}
+                                                variant="secondary" className=" ml-2"
+                                                onClick={() => {
+                                                    submitHandler();
+                                                }}>Submit
+                                            </Button>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+
                         );
                     }
                 })}

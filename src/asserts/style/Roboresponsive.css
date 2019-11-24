@@ -9,6 +9,20 @@
     body {
         width: fit-content!important;
     }
+    .chat-input-data2 {
+        width: 99%!important;
+    }
+
+    .chat-input-data2 button {
+        margin-top: 25px!important;
+        width: 100px;
+    }
+    .chat-input-data2 p {
+        margin-top: -16px;
+    }
+    .set-input{
+        margin: 17px!important;
+    }
 
     .container-fluid {
         width: 99%;
@@ -80,7 +94,20 @@
         width: fit-content!important;
 
     }
+    .chat-input-data2 {
+        width: 99%!important;
+    }
 
+    .chat-input-data2 button {
+        margin-top: 25px!important;
+        width: 100px;
+    }
+    .chat-input-data2 p {
+        margin-top: -16px;
+    }
+    .set-input{
+        margin: 17px!important;
+    }
     .container-fluid {
         width: 99%;
     }
@@ -146,12 +173,26 @@
         margin-bottom: 2%;
     }
 }
+
 @media (max-width: 991px) and (min-width: 768px) {
     body {
         width: fit-content!important;
 
     }
+    .chat-input-data2 {
+        width: 99%!important;
+    }
 
+    .chat-input-data2 button {
+        margin-top: 25px!important;
+        width: 100px;
+    }
+    .chat-input-data2 p {
+        margin-top: -16px;
+    }
+    .set-input{
+        margin: 17px!important;
+    }
     .container-fluid {
         width: 99%;
     }
@@ -217,10 +258,25 @@
         margin-bottom: 2%;
     }
 }
+
 @media (max-width: 767px) and (min-width: 685px) {
     body {
         width: fit-content!important;
 
+    }
+    .chat-input-data2 {
+        width: 99%!important;
+    }
+
+    .chat-input-data2 button {
+        margin-top: 25px!important;
+        width: 100px;
+    }
+    .chat-input-data2 p {
+        margin-top: -16px;
+    }
+    .set-input{
+        margin: 17px!important;
     }
 
     .container-fluid {
@@ -288,10 +344,25 @@
         margin-bottom: 2%;
     }
 }
+
 @media (max-width: 684px) and (min-width: 568px) {
     body {
         width: fit-content!important;
 
+    }
+    .chat-input-data2 {
+        width: 99%!important;
+    }
+
+    .chat-input-data2 button {
+        margin-top: 25px!important;
+        width: 100px;
+    }
+    .chat-input-data2 p {
+        margin-top: -16px;
+    }
+    .set-input{
+        margin: 17px!important;
     }
     .container-fluid {
         width: 100%;
@@ -361,10 +432,25 @@
         margin-bottom: 2%;
     }
 }
+
 @media (max-width: 567px) and (min-width: 480px) {
     body {
         width: fit-content!important;
 
+    }
+    .chat-input-data2 {
+        width: 99%!important;
+    }
+
+    .chat-input-data2 button {
+        margin-top: 25px!important;
+        width: 100px;
+    }
+    .chat-input-data2 p {
+        margin-top: -16px;
+    }
+    .set-input{
+        margin: 17px!important;
     }
     .container-fluid {
         width: 100%;
@@ -436,6 +522,20 @@
     body {
         width: fit-content!important;
 
+    }
+    .chat-input-data2 {
+        width: 99%!important;
+    }
+
+    .chat-input-data2 button {
+        margin-top: 25px!important;
+        width: 100px;
+    }
+    .chat-input-data2 p {
+        margin-top: -16px;
+    }
+    .set-input{
+        margin: 17px!important;
     }
     .container-fluid {
         width: 100%;
