@@ -123,6 +123,11 @@ export default () => {
         return re.test(String(number).toLowerCase());
     };
 
+    const validateEmail = email => {
+        let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+    };
+
 
     return (
         <>
@@ -188,7 +193,8 @@ export default () => {
                         return (
                             <div className="chat1 mb-1">
                                 <div className="chat1-inside-data">
-                                   <div style={{marginLeft:"41px"}}> <p className="ml-4 pt-4 p">{single.question}</p></div>
+                                    <div style={{marginLeft: "41px"}}><p className="ml-4 pt-4 p">{single.question}</p>
+                                    </div>
                                 </div>
                             </div>
                         );
@@ -199,7 +205,6 @@ export default () => {
                                     <form className="d-flex" onSubmit={(event) => {
                                         event.preventDefault();
                                         if (single.type === "number") {
-                                            console.log(showQuestions[index].value);
                                             if (!phoneNumberValidator("+" + showQuestions[index].value)) {
                                                 let newMessate = [...showQuestions];
                                                 newMessate[index].message = "Mobile number Pattern +441234567890";
@@ -211,6 +216,20 @@ export default () => {
                                                 newMessate.push({question: "typing"});
                                                 setShowQuestions(newMessate);
                                             }
+                                        }
+                                        else if (single.type === "email") {
+                                            console.log(showQuestions[index].value);
+                                            if (!validateEmail(showQuestions[index].value)) {
+                                                let newMessate = [...showQuestions];
+                                                newMessate[index].message = "Email is invalid";
+                                                setShowQuestions(newMessate);
+                                            } else {
+                                                let newMessate = [...showQuestions];
+                                                newMessate[index].disable = true;
+                                                newMessate[index].value = showQuestions[index].value;
+                                                newMessate.push({question: "typing"});
+                                                setShowQuestions(newMessate);
+                                            }
                                         } else {
                                             let newMessate = [...showQuestions];
                                             newMessate[index].disable = true;
@@ -218,10 +237,15 @@ export default () => {
                                             setShowQuestions(newMessate);
                                         }
                                     }}>
-                                      <div className="set-input" style ={{marginLeft: "27px", padding: 0, width: "209px",marginTop: "39px"}}>
-                                          <p className=" p ml-5" style={{color: "white"}}>{single.question}</p>
+                                        <div className="set-input" style={{
+                                            marginLeft: "27px",
+                                            padding: 0,
+                                            width: "209px",
+                                            marginTop: "39px"
+                                        }}>
+                                            <p className=" p ml-5" style={{color: "white"}}>{single.question}</p>
 
-                                      </div>
+                                        </div>
                                         {single.type === "number" ?
                                             <div>
                                                 <input placeholder="" className="input mt-4 ml-4"
@@ -241,21 +265,37 @@ export default () => {
                                                 <p className="req-msg">
                                                     {  showQuestions[index].message ? showQuestions[index].message : ""}</p>
                                             </div>
-                                            :
-                                            <input placeholder="" className="input mt-4 ml-4"
-                                                   type={single.type}
-                                                   required={true}
-                                                   autoFocus
-                                                   onChange={event => {
-                                                       let newMessate = [...showQuestions];
-                                                       newMessate[index].value = event.target.value;
-                                                       setShowQuestions(newMessate);
-                                                   }}/>}
-                                       <div> <Button style={{marginTop: "19%", marginLeft: "8%!important"}}
-                                                disabled={showQuestions[index].disable} type="submit"
-                                                variant="secondary" className="button ml-2">
+                                            : single.type === "email" ? <div>
+                                                <input placeholder="" className="input mt-4 ml-4"
+                                                       type="email"
+                                                       required={true}
+                                                       autoFocus
+                                                       value={showQuestions[index] && showQuestions[index].value ? showQuestions[index].value : null}
+                                                       onChange={event => {
+                                                           let newMessate = [...showQuestions];
+                                                           let value = event.target.value;
+                                                           newMessate[index].value = value;
+                                                           newMessate[index].message = "";
+                                                           setShowQuestions(newMessate);
+                                                       }}/>
+                                                <p className="req-msg">
+                                                    {  showQuestions[index].message ? showQuestions[index].message : ""}</p>
+                                            </div> :
+                                                <input placeholder="" className="input mt-4 ml-4"
+                                                       type={single.type}
+                                                       required={true}
+                                                       minLength={2}
+                                                       autoFocus
+                                                       onChange={event => {
+                                                           let newMessate = [...showQuestions];
+                                                           newMessate[index].value = event.target.value;
+                                                           setShowQuestions(newMessate);
+                                                       }}/>}
+                                        <div><Button style={{marginTop: "19%", marginLeft: "8%!important"}}
+                                                     disabled={showQuestions[index].disable} type="submit"
+                                                     variant="secondary" className="button ml-2">
                                             Go
-                                       </Button></div>
+                                        </Button></div>
                                     </form>
                                 </div>
                             </div>
@@ -263,21 +303,21 @@ export default () => {
                     } else if (single.question === "submit") {
                         return (
 
-                                <div className="  chat-input-data2">
-                                    <div className="d-flex chat-inside-data">
-                                        <div style={{marginTop: "49px",marginLeft: "60px"}}>
-                                            <p className="p ml-5" style={{color: "white"}}>Submit Message here...?</p></div>
-                                        <div style={{marginLeft: "34%"}}>
-                                            <Button
-                                                style={{padding:"21px", borderRadius: "11px"}}
-                                                variant="secondary" className=" ml-2"
-                                                onClick={() => {
-                                                    submitHandler();
-                                                }}>Submit
-                                            </Button>
-                                        </div>
+                            <div className="  chat-input-data2">
+                                <div className="d-flex chat-inside-data">
+                                    <div style={{marginTop: "49px", marginLeft: "60px"}}>
+                                        <p className="p ml-5" style={{color: "white"}}>I accept the Privacy Policy and Terms & Conditions.</p></div>
+                                    <div style={{marginLeft: "34%"}}>
+                                        <Button
+                                            style={{padding: "21px", borderRadius: "11px"}}
+                                            variant="secondary" className=" ml-2"
+                                            onClick={() => {
+                                                submitHandler();
+                                            }}>Accept
+                                        </Button>
                                     </div>
                                 </div>
+                            </div>
 
                         );
                     }
