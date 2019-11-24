@@ -13,15 +13,12 @@ export default() => {
 }
 .container.d-flex.flex-column.align-items-center.form {
     border: 2px solid #006a90;
-    height: 114vh;
+    height: 182vh;
     width: 558px;
     /* margin-bottom: 357px; */
-    margin-top: -1%;
+    margin-top: 2%;
     box-shadow: 8px 17px #d6d6d6;
-}
-.fieldset{
-margin-top: 7%!important;
-    margin-left: -50%!important;
+
 }
 
 .div-container{
@@ -40,13 +37,14 @@ p.para1 {
     text-align: center;
 }
 .fields{
-    width:395px;
+    width: 452px;
     padding-bottom: 10px;
 }
-.text-area{
-    width:395px;
+    .text-area {
+    width: 451px;
     padding-bottom: 30px;
 }
+
 .btn-form{
     width:395px;
     background-color:#f37f00;
@@ -87,18 +85,9 @@ p.para1 {
    .line{
        text-align: center;
    }
-   .phone{
-       width:47%;
-   }
-   .form-data{
-       margin-top: 5%;
 
-   }
-   .form-container{
-       background-color:grey;
-       position: absolute;
-       height: 130vh;
-   }
+
+
    .btn_submit{
        margin-top: 5%;
        padding: 10px;
@@ -110,12 +99,7 @@ p.para1 {
        color: white;
        border: 1px solid black;
    }
-   .label12{
-       margin-top: 9%;
-   }
-.second {
-       margin-top: 2px;
-   }
+
    `}</style>
     );
 }
