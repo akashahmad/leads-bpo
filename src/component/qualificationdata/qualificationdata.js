@@ -193,7 +193,8 @@ export default () => {
                         return (
                             <div className="chat1 mb-1">
                                 <div className="chat1-inside-data">
-                                    <div style={{marginLeft: "41px"}}><p className="ml-4 pt-4 p">{single.question}</p>
+                                    <div style={{marginLeft: "20px",marginRight: "70px",marginTop: "3px"}}>
+                                        <p className="ml-4 pt-4 p">{single.question}</p>
                                     </div>
                                 </div>
                             </div>
@@ -209,9 +210,10 @@ export default () => {
                                              if (single.type === "number") {
                                             if (!phoneNumberValidator("+" + showQuestions[index].value)) {
                                                 let newMessate = [...showQuestions];
-                                                newMessate[index].message = "Mobile number Pattern +441234567890";
+                                                newMessate[index].message = " * Enter valid Pattern i.e +441234567890";
                                                 setShowQuestions(newMessate);
-                                            } else {
+                                            }
+                                            else {
                                                 let newMessate = [...showQuestions];
                                                 newMessate[index].disable = true;
                                                 newMessate[index].value = "+" + showQuestions[index].value;
@@ -225,7 +227,8 @@ export default () => {
                                                 let newMessate = [...showQuestions];
                                                 newMessate[index].message = "Email is invalid";
                                                 setShowQuestions(newMessate);
-                                            } else {
+                                            }
+                                            else {
                                                 let newMessate = [...showQuestions];
                                                 newMessate[index].disable = true;
                                                 newMessate[index].value = showQuestions[index].value;
@@ -240,12 +243,12 @@ export default () => {
                                         }
                                     }}>
                                         <div className="set-input" style={{
-                                            marginLeft: "27px",
+                                            marginLeft: "37px",
                                             padding: 0,
                                             width: "209px",
-                                            marginTop: "39px"
+                                            marginTop: "42px"
                                         }}>
-                                            <p className=" p ml-5" style={{color: "white"}}>{single.question}</p>
+                                            <p className=" p " style={{color: "white"}}>{single.question}</p>
 
                                         </div>
                                         {single.type === "number" ?
@@ -293,7 +296,8 @@ export default () => {
                                                            newMessate[index].value = event.target.value;
                                                            setShowQuestions(newMessate);
                                                        }}/>}
-                                        <div><Button style={{marginTop: "19%", marginLeft: "8%!important"}}
+                                        <div><Button style={{marginTop: "19%", marginLeft: "8%!important",
+                                            backgroundColor:"#F37F00"}}
                                                      disabled={showQuestions[index].disable} type="submit"
                                                      variant="secondary" className="button ml-2">
                                             Go
@@ -308,8 +312,8 @@ export default () => {
                             <div className="  chat-input-data2">
                                 <div className="d-flex chat-inside-data">
                                     <div style={{marginTop: "49px", marginLeft: "60px"}}>
-                                        <p className="p ml-5" style={{color: "white"}}>I accept the Privacy Policy and Terms & Conditions.</p></div>
-                                    <div style={{marginLeft: "34%"}}>
+                                        <p className="sub-input" style={{color: "white"}}>I accept the Privacy Policy and Terms & Conditions.</p></div>
+                                    <div style={{marginLeft: ""}}>
                                         <Button
                                             style={{padding: "21px", borderRadius: "11px"}}
                                             variant="secondary" className=" ml-2"

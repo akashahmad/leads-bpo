@@ -10,7 +10,9 @@
         width: fit-content!important;
     }
     .chat-input-data2 {
-        width: 99%!important;
+        width: 80%!important;
+        margin-right: 8px;
+        margin-top: 10px;
     }
 
     .chat-input-data2 button {
@@ -72,7 +74,6 @@
     }
     .footer {
         height: 680px!important;
-        margin-top: 18%!important;
     }
     .footer-ul{
         margin: 0;
@@ -240,8 +241,9 @@
         font-size: 22px;
     }
     .footer {
+        margin-top: 177px!important;
         height: 680px!important;
-        margin-top: 18%!important;
+
     }
     .footer-ul{
         margin: 0;

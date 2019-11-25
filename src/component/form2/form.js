@@ -120,7 +120,7 @@ const AddItem = () => {
                                         </label>
                                         <div className="">
                                             <input name="phone" id="input_1_2"
-                                                   placeholder="  Requested Format1: +44 1434 634996 " className="fields"
+                                                   placeholder="  Requested Format: +44 1434 634996 " className="fields"
                                                    value={phone}
                                                    type="number"
                                                   // title="+44 1434634996/0044-1434634996/0 1434634996 "
