@@ -202,9 +202,11 @@ export default () => {
                         return (
                             <div className="chat-input">
                                 <div className="chat-input-data">
-                                    <form className="d-flex" onSubmit={(event) => {
-                                        event.preventDefault();
-                                        if (single.type === "number") {
+                                    <form className="d-flex"
+                                          onSubmit={(event) =>
+                                          {
+                                            event.preventDefault();
+                                             if (single.type === "number") {
                                             if (!phoneNumberValidator("+" + showQuestions[index].value)) {
                                                 let newMessate = [...showQuestions];
                                                 newMessate[index].message = "Mobile number Pattern +441234567890";

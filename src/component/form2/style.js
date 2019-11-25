@@ -13,7 +13,7 @@ export default() => {
 }
 .container.d-flex.flex-column.align-items-center.form {
     border: 2px solid #006a90;
-    height: 182vh;
+    height: 390vh;
     width: 558px;
     /* margin-bottom: 357px; */
     margin-top: 2%;
@@ -89,15 +89,16 @@ p.para1 {
 
 
    .btn_submit{
-       margin-top: 5%;
-       padding: 10px;
-       padding-left: 18px;
-       padding-right: 18px;
-       font-size: 24px;
-       font-weight: bold;
-       background-color: black;
-       color: white;
-       border: 1px solid black;
+       width: 300px;
+    border-radius: 21px;
+    margin-top: 5%;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
    }
 
    `}</style>

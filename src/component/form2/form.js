@@ -9,6 +9,7 @@ export default() => {
     const [lastName, setlastName] = useState("");
     const [email, setemail] = useState("");
     const [phone, setphone] = useState("");
+    const [error, setError] = useState("");
     const [postBody, setpostBody] = useState("");
 
     const addFirstName = e => {
@@ -22,34 +23,30 @@ export default() => {
         setemail(e.target.value)
     };
     const addPhone = e => {
-        setphone(e.target.value)
+        setphone(e.target.value);
+        if(!phoneNumberValidator(phone)){
+           setError("enter phone number with patren:+44 1434 634996")
+        }
     };
     const addPostBody = e => {
         setpostBody(e.target.value)
     };
 
 
+
     const phoneNumberValidator = number => {
         let re = /^(\+44\s?\d{10}|0044\s?\d{10}|0\s?\d{10})?$/;
-        if(re.test(String(number).toLowerCase()))
-        {
-            console.log(true);
-            setphone(true);
-        }
-        else {
-            console.log(false);
-
-        }
+        return (
+            re.test(String(number).toLowerCase())
+        )
     };
 
-    const AddItem = event => {
-        event.preventDefault();
+const AddItem = () => {
         let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
             axios.post(apiPath + "/api/team", payLoad)
                 .then(response => {
                     window.location.replace("/thank-you");
                     console.log(response);
-
                 })
                 .catch(err => {
                     console.log(err);
@@ -73,7 +70,11 @@ export default() => {
 
         <div style={{height: '520px'}}>
         <section >
-            <form  >
+            <form   onSubmit={(event) =>
+            {
+                event.preventDefault();
+                AddItem();
+            }} >
                 <div className="d-flex flex-column align-items-center div-container">
                     <div className="container d-flex flex-column align-items-center form">
                         <div style={{width:'62%' , marginBottom: '32px' }} className="mt-5">
@@ -120,12 +121,13 @@ export default() => {
                                         <div className="">
                                             <input name="phone" id="input_1_2"
                                                    placeholder="  Requested Format1: +44 1434 634996 " className="fields"
-                                                   //value={phone}
+                                                   value={phone}
                                                    type="number"
-                                                   title="+44 1434634996/0044-1434634996/0 1434634996 "
-                                                   onChange={(event)=>[phoneNumberValidator(event.target.value)]}
+                                                  // title="+44 1434634996/0044-1434634996/0 1434634996 "
+                                                   onChange={addPhone}
+                                                   required/>
+                                            <p>{error}</p>
 
-                                            required/>
 
                                         </div>
                                     </div>
@@ -144,8 +146,6 @@ export default() => {
                                         </div>
                                     </div>
 
-
-
                                     <div id="field_1_4" className="">
                                         <label className="" htmlFor="input_1_4">Post Body</label>
                                         <div className="">
@@ -155,7 +155,6 @@ export default() => {
                                                       required
                                                       rows="8" cols="50"
                                             />
-                            {/*<textarea name="input_4" id="input_1_4" className=""  ></textarea>*/}
                                     </div>
                                     </div>
 
@@ -163,9 +162,7 @@ export default() => {
                             </div>
                             <div className="mt-4">
                             <div>
-                            <button className="btn"
-                                    // onClick={(event)=>{AddItem(event)}}
-                            >Submit
+                            <button className="btn_submit" type="submit">Submit
                             </button>
                             </div>
                             </div>
