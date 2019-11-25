@@ -13,7 +13,7 @@ export default() => {
 }
 .container.d-flex.flex-column.align-items-center.form {
     border: 2px solid #006a90;
-    height: 390vh;
+    height: 952px;
     width: 558px;
     /* margin-bottom: 357px; */
     margin-top: 2%;

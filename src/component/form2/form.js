@@ -68,8 +68,8 @@ const AddItem = () => {
             </div>
         </section>
 
-        <div style={{height: '520px'}}>
-        <section >
+        <div style={{height: '835px'}}>
+        <section style={{height: '1500px'}} >
             <form   onSubmit={(event) =>
             {
                 event.preventDefault();
