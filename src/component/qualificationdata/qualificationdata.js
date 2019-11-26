@@ -9,6 +9,8 @@ import '../../asserts/style/Roboresponsive.css';
 
 
 export default () => {
+    const [Validnum, setValidnum] = useState(false);
+
     const listOfName = [
         "Lara",
         "Kate",
@@ -176,7 +178,7 @@ export default () => {
                                 newMessate[index] = {question: "submit"};
                             }
                             setShowQuestions(newMessate);
-                        }, 200);
+                        }, 3000);
                         return (
                             <div className="ml-5 mt-5 mb-3">
                                 <div className="d-flex Loader">
@@ -207,20 +209,33 @@ export default () => {
                                           onSubmit={(event) =>
                                           {
                                             event.preventDefault();
-                                             if (single.type === "number") {
-                                            if (!phoneNumberValidator("+" + showQuestions[index].value)) {
-                                                let newMessate = [...showQuestions];
-                                                newMessate[index].message = " * Enter a valid Pattern i.e +441234567890";
-                                                setShowQuestions(newMessate);
-                                            }
-                                            else {
-                                                let newMessate = [...showQuestions];
-                                                newMessate[index].disable = true;
-                                                newMessate[index].value = "+" + showQuestions[index].value;
-                                                newMessate.push({question: "typing"});
-                                                setShowQuestions(newMessate);
-                                            }
-                                        }
+                                             if (single.type === "number")
+                                             {
+                                                       if (!phoneNumberValidator("+" + showQuestions[index].value))
+                                                       {
+                                                           let newMessate = [...showQuestions];
+                                                            newMessate[index].message = " * Enter a valid Pattern i.e +441234567890";
+                                                           setShowQuestions(newMessate);
+                                                        }
+                                                   else  {
+                                                           if(!Validnum) {
+                                                               let newMessate1 = [...showQuestions];
+                                                               newMessate1[index].message = " * NUM IS SWITCHED OFF";
+                                                               setShowQuestions(newMessate1);
+
+
+                                                           }
+                                                           else
+                                                           {
+                                                               let newMessate = [...showQuestions];
+                                                               newMessate[index].disable = true;
+                                                               newMessate[index].value = "+" + showQuestions[index].value;
+                                                               newMessate.push({question: "typing"});
+                                                               setShowQuestions(newMessate);
+
+                                                           }
+                                                       }
+                                             }
                                         else if (single.type === "email") {
                                             console.log(showQuestions[index].value);
                                             if (!validateEmail(showQuestions[index].value)) {

@@ -22,11 +22,13 @@ export default() => {
         setemail(e.target.value)
     };
     const addPhone = e => {
-        e.preventDefault();
+       // e.preventDefault();
         setphone(e.target.value);
         if(!phoneNumberValidator(phone)){
+            console.log(!phoneNumberValidator(phone));
            setError("* Enter phone number with pattern:+44 1434 634996")
         }
+        console.log(phoneNumberValidator(phone));
     };
     const addPostBody = e => {
         setpostBody(e.target.value)
