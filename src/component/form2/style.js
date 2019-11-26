@@ -16,7 +16,7 @@ export default() => {
     height: 952px;
     width: 558px;
     /* margin-bottom: 357px; */
-    margin-top: 2%;
+    margin-top: -5%;
     box-shadow: 8px 17px #d6d6d6;
 
 }
@@ -97,7 +97,7 @@ p.para1 {
     padding-right: 18px;
     font-size: 24px;
     font-weight: bold;
-    background-color: orange;
+    background-color: #F37F00;
     color: white;
    }
 

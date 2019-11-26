@@ -10,7 +10,8 @@ export default() => {
     const [phone, setphone] = useState("");
     const [error, setError] = useState("");
     const [postBody, setpostBody] = useState("");
-
+    const [Validnum, setValidnum] = useState(true);
+    const [phonenum, setphonenum] = useState("");
 
 
     const addFirstName = e => {
@@ -24,22 +25,31 @@ export default() => {
         setemail(e.target.value)
     };
     const addPhone = e => {
-       // e.preventDefault();
+        e.preventDefault();
         setphone(e.target.value);
         if(!phoneNumberValidator(phone)){
-            //console.log(!phoneNumberValidator(phone));
            setError("* Enter phone number with pattern:+44 1434 634996")
-        }
 
+        }
+        else
+            {
+                if(Validnum)
+                {
+                    setError("Phone number is switched off")
+
+                }
+                else {
+                    setphonenum(phone);
+                }
+
+           }
     };
     const addPostBody = e => {
         setpostBody(e.target.value)
     };
 
-
-
     const phoneNumberValidator = number => {
-        let re = /^(\+44\s?\d{10}|0044\s?\d{10}|0\s?\d{10})?$/;
+        let re = /^(\44\s?\d{10}|0044\s?\d{10}})?$/;
         return (
             re.test(String(number).toLowerCase())
         )

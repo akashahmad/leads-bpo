@@ -1,21 +1,20 @@
 import React from 'react'
 
-export default ()=>{
-    return(
+export default () => {
+    return (
         <style js="true">
             {`
 
-        .req-msg
-           {
+.req-msg
+     {
     width: 319px!important;
     margin-left: 6%!important;
     margin-top: 9px;
     margin-bottom: 3rem;
     color: Red;
     font-size: 16px;
-            }
-
-            .container-all{
+    }
+ .container-all{
                 
                 box-shadow: 0 0 10px;
             }
@@ -34,6 +33,7 @@ export default ()=>{
 
             .chat1-inside-data
             {
+            display:flex;
             height: 105px!important;
     background: #035F80!important;
     border-radius: 180px;
@@ -59,13 +59,14 @@ export default ()=>{
                 border-radius: 50px;
             }
             .chat-input-data {
+            text-align: justify;
             font-size: 23px;
                 float: right;
                 background: #F37F00 ;
-               width: 42%;
+              // width: 42%;
                height: 105px!important;
                 border-radius: 55px;
-
+               //min-width: 39%;
 
 
 
@@ -86,14 +87,13 @@ export default ()=>{
                 width: 300px;
                 padding-left: 6px;
             }
-            .button{
-                margin-right: 12px;
-                margin-bottom: 10px;
-                border-radius: 10px;
-                width: 100px;
-                height: 70px;
-                background-color:orange ;
-            }
+            .button{margin-top: 26%!important;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: 63px;
+               }
             button:disabled,
 button[disabled]{
   border: 1px solid #999999;

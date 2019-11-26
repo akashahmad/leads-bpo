@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../../component/layout/layout'
+ import Layout from '../../component/layout/layout'
 import Section1 from '../../component/qualificationdata/qualificationdata'
 export default ()=>{
 
@@ -7,7 +7,8 @@ export default ()=>{
         <>
         <Layout>
             <Section1/>
-        </Layout>
+       </Layout>
+
         </>
     );
 }

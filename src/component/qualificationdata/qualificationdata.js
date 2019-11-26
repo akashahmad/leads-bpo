@@ -6,8 +6,6 @@ import Style from "./style";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import '../../asserts/style/Roboresponsive.css';
-
-
 export default () => {
     const [Validnum, setValidnum] = useState(false);
 
@@ -121,7 +119,6 @@ export default () => {
     };
 
     const phoneNumberValidator = number => {
-        {console.log(number)}
         let re = /^(\+44\s?\d{10}|\+0044\s?\d{10})?$/;
         return re.test(String(number).toLowerCase());
     };
@@ -197,7 +194,7 @@ export default () => {
                             <div className="chat1 mb-1">
                                 <div className="chat1-inside-data">
                                     <div style={{marginLeft: "20px",marginRight: "70px",marginTop: "15px"}}>
-                                        <p className="ml-4 p">{single.question}</p>
+                                        <p id="input1-p"  className="ml-4 p">{single.question}</p>
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +203,9 @@ export default () => {
                         return (
                             <div className="chat-input">
                                 <div className="chat-input-data">
-                                    <form className="d-flex"
+                                    <form className="d-flex" style={{alignItems:"flex-start",
+                                        alignContent:"Start",justifyContent:"end",minWidth:"86%"
+                                    }}
                                           onSubmit={(event) =>
                                           {
                                             event.preventDefault();
@@ -214,7 +213,8 @@ export default () => {
                                                  { console.log(showQuestions[index].value)
                                                      if (!phoneNumberValidator("+" + showQuestions[index].value)) {
                                                                  let newMessate = [...showQuestions];
-                                                                 newMessate[index].message = " * Enter a valid Pattern i.e 0044 7804944083"
+                                                                 newMessate[index].message = " * Enter a valid Pattern i.e" +
+                                                                     "0044 7804944083"
                                                                  setShowQuestions(newMessate);
 
                                                              }
