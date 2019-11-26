@@ -14,9 +14,9 @@ export default ()=>{
 
 
 
-            <Layout>
-                <hr/>
-                <div className="privacyPolicy">
+        <Layout>
+            <hr/>
+            <div className="privacyPolicy">
                 <div className="site-inner">
                     <div className="content-sidebar-wrap">
                         <main className="content" id="genesis-content">
@@ -113,10 +113,10 @@ export default ()=>{
                                     <p >&nbsp;</p>
                                     <p><strong>[Last updated – May 2018]</strong></p>
                                 </div></article></main></div></div>
-                </div>
-            </Layout>
+            </div>
+        </Layout>
 
-<Style/>
+        <Style/>
         </>
     );
 }

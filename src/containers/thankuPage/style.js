@@ -18,7 +18,7 @@ export default ()=>{
 .twelve.columns >h3 {
     font-size: 60px!important;
     font-weight: 700;
-    color: #8a108ba8!important;
+    color: #006a90!important;
     margin: 0 0 10px 0;
     padding: 0;
     line-height: 1.1;
