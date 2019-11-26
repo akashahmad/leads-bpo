@@ -11,6 +11,8 @@ export default() => {
     const [error, setError] = useState("");
     const [postBody, setpostBody] = useState("");
 
+
+
     const addFirstName = e => {
         setfirstName(e.target.value)
     };
@@ -25,10 +27,10 @@ export default() => {
        // e.preventDefault();
         setphone(e.target.value);
         if(!phoneNumberValidator(phone)){
-            console.log(!phoneNumberValidator(phone));
+            //console.log(!phoneNumberValidator(phone));
            setError("* Enter phone number with pattern:+44 1434 634996")
         }
-        console.log(phoneNumberValidator(phone));
+
     };
     const addPostBody = e => {
         setpostBody(e.target.value)
@@ -42,6 +44,8 @@ export default() => {
             re.test(String(number).toLowerCase())
         )
     };
+
+
 
 const AddItem = (e) => {
           e.preventDefault();
@@ -122,7 +126,7 @@ const AddItem = (e) => {
                                         </label>
                                         <div className="">
                                             <input name="phone" id="input_1_2"
-                                                   placeholder="  Requested Format: +44 1434 634996 " className="fields"
+                                                   placeholder="  Requested Format: 0044 1434 634996 " className="fields"
                                                    value={phone}
                                                    type="number"
                                                    onChange={addPhone}

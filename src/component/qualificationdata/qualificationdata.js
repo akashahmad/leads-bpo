@@ -82,7 +82,7 @@ export default () => {
             takeInput: false
         },
         {
-            question: "My Phone Number is",
+            question: "My Phone Number is ",
             takeInput: true,
             type: "number",
             disable: false,
@@ -121,7 +121,8 @@ export default () => {
     };
 
     const phoneNumberValidator = number => {
-        let re = /^(\+44\s?\d{10}|0044\s?\d{10}|0\s?\d{10})?$/;
+        {console.log(number)}
+        let re = /^(\+44\s?\d{10}|\+0044\s?\d{10})?$/;
         return re.test(String(number).toLowerCase());
     };
 
@@ -178,7 +179,7 @@ export default () => {
                                 newMessate[index] = {question: "submit"};
                             }
                             setShowQuestions(newMessate);
-                        }, 3000);
+                        }, 300);
                         return (
                             <div className="ml-5 mt-5 mb-3">
                                 <div className="d-flex Loader">
@@ -195,8 +196,8 @@ export default () => {
                         return (
                             <div className="chat1 mb-1">
                                 <div className="chat1-inside-data">
-                                    <div style={{marginLeft: "20px",marginRight: "70px",marginTop: "3px"}}>
-                                        <p className="ml-4 pt-4 p">{single.question}</p>
+                                    <div style={{marginLeft: "20px",marginRight: "70px",marginTop: "15px"}}>
+                                        <p className="ml-4 p">{single.question}</p>
                                     </div>
                                 </div>
                             </div>
@@ -209,32 +210,32 @@ export default () => {
                                           onSubmit={(event) =>
                                           {
                                             event.preventDefault();
-                                             if (single.type === "number")
-                                             {
-                                                       if (!phoneNumberValidator("+" + showQuestions[index].value))
-                                                       {
-                                                           let newMessate = [...showQuestions];
-                                                            newMessate[index].message = " * Enter a valid Pattern i.e +441234567890";
-                                                           setShowQuestions(newMessate);
-                                                        }
-                                                   else  {
-                                                           if(!Validnum) {
-                                                               let newMessate1 = [...showQuestions];
-                                                               newMessate1[index].message = " * NUM IS SWITCHED OFF";
-                                                               setShowQuestions(newMessate1);
+                                             if (single.type === "number") {
+                                                 { console.log(showQuestions[index].value)
+                                                     if (!phoneNumberValidator("+" + showQuestions[index].value)) {
+                                                                 let newMessate = [...showQuestions];
+                                                                 newMessate[index].message = " * Enter a valid Pattern i.e 0044 7804944083"
+                                                                 setShowQuestions(newMessate);
+
+                                                             }
+                                                     else {
+                                                                 if (!Validnum) {
+                                                                     let newMessate1 = [...showQuestions];
+                                                                     newMessate1[index].message = " * NUMBER IS SWITCHED OFF";
+                                                                     setShowQuestions(newMessate1);
 
 
-                                                           }
-                                                           else
-                                                           {
-                                                               let newMessate = [...showQuestions];
-                                                               newMessate[index].disable = true;
-                                                               newMessate[index].value = "+" + showQuestions[index].value;
-                                                               newMessate.push({question: "typing"});
-                                                               setShowQuestions(newMessate);
+                                                                 }
+                                                                 else {
+                                                                     let newMessate = [...showQuestions];
+                                                                     newMessate[index].disable = true;
+                                                                     newMessate[index].value = "+" + showQuestions[index].value;
+                                                                     newMessate.push({question: "typing"});
+                                                                     setShowQuestions(newMessate);
 
-                                                           }
-                                                       }
+                                                                 }
+                                                             }
+                                                 }
                                              }
                                         else if (single.type === "email") {
                                             console.log(showQuestions[index].value);
@@ -263,21 +264,22 @@ export default () => {
                                             width: "209px",
                                             marginTop: "42px"
                                         }}>
-                                            <p className=" p " style={{color: "white"}}>{single.question}</p>
+                                            <p className=" p " style={{color: "white",width:"300px"}}>{single.question}</p>
 
                                         </div>
                                         {single.type === "number" ?
                                             <div>
-                                                <input placeholder="" className="input mt-4 ml-4"
+                                                <input  placeholder="" className="input mt-4 ml-4"
                                                        type="number"
                                                        required={true}
                                                        autoFocus
-                                                       value={showQuestions[index] && showQuestions[index].value ? showQuestions[index].value : null}
+                                                       value={showQuestions[index] &&
+                                                       showQuestions[index].value ? showQuestions[index].value : null}
                                                        onChange={event => {
                                                            let newMessate = [...showQuestions];
                                                            let value = event.target.value;
                                                            newMessate[index].message = "";
-                                                           if (value.length <= 13) {
+                                                           if (value.length <=14) {
                                                                newMessate[index].value = value;
                                                            }
                                                            setShowQuestions(newMessate);
@@ -311,8 +313,8 @@ export default () => {
                                                            newMessate[index].value = event.target.value;
                                                            setShowQuestions(newMessate);
                                                        }}/>}
-                                        <div><Button style={{marginTop: "19%", marginLeft: "8%!important",
-                                            backgroundColor:"#F37F00"}}
+                                        <div><Button style={{marginTop: "20%", marginLeft: "8%!important",
+                                            backgroundColor:"#035F80"}}
                                                      disabled={showQuestions[index].disable} type="submit"
                                                      variant="secondary" className="button ml-2">
                                             Go

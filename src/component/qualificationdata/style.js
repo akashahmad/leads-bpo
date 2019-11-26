@@ -7,13 +7,12 @@ export default ()=>{
 
         .req-msg
            {
-    width: 300px!important;
-    margin-left: 6%;
-    margin-top: 0;
+    width: 319px!important;
+    margin-left: 6%!important;
+    margin-top: 9px;
     margin-bottom: 3rem;
-    color: #F37F00;
+    color: Red;
     font-size: 16px;
-    margin-left: 28px;
             }
 
             .container-all{
@@ -32,30 +31,20 @@ export default ()=>{
                 justify-content: space-around;
                 padding-bottom: 1%;
             }
-            // button.around-button{
-            //     border-radius: 30px;
-            //     width: 180px;
-            //     font-size: 14px;
-            //     font-family: Heebo, sans-serif, fontawesome;
-            //     color: #fff;
-            //     background: #8a1082;
-            //     padding: 10px 20px 10px 20px;
-            //     border: 0 solid #fdc037;
-            //     margin: 25px 0;
-            //     /* height: 30px; */
-            // }
+
             .chat1-inside-data
-            { height: 95px;
-              background: #F37F00!important;
-               border-radius: 180px;
-                max-width: 700px;
-                  height: 130px;
-               text-align: justify;
-               padding: 10px;
-              line-height: 30px;
-               font-size: 23px;
-               text-align: whi;
-               color: white;
+            {
+            height: 105px!important;
+    background: #035F80!important;
+    border-radius: 180px;
+    max-width: 669px;
+
+    text-align: justify;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: whi;
+    color: white;
                }
                 
              .chat1 {
@@ -72,10 +61,13 @@ export default ()=>{
             .chat-input-data {
             font-size: 23px;
                 float: right;
-                background: #006a90 ;
+                background: #F37F00 ;
                width: 42%;
-                height: 120px;
+               height: 105px!important;
                 border-radius: 55px;
+
+
+
 
                 
             }
