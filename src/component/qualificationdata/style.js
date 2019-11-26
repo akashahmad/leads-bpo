@@ -11,7 +11,7 @@ export default ()=>{
     margin-left: 6%;
     margin-top: 0;
     margin-bottom: 3rem;
-    color: red;
+    color: #F37F00;
     font-size: 16px;
     margin-left: 28px;
             }

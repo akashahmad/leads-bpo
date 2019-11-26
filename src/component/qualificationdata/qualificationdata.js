@@ -210,7 +210,7 @@ export default () => {
                                              if (single.type === "number") {
                                             if (!phoneNumberValidator("+" + showQuestions[index].value)) {
                                                 let newMessate = [...showQuestions];
-                                                newMessate[index].message = " * Enter valid Pattern i.e +441234567890";
+                                                newMessate[index].message = " * Enter a valid Pattern i.e +441234567890";
                                                 setShowQuestions(newMessate);
                                             }
                                             else {

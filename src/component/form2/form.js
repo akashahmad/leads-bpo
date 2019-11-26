@@ -2,8 +2,7 @@ import React, {useState, useEffect, Component} from 'react'
 import axios from 'axios';
 import Style from './style';
 import {apiPath} from '../../config'
-import '../../asserts/style/style.css'
-import '../../asserts/style/contactFormResponsive.css';
+ import '../../asserts/style/style.css'
 export default() => {
     const [firstName, setfirstName] = useState("");
     const [lastName, setlastName] = useState("");
@@ -23,9 +22,10 @@ export default() => {
         setemail(e.target.value)
     };
     const addPhone = e => {
+        e.preventDefault();
         setphone(e.target.value);
         if(!phoneNumberValidator(phone)){
-           setError("enter phone number with patren:+44 1434 634996")
+           setError("* Enter phone number with pattern:+44 1434 634996")
         }
     };
     const addPostBody = e => {
@@ -41,7 +41,8 @@ export default() => {
         )
     };
 
-const AddItem = () => {
+const AddItem = (e) => {
+          e.preventDefault();
         let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
             axios.post(apiPath + "/api/team", payLoad)
                 .then(response => {
@@ -72,8 +73,7 @@ const AddItem = () => {
         <section style={{height: '1500px'}} >
             <form   onSubmit={(event) =>
             {
-                event.preventDefault();
-                AddItem();
+                AddItem(event);
             }} >
                 <div className="d-flex flex-column align-items-center div-container">
                     <div className="container d-flex flex-column align-items-center form">
@@ -123,10 +123,9 @@ const AddItem = () => {
                                                    placeholder="  Requested Format: +44 1434 634996 " className="fields"
                                                    value={phone}
                                                    type="number"
-                                                  // title="+44 1434634996/0044-1434634996/0 1434634996 "
                                                    onChange={addPhone}
                                                    required/>
-                                            <p>{error}</p>
+                                            <p style={{color:"Red"}}>{error}</p>
 
 
                                         </div>
@@ -162,7 +161,7 @@ const AddItem = () => {
                             </div>
                             <div className="mt-4">
                             <div>
-                            <button className="btn_submit" type="submit">Submit
+                            <button style={{marginTop:"-5px"}} className="btn_submit" type="submit">Submit
                             </button>
                             </div>
                             </div>
