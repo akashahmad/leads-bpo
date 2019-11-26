@@ -26,13 +26,13 @@ export default ()=>{
                 <p className="ml-1">Private & Confidential</p>
         </div>
 
-        <div className="d-flex ml-5  paragraph-section3">
+        <div className="d-flex ml-5 box-responsive  paragraph-section3">
         <div className="box-icon1"><img className="box-icon3-img" src={Img3}></img></div>
                 <p className="ml-1">Regulated Advisors</p>
         </div>
 
         <div className="d-flex ml-5 paragraph-section3">
-        <div className="box-icon1"><img className="box-icon4-img" src={Img4}></img></div>
+        <div className="box-icon1 "><img className="box-icon4-img" src={Img4}></img></div>
                 <p className="ml-1">Best Advice Policy</p>
         </div>
     </div>

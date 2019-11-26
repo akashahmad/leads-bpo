@@ -35,8 +35,8 @@ export default()=>(
             margin-top: 26px!important;
             border-radius: 37px;
             height: 60px!important;
-             background-color: #e87e00;
-             width: 202px!important;
+            background-color: #e87e00;
+            width: 202px!important;
             }
 
 

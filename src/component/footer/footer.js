@@ -8,6 +8,24 @@ export default ()=>{
                <div className="row">
                 <img className="mt-5" src={Logo} width="200px"></img>
                </div> 
+
+               <div className="footer-last-sectiondata">
+                    <div className="last-section-paragraph-footer">
+                        <p>Copyright 2019 debtexpertuk.netlify.com All Rights Reserved.</p>
+                        <p>debtexpertuk.netlify.com is a trading style of Money Tree Media Limited.</p>
+                        <p className="last-pargraph-width">We will never charge you any fees for using the services on this site whatsoever. Therefore as an introducer we may receive a commission from our selected partners whom you may be referred to.</p>
+                    </div>
+               </div> 
+
+               <div className="lists-footer-lastsection">
+                   <li><a>Contact Details</a></li>
+                   <li><a>Website Copyright Details</a></li>
+                   <li><a>Terms &amp; Conditions</a></li>
+                   <li><a>Privacy Policy</a></li>
+               </div>
+
+
+
         <Style/>
         </div>
     );

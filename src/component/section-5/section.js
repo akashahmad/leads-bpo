@@ -52,7 +52,7 @@ export default class MyComponent extends React.Component {
                 
                 <CollapsibleContent>
                     <p className="mt-1">Your monthly payments should be reduced to one affordable amount that you can reasonably afford.</p>
-                    <p>You will be guided by a professional who will help you become officially <span className="debt-inside-span"><b>Debt Free!</b></span></p>
+                    <p>You will be guided by a professional who will help you become officially Debt Free!</p>
                 </CollapsibleContent>
  
                 <CollapsibleHead>
@@ -64,7 +64,7 @@ export default class MyComponent extends React.Component {
                 
                 <CollapsibleContent>
                 <p className="mt-1">We can get to work on stopping any unreasonable creditors or bailiffs as soon as we have spoken to you.</p>
-                    <p> Once we have the right information for you, we may be able to start the debt relief process within the<span className="debt-inside-span"><b> Same Day!</b></span></p>
+                    <p> Once we have the right information for you, we may be able to start the debt relief process within the Same Day!</p>
                 </CollapsibleContent>
             
             
@@ -76,7 +76,7 @@ export default class MyComponent extends React.Component {
             </CollapsibleHead>
                 <CollapsibleContent>
                 <p className="mt-1">For us to help eliminate your debt, it is mandatory that we have a informal friendly chat on the phone. This is because what we do is life changing, and we will need to make sure you are given the right information for your personal circumstance.</p>
-                <p>The conversations you have with us are <span  className="debt-inside-span"><b>never shared without your consent </b></span>. The only way someone would know, is if you choose to tell them yourself.</p>
+                <p>The conversations you have with us are never shared without your consent. The only way someone would know, is if you choose to tell them yourself.</p>
                 </CollapsibleContent>
             </CollapsibleComponent>
 
