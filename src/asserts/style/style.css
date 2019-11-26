@@ -20,12 +20,12 @@ body{
     background-size: cover;
 }
 
-.image-section8{
+/* .image-section8{
     background-image: url(../images/Group1.png);
     height:700px;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 .img-form{
     background-image:url(../images/Group1.png);
     height:437px;
@@ -33,7 +33,7 @@ body{
     background-size: cover;
 }
 .section5-image{
-    background-image: url(../images/Group1.png);
+    background-image: url(../images/section.png);
     min-height: 116vh;
     background-size: cover;
     background-repeat: no-repeat;
