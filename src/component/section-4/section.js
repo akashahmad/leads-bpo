@@ -2,7 +2,7 @@ import React from 'react'
 import Style from '../section-4/style'
 import img1 from '../../asserts/images/blue-circle.png'
 import {Link} from 'react-router-dom'
-
+import smallIcon from '../../asserts/images/Group3.png'
 export default ()=>{
     return(
 <>
@@ -15,13 +15,19 @@ export default ()=>{
                 <div className="left-side-section5 d-flex  flex-column mt-5 mr-5">
                     
                     <h2 className="mt-3"><b className="color">How Much Of Your Debt Could<br/>You Potentially Write-Off?..</b></h2>
-                    <p className="mt-3 pp">Here is an example of how your debt could be managed.<br/> Please note debt write off is dependent on<br/> personal circumstances, so find out now:</p>    
+                    <p className="mt-3 pp">Here is an example of how your debt could <br/>be managed. Please note debt write off is<br/> dependent on personal circumstances,<br/> so find out now:</p>    
                     
                     <section><Link to={"/chat"}>
-                      <div className="animated infinite pulse button-section2-move1 clip-div1 d-flex" id="clip-div1">
+                    <div>
+                       <button className="scroll_btn pulse  animated infinite pulse button-section2-header2 clip-div3 d-flex mt-4" id="clip-div3"><span className="button-header-text2">START FREE DEBT ASSESSMENT</span>
+                            <img src={smallIcon} width="20px" className=" ml-3"></img></button>       
+                       </div>
+
+
+                      {/* <div className="animated infinite pulse button-section2-move1 clip-div1 d-flex" id="clip-div1">
                           <button className="btn btn-purple btn-ndh  scroll_btn pulse clip1" id="clip1"><p class="button-text1">START FREE DEBT ASSESSMENT</p> </button>                        
                           <i className="fa fa-chevron-circle-right icon movement-icon1"></i>
-                      </div>
+                      </div> */}
                       </Link>
                       </section> 
                 

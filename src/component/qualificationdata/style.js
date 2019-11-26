@@ -31,6 +31,7 @@ export default () => {
                 padding-bottom: 1%;
             }
 
+
             .chat1-inside-data
             {
             display:flex;
@@ -46,7 +47,7 @@ export default () => {
     text-align: whi;
     color: white;
                }
-                
+
              .chat1 {
                 padding-left: 3%;
                 padding-top: 2%;
