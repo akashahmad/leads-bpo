@@ -7,6 +7,9 @@ import Section4 from '../../component/section-4/section'
 import Section5 from '../../component/section-5/section'
 import Section6 from '../../component/section-6/section'
 import Section7 from '../../component/section-7/section'
+import Section8 from '../../component/section-8/section8'
+
+import '../../asserts/style/responsive.css';
 export default ()=>{
 
     return(
@@ -19,6 +22,7 @@ export default ()=>{
 <Section5/>
 <Section6/>
 <Section7/>
+<Section8/>
 </Layout>
 </>
     );

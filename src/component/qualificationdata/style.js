@@ -33,7 +33,7 @@ export default ()=>{
                 border-radius: 30px;
                 width: 180px;
                 font-size: 14px;
-                font-family: Heebo, sans-serif, fontawesome;
+                // font-family: Heebo, sans-serif, fontawesome;
                 color: #fff;
                 background: #8a1082;
                 padding: 10px 20px 10px 20px;

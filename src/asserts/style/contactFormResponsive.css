@@ -1,8 +1,5 @@
 @media (max-width: 1199px) and (min-width: 1024px)   {
-    .header-logo {
-        height: 177px!important;
-        margin-top: -34px!important;
-    }
+
     .img-form{
         background-repeat: no-repeat!important;
         background-size: cover!important;
@@ -27,10 +24,6 @@
         font-size: 29px!important;
 
     }
-    .footer {
-        height: 100%!important;
-        margin-top: -92px!important;
-    }
     .firstname{
         width: 24%!important;
 
@@ -38,10 +31,6 @@
 
 }
   @media (max-width: 1023px) and (min-width: 992px) {
-      .header-logo {
-          height: 177px!important;
-          margin-top: -34px!important;
-      }
       .img-form{
           background-repeat: no-repeat!important;
           background-size: cover!important;
@@ -66,10 +55,6 @@
           font-size: 29px!important;
 
       }
-      .footer {
-          height: 100%!important;
-          margin-top: 75px!important;
-      }
       .firstname{
           width: 24%!important;
 
@@ -77,10 +62,7 @@
 
   }
  @media (max-width: 991px) and (min-width: 768px) {
-     .header-logo {
-         height: 177px!important;
-         margin-top: -34px!important;
-     }
+
      .img-form{
          background-repeat: no-repeat!important;
          background-size: cover!important;
@@ -101,10 +83,6 @@
          font-size: 29px!important;
 
      }
-     .footer {
-         height: 100%!important;
-         margin-top: 75px!important;
-     }
      .firstname{
          width: 24%!important;
 
@@ -113,10 +91,6 @@
  }
 
  @media (max-width: 767px) and (min-width: 685px) {
-     .header-logo {
-         height: 177px!important;
-         margin-top: -34px!important;
-     }
      .img-form{
          background-repeat: no-repeat!important;
          background-size: cover!important;
@@ -137,10 +111,6 @@
          font-size: 29px!important;
 
      }
-     .footer {
-         height: 100%!important;
-         margin-top: 172px!important;
-     }
      .firstname{
          width: 24%!important;
 
@@ -148,10 +118,6 @@
 
  }
  @media (max-width: 684px) and (min-width: 568px) {
-     .header-logo {
-         height: 177px!important;
-         margin-top: -34px!important;
-     }
      .img-form{
          background-repeat: no-repeat!important;
          background-size: cover!important;
@@ -170,10 +136,6 @@
          font-size: 29px!important;
 
      }
-     .footer {
-         height: 100%!important;
-         margin-top: 208px!important;
-     }
      .firstname{
          width: 24%!important;
 
@@ -182,10 +144,7 @@
  }
 
 @media (max-width: 567px) and (min-width: 480px) {
-    .header-logo {
-        height: 177px!important;
-        margin-top: -34px!important;
-    }
+
     .img-form{
         background-repeat: no-repeat!important;
         background-size: cover!important;
@@ -207,10 +166,6 @@
         font-size: 29px!important;
 
     }
-    .footer {
-        height: 100%!important;
-        margin-top: 172px!important;
-    }
     .firstname{
         width: 24%!important;
 
@@ -219,15 +174,12 @@
 }
 @media (max-width: 479px) and (min-width: 320px) {
 
-    .header-logo {
-        height: 177px!important;
-        margin-top: -17px!important;
-    }
     .img-form{
         background-repeat: no-repeat!important;
         background-size: cover!important;
         height: 250px!important;
     }
+
     p.para1 {
         font-size: 16px!important;
         margin-top: 10px!important;
@@ -242,14 +194,11 @@
         font-size: 29px!important;
 
     }
-    .footer {
-        height: 673px!important;
-        margin-top: 44%!important;
-    }
+
     .firstname{
         width: 24%!important;
 
-         }
+    }
 
 
 }

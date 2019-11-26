@@ -41,16 +41,15 @@ export default() => {
         }
 
         else {
-            // let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
-            // axios.post(apiPath + "/api/team", payLoad)
-            //     .then(response => {
-            //         window.location.replace("/thank-you");
-            //         console.log(response);
-            //
-            //     })
-            //     .catch(err => {
-            //     });
-
+            let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
+            axios.post(apiPath + "/api/team", payLoad)
+                .then(response => {
+                    window.location.replace("/thank-you");
+                    console.log(response);
+            
+                })
+                .catch(err => {
+                });
 
         }
 

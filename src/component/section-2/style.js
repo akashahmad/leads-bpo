@@ -5,30 +5,54 @@ export default()=>(
 
         /* section 3  starts here*/
 
+        .box-icon1 {
+            background: #f37f00;
+            width:80px;
+        }
+        .box-icon1-img{
+            padding:10px;
+            padding-left: 23px;
+        }
+        .box-icon2-img{
+            padding:10px;
+            padding-left: 26px;
+        }
+        .box-icon3-img{
+            padding:10px;
+            padding-left: 20px;
+        }
+        .box-icon4-img{
+            padding:10px;
+            padding-left: 23px;
+        }
+
+
         .pad{
-            background: gainsboro;
-            border-bottom: 1px solid #006a90;
-            border-top: 1px solid #006a90;
+            background:#ffffff;
+            border-bottom: 1px solid #c0c0c0;
                 
         }
-        i.fa {
-            color: #fff;
-            font-size: 32px;
-        }
+        // i.fa {
+        //     color: #fff;
+        //     font-size: 32px;
+        // }
         .span {
             background-color: #f37f00;
-            padding: 15px 21px;
+            padding: 30px 35px;
             display: inline-block;
             margin: 0 10px 0 0;
         }
         .paragraph-section3{
             color: #2e3030;
-            font-family: "Quicksand",sans-serif;
             font-size: 18px;
-            font-weight: 500;
+            // font-weight: 500;
         }
         .paragraph-section3 p{
             padding-top: 7%;
+            color: #438fac;
+        }
+        .margin-left {
+            margin-left: 105px!important;
         }
         
         .progress-bar {

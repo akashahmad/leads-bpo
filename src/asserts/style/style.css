@@ -1,19 +1,13 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: red hat Display;    
 }
 
-.footer{
-    background-image: url(../images/gplay.png);
-    background-repeat: 100%;
-    margin-top: 209px;
-    height: 500px;
-    background-color: #202020;
-    /*margin-top: 4%;*/
-}
 .image{
-    background-image:url(../images/home-1-slide-1.jpg);
-    height: 90vh;
+    background-image:url(../images/Group9.png);
+    min-height: 120vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,7 +19,7 @@ body{
 }
 
 .image-section8{
-    background-image: url(../images/parallax-1.jpg);
+    background-image: url(../images/Group1.png);
     height:700px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,4 +29,10 @@ body{
     height:40vh;
     background-repeat:no-repeat;
     background-size: cover;
+}
+.section5-image{
+    background-image: url(../images/Group1.png);
+    min-height: 116vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

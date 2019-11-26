@@ -66,9 +66,6 @@ export default()=>(
 
         }
 
-
-        /* section 4 ends here */
-
         /* section 4 Range Slider */
         .multislidergreen{
             height: 40px;
@@ -122,7 +119,7 @@ export default()=>(
             height: 20px;
         }
 
-// Range New Slider
+
 
 
 

@@ -10,18 +10,17 @@ export default()=>(
         }
 
         .button-section2-header {
-            // margin-left: 0!important;
             height: 53px!important;
             width: 200px!important;
             margin-top:40px!important;
-          
             font-size:28px;
         
         }
         .button-header-text {
-            /* text-align: center!important; */
-            padding-left: 45px;
+            padding-left: 15px;
+            margin-top: -2px;
             color: white;
+            font-size: 24px;
         }
         .content{
             margin-right:30px;
@@ -30,9 +29,15 @@ export default()=>(
             text-decoration: none!important;
         }
         button#clip-div1 {
+            background-image: linear-gradient(#F37F00, #fdb05b);
+            border: #e07900;
+            margin-left: 34px;
+            margin-top: 26px!important;
             border-radius: 37px;
-            background-color:#f37f00;
-        }
+            height: 60px!important;
+             background-color: #e87e00;
+             width: 202px!important;
+            }
 
 
         /* section1  starts here*/
@@ -42,33 +47,33 @@ export default()=>(
         
         .section1-paragraph{
             display: flex;
-            /* flex-direction: column; */
             padding-top: 2%;
+            
         }
-        .section1-paragraph a:hover{
-            color: #006a90;
-            text-decoration: none;
-            list-style: none;
-        }
+        // .section1-paragraph a:hover{
+        //     color: #006a90;
+        //     text-decoration: none;
+        //     list-style: none;
+        // }
         .section1-paragraph a{
-            color: #006a90!important;
+            color:#004e76!important;
+            margin-top: 2px;
+            color: #0b567b!important;
         }
 
         .anchor-section1 
         {
-            color: #006a90!important;
+            color: #0b567b!important;
             text-decoration: none;
-            font-size: 29px;
-            font-weight: bold;
-            margin-top: 5px;
+            font-size: 33px;
+            margin-right: 6px;
             padding: 5px;
-        
         }
         .section1-paragraph h4{
             font-size: 35px;
-            font-weight: bold;
+            // font-weight: bold;
             padding-top: 1.5%;
-            color:#006a90;
+            color:#004e76;
         }
         .section1-paragraph p{
             padding-top: 10px;
@@ -79,17 +84,17 @@ export default()=>(
         .below-anchor{
             text-align: end;
             margin-top: -5px;
-            font-weight: bold;
         }
         .below-anchor p{
             font-size: 17px;
             
         }
-        
-        
-        /* section 1 ends here */
-        /* ------------------------ */
-        
+        .link-header {
+            margin-top: -5px;
+            color: #ea840b;
+            margin-right: -19px;
+            font-weight: 500;
+        }
 
 
         `
