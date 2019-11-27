@@ -60,12 +60,12 @@ export default()=>(
             font-size: 25px;
             color: #f38524;
             font-weight: 500;
-            width: 374px;
+            width: 452px;
             text-align: center;
         }
         .right-paragraph2-section7{
             font-size: 21px;
-            width: 360px;
+            width: 392px;
             // padding-left: 4px;
             color: #5896af;
         }

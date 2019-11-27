@@ -601,4 +601,8 @@ margin-left: -10%;
     .button-text1 {
         margin-top: 0px!important;
     }
+    .last-pargraph-width {
+        width: 800px;
+        text-align: center;
+    }
 }
