@@ -2,6 +2,7 @@ import React from 'react'
 export default()=>(
     <style js="true">{
         `
+
         .button-text-header {
             font-size: 28px;
             margin-top: -1px;

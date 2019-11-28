@@ -3,6 +3,7 @@ import axios from 'axios';
 import Style from './style';
 import {apiPath} from '../../config'
 import '../../asserts/style/style.css'
+import {Link} from 'react-router-dom'
 export default() => {
     const [firstName, setfirstName] = useState("");
     const [lastName, setlastName] = useState("");
@@ -14,49 +15,38 @@ export default() => {
     const [phonenum, setphonenum] = useState("");
 
 
-    const addFirstName = e => {
-        setfirstName(e.target.value)
-    };
-
-    const addLastname = e => {
-        setlastName(e.target.value)
-    };
-    const addEmail = e => {
-        setemail(e.target.value)
-    };
-    const addPhone = e => {
-        e.preventDefault();
-        setphone(e.target.value);
-        if (!phoneNumberValidator(phone)) {
-            setError("* Enter phone number with pattern:+44 1434 634996")
-
-        }
-        else {
-            if (Validnum) {
-                setError("Phone number is switched off")
-
-            }
-            else {
-                setphonenum(phone);
-            }
-
-        }
-    };
-    const addPostBody = e => {
-        setpostBody(e.target.value)
-    };
-
     const phoneNumberValidator = number => {
-        let re = /^(\44\s?\d{10}|0044\s?\d{10}})?$/;
+        console.log(number)
+        let re = /^(44\s?\d{10}|0044\s?\d{10})}?$/;
+       // console.log(re.test(String(number).toLowerCase()))
         return (
             re.test(String(number).toLowerCase())
         )
     };
 
 
+
     const AddItem = (e) => {
         e.preventDefault();
-        let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
+        if(!phoneNumberValidator(phone)){
+            setError("* Enter phone number with pattern:0044 1434634996");
+            return
+        }
+        else
+        {
+            if(!Validnum)
+            {
+                setError("Phone number is switched off");
+                return
+
+            }
+            else {
+                setphonenum(phone);
+            }
+
+
+        }
+        let payLoad = {firstName: firstName, lastName: lastName, phone: phonenum, email: email, postBody: postBody};
         axios.post(apiPath + "/api/team", payLoad)
             .then(response => {
                 window.location.replace("/thank-you");
@@ -81,109 +71,112 @@ export default() => {
                 </div>
             </div>
         </section>
-
-        <div style={{height: '835px'}}>
-            <section style={{height: '1500px'}}>
-                <form onSubmit={(event) => {
-                    AddItem(event);
-                }}>
-                    <div className="d-flex flex-column align-items-center div-container">
-                        <div className="container d-flex flex-column align-items-center form">
-                            <div style={{width: '62%', marginBottom: '32px'}} className="mt-5">
-                                <h2 style={{color: "#006a90"}}>Get in touch with us</h2>
-                            </div>
-                            <div className="" style={{width: '87%', marginLeft: '-3%!important', marginRight: '-1%'}}>
-                                <div id="" className="">
-                                    <label className="" htmlFor="input_1_1_3">Name
-                                        <span className="">*</span>
-                                    </label>
-                                    <div className="" id="">
-                                       <span style={{marginRight: '7px'}} id="" className="">
-                                            <input style={{width: '48%'}} name="firstname" id="input_1_2"
+        <section style={{height: '950px'}} >
+            <form   onSubmit={(event) =>
+            {
+                AddItem(event);
+            }} >
+                <div className="d-flex flex-column align-items-center div-container">
+                    <div className="container d-flex flex-column align-items-center form">
+                        <div style={{  marginBottom: '32px' }} className="mt-4">
+                            <h2 style={{color: "#006a90"}}>Get in touch with us</h2>
+                        </div>
+                        <div className="" style={{width:'87%', marginLeft: '-3%!important', marginRight: '-1%'}}>
+                            <div id="" className="inside-form">
+                                <label className="" htmlFor="input_1_1_3">Name
+                                    <span className="">*</span>
+                                </label>
+                                <div className="" id="">
+                                       <span style={{marginRight:'7px'}} >
+                                            <input style={{width:'48%'}} name="firstname" id="input_1_2"
                                                    placeholder=" FIRST NAME" className="fields"
                                                    value={firstName}
-                                                   onChange={addFirstName}
+                                                   onChange={(event)=>setfirstName(event.target.value)}
                                                    type="text"
                                                    required/>
                                         </span>
 
-                                        <span id="" className="">
-                                          <input style={{width: '50%'}} type="text"
-                                                 className="fields"
-                                                 placeholder="  LAST NAME"
-                                                 name="lastName" value={lastName} onChange={addLastname} required/>
+                                    <span id="" className="">
+                                          <input  style={{width:'50%'}}  type="text"
+                                                  className="fields"
+                                                  placeholder="  LAST NAME"
+                                                  name="lastName"  value={lastName}
+                                                  onChange={(event)=>setlastName(event.target.value)}
+                                                  required/>
                                         </span>
+                                </div>
+
+
+                                <div id="field_1_2"
+                                     className="">
+                                    <label className="" htmlFor='input_1_2'>Phone
+                                        <span className="">*</span>
+                                    </label>
+                                    <div className="phone">
+                                        <input name="phone" id="input_1_2"
+                                               placeholder="  Requested Format: 0044 1434634996 " className="fields"
+                                               value={phone}
+                                               type="number"
+                                               onChange={(event)=>setphone(event.target.value)}
+                                               required/>
+                                        <p style={{color:"Red"}}>{error}</p>
+
+
                                     </div>
+                                </div>
+                                <div id="field_1_5" className="">
+                                    <label className="">Email
+                                        <span className="">*</span>
+                                    </label>
+                                    <div className="">
 
+                                        <input id="input_1_5" type="email" placeholder="  Email" className="fields"
+                                               name='email' value={email}
+                                               onChange={(event)=>setemail(event.target.value)}
+                                               pattern='[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\.[A-Za-z]{2,4}'
+                                               title="for example: abc@gmail.com" required/>
 
-                                    {/*<div>*/}
-                                    {/*<span style={{marginRight:'26px'}} id="" className="">*/}
-                                    {/*<label className="one" htmlFor='input_1_1_3'>First</label>*/}
-                                    {/*</span>*/}
-                                    {/*<span style={{marginLeft:'161px'}} id="" className="">*/}
-                                    {/*<label className="one" htmlFor='input_1_1_3'>Last</label>*/}
-                                    {/*</span>*/}
-                                    {/*</div>*/}
-
-                                    <div id="field_1_2"
-                                         className="">
-                                        <label className="" htmlFor='input_1_2'>Phone
-                                            <span className="">*</span>
-                                        </label>
-                                        <div className="">
-                                            <input name="phone" id="input_1_2"
-                                                   placeholder="  Requested Format: 0044 1434 634996 "
-                                                   className="fields"
-                                                   value={phone}
-                                                   type="number"
-                                                   onChange={addPhone}
-                                                   required/>
-                                            <p style={{color: "Red"}}>{error}</p>
-
-
-                                        </div>
                                     </div>
-                                    <div id="field_1_5" className="">
-                                        <label className="">Email
-                                            <span className="">*</span>
-                                        </label>
-                                        <div className="">
+                                </div>
 
-                                            <input id="input_1_5" type="email" placeholder="  Email" className="fields"
-                                                   name='email' value={email}
-                                                   onChange={addEmail}
-                                                   pattern='[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\.[A-Za-z]{2,4}'
-                                                   title="for example: abc@gmail.com" required/>
-
-                                        </div>
-                                    </div>
-
-                                    <div id="field_1_4" className="">
-                                        <label className="" htmlFor="input_1_4">Post Body</label>
-                                        <div className="">
+                                <div id="field_1_4" className="">
+                                    <label className="" htmlFor="input_1_4">Post Body<span className="">*</span></label>
+                                    <div className="">
                                             <textarea type="text" placeholder="Your Question" className="text-area"
                                                       value={postBody}
-                                                      onChange={addPostBody}
-                                                      required
+                                                      onChange={(event)=>setpostBody(event.target.value)}
                                                       rows="8" cols="50"
                                             />
-                                        </div>
                                     </div>
-
                                 </div>
-                            </div>
-                            <div className="mt-4">
-                                <div>
-                                    <button style={{marginTop: "-5px"}} className="btn_submit" type="submit">Submit
-                                    </button>
-                                </div>
-                            </div>
 
+                                <div className="d-flex">
+                                    <input type="checkbox" name="" value="" style={{marginTop: "3px",height: "18px",
+                                        width: "30px"}} required/>
+                                    <p className="sub-input" style={{color: "#035F80"}}>
+                                        I accept the<Link className="link" to={'/privacy-policy'}
+                                                          style={{color: "#F37F00"}}> &nbsp;Privacy Policy </Link>&nbsp;and
+                                        <Link className="link"
+                                              to={'/privacy-policy'}  style={{color: "#F37F00"}}>
+                                            &nbsp; Terms & Conditions.</Link>
+                                    </p>
+                                </div>
+
+
+                            </div>
                         </div>
+
+                        <div className="mt-4">
+                            <div>
+                                <button style={{marginTop:"-5px"}} className="btn_submit" type="submit">Submit
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
-                </form>
-            </section>
-        </div>
+                </div>
+            </form>
+        </section>
         <Style/>
         </>
     );

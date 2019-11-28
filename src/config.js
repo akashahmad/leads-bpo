@@ -1,1 +1,1 @@
-export const apiPath = "https://json-team-crud.herokuapp.com";
+export const apiPath = "https://json-node-crud.herokuapp.com";

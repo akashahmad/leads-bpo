@@ -5,6 +5,8 @@ export default() => {
         <style>{`
    .input-first {
     padding-bottom: 21px;
+
+
 }
 .header-logo {
     width: 17%!important;
@@ -13,10 +15,10 @@ export default() => {
 }
 .container.d-flex.flex-column.align-items-center.form {
     border: 2px solid #006a90;
-    height: 952px;
+    height: 1030px!important;
     width: 558px;
-    /* margin-bottom: 357px; */
-    margin-top: -5%;
+     margin-bottom: 357px;
+    margin-top: -70px;
     box-shadow: 8px 17px #d6d6d6;
 
 }
@@ -48,6 +50,12 @@ p.para1 {
 .btn-form{
     width:395px;
     background-color:#f37f00;
+}
+.inside-form label{
+    margin-top: 1rem;
+}
+.phone p{
+margin-bottom:0!important;
 }
 
    .label{
@@ -89,7 +97,7 @@ p.para1 {
 
 
    .btn_submit{
-       width: 300px;
+       width: 260px;
     border-radius: 21px;
     margin-top: 5%;
     padding: 10px;
@@ -100,6 +108,13 @@ p.para1 {
     background-color: #F37F00;
     color: white;
    }
+   .container {
+    height: 120vh!important;
+}
+.mt-4{
+margin-top:"1.5rem"!important;
+margin-bottom: 30px;
+}
 
    `}</style>
     );

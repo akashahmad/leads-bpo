@@ -5,10 +5,10 @@ import axios from "axios";
 import Style from "./style";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
-import '../../asserts/style/Roboresponsive.css';
+import '../../asserts/style/Chatresponsive.css';
+import {Link} from 'react-router-dom'
 export default () => {
-    const [Validnum, setValidnum] = useState(false);
-
+    const [Validnum, setValidnum] = useState(true);
     const listOfName = [
         "Lara",
         "Kate",
@@ -176,7 +176,7 @@ export default () => {
                                 newMessate[index] = {question: "submit"};
                             }
                             setShowQuestions(newMessate);
-                        }, 300);
+                        }, 3000);
                         return (
                             <div className="ml-5 mt-5 mb-3">
                                 <div className="d-flex Loader">
@@ -210,7 +210,7 @@ export default () => {
                                           {
                                             event.preventDefault();
                                              if (single.type === "number") {
-                                                 { console.log(showQuestions[index].value)
+                                                 {
                                                      if (!phoneNumberValidator("+" + showQuestions[index].value)) {
                                                                  let newMessate = [...showQuestions];
                                                                  newMessate[index].message = " * Enter a valid Pattern i.e" +
@@ -251,7 +251,24 @@ export default () => {
                                                 newMessate.push({question: "typing"});
                                                 setShowQuestions(newMessate);
                                             }
-                                        } else {
+                                        }
+                                        else if(single.type === "text")
+                                             {
+                                                 if ((showQuestions[index].value).length >= 16 )
+                                                 {
+                                                     let newMessate = [...showQuestions];
+                                                     newMessate[index].message = "Length should be less than 16 character  ";
+                                                     setShowQuestions(newMessate);
+                                                 }
+                                                 else
+                                                     {
+                                                let newMessate = [...showQuestions];
+                                                 newMessate[index].disable = true;
+                                                newMessate.push({question: "typing"});
+                                                setShowQuestions(newMessate);
+                                               }
+                                          }
+                                        else {
                                             let newMessate = [...showQuestions];
                                             newMessate[index].disable = true;
                                             newMessate.push({question: "typing"});
@@ -269,7 +286,7 @@ export default () => {
                                         </div>
                                         {single.type === "number" ?
                                             <div>
-                                                <input  placeholder="" className="input mt-4 ml-4"
+                                                <input  placeholder="" className="input ml-4"
                                                        type="number"
                                                        required={true}
                                                        autoFocus
@@ -303,7 +320,7 @@ export default () => {
                                                 <p className="req-msg">
                                                     {  showQuestions[index].message ? showQuestions[index].message : ""}</p>
                                             </div> :
-                                                <input placeholder="" className="input mt-4 ml-4"
+                                                <input placeholder="" className="input  ml-4"
                                                        type={single.type}
                                                        required={true}
                                                        minLength={2}
@@ -328,12 +345,18 @@ export default () => {
 
                             <div className="  chat-input-data2">
                                 <div className="d-flex chat-inside-data">
-                                    <div style={{marginTop: "49px", marginLeft: "60px"}}>
-                                        <p className="sub-input" style={{color: "white"}}>I accept the Privacy Policy and Terms & Conditions.</p></div>
+                                    <div style={{marginTop: "49px", marginLeft: "34px"}}>
+                                        <p className="sub-input" style={{color: "white"}}>
+                                            I accept the<Link className="link"
+                                            to={'/privacy-policy'} style={{color: "#F37F00"}}> &nbsp;Privacy Policy </Link>
+                                            &nbsp;and
+                                            <Link className="link"
+                                                to={'/privacy-policy'}  style={{color: "#F37F00"}}>
+                                                 &nbsp; Terms & Conditions.</Link></p></div>
                                     <div style={{marginLeft: ""}}>
                                         <Button
-                                            style={{padding: "21px", borderRadius: "11px"}}
-                                            variant="secondary" className=" ml-2"
+                                            style={{padding: "16px", borderRadius: "11px"}}
+                                            variant="secondary"
                                             onClick={() => {
                                                 submitHandler();
                                             }}>Accept
