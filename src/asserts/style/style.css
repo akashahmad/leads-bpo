@@ -14,7 +14,7 @@ body{
 }
 .image{
     background-image:url(../images/Group9.png);
-    min-height: 120vh;
+    min-height: 700px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
