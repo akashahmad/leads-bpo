@@ -17,8 +17,8 @@ export default() => {
 
     const phoneNumberValidator = number => {
         console.log(number)
-        let re = /^(44\s?\d{10}|0044\s?\d{10}})?$/;
-        console.log(re.test(String(number).toLowerCase()))
+        let re = /^(44\s?\d{10}|0044\s?\d{10})}?$/;
+       // console.log(re.test(String(number).toLowerCase()))
         return (
             re.test(String(number).toLowerCase())
         )
@@ -91,7 +91,7 @@ export default() => {
                                             <input style={{width:'48%'}} name="firstname" id="input_1_2"
                                                    placeholder=" FIRST NAME" className="fields"
                                                    value={firstName}
-                                                   onChange={(event)=>setfirstName(even.target.value)}
+                                                   onChange={(event)=>setfirstName(event.target.value)}
                                                    type="text"
                                                    required/>
                                         </span>
@@ -101,7 +101,7 @@ export default() => {
                                                   className="fields"
                                                   placeholder="  LAST NAME"
                                                   name="lastName"  value={lastName}
-                                                  onChange={(event)=>setlastName(even.target.value)}
+                                                  onChange={(event)=>setlastName(event.target.value)}
                                                   required/>
                                         </span>
                                 </div>
@@ -117,7 +117,7 @@ export default() => {
                                                placeholder="  Requested Format: 0044 1434634996 " className="fields"
                                                value={phone}
                                                type="number"
-                                               onChange={(event)=>setphone(even.target.value)}
+                                               onChange={(event)=>setphone(event.target.value)}
                                                required/>
                                         <p style={{color:"Red"}}>{error}</p>
 
@@ -132,7 +132,7 @@ export default() => {
 
                                         <input id="input_1_5" type="email" placeholder="  Email" className="fields"
                                                name='email' value={email}
-                                               onChange={(event)=>setemail(even.target.value)}
+                                               onChange={(event)=>setemail(event.target.value)}
                                                pattern='[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\.[A-Za-z]{2,4}'
                                                title="for example: abc@gmail.com" required/>
 
@@ -144,7 +144,7 @@ export default() => {
                                     <div className="">
                                             <textarea type="text" placeholder="Your Question" className="text-area"
                                                       value={postBody}
-                                                      onChange={(event)=>setpostBody(even.target.value)}
+                                                      onChange={(event)=>setpostBody(event.target.value)}
                                                       rows="8" cols="50"
                                             />
                                     </div>
