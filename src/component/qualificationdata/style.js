@@ -23,7 +23,7 @@ export default () => {
             }
             .section2
             {
-             
+             margin-bottom: 147px;
             }
             .row.space-between {
                 display: flex;
@@ -47,7 +47,10 @@ export default () => {
     text-align: whi;
     color: white;
                }
+ .chat-inside-data
+            {
 
+               }
              .chat1 {
                 padding-left: 3%;
                 padding-top: 2%;
@@ -56,7 +59,7 @@ export default () => {
                 padding-left: 3%;
                 width: 180px;
                 height: 80px;
-                background: #e7efff;
+                background: #F37F00;
                 border-radius: 50px;
             }
             .chat-input-data {
@@ -69,9 +72,6 @@ export default () => {
                 border-radius: 55px;
                //min-width: 39%;
 
-
-
-                
             }
 
             // p.p {
@@ -81,12 +81,13 @@ export default () => {
             //
             // }
             .input{
-                height: 70px;
-                border-radius: 7px;
-                 background: #e7efff;
-                 font-size: 22px;
-                width: 300px;
-                padding-left: 6px;
+                height: 65px;
+    border-radius: 7px;
+    background: #e7efff;
+    font-size: 22px;
+    width: 300px;
+    padding-left: 6px;
+    margin-top: 27px;
             }
             .button{margin-top: 26%!important;
     margin-right: 16px;
@@ -117,22 +118,28 @@ button[disabled]{
             .chat-input-data2 {
            float: right;
     background: #006a90;
-    width: 42%;
-    height: 120px;
+    width: 662px;
+
     border-radius: 55px;
 }
     .sub-input{
    font-size: 22px;
     width: 513px;
     margin-left: -5px;
-    margin-top: -1px;
+    margin-top: -15px;
     }
 .chat-input-data2 .btn{
-                   margin-top: 24%;
-    width: 100px;
+                   margin-top: 20%;
+    width: 84px;
     background: #F37F00;
             
             }
+
+
+    a:hover {
+    color: white !important;
+    text-decoration: underline;
+}
             `}
         </style>
     );

@@ -1,7 +1,6 @@
 import React from 'react'
 import img from '../../asserts/images/newLogo.png'
 import Style from '../header/style'
-import '../../asserts/style/Roboresponsive.css'
 import smallIcon from '../../asserts/images/Group3.png'
 import {Link} from 'react-router-dom'
 export default ()=>{

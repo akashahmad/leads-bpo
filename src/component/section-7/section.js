@@ -1,6 +1,5 @@
 import React from 'react'
 import Style from '../section-7/style'
-import {Link} from 'react-router-dom'
 import img1 from '../../asserts/images/noun_listening_1934261.png'
 import img2 from '../../asserts/images/noun_help_1715151.png'
 import img3 from '../../asserts/images/noun_Handshake_540620.png'

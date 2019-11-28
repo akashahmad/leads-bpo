@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../asserts/images/newLogo.png'
 import Style from './style'
+import {Link} from 'react-router-dom'
 
 export default ()=>{
     return(
@@ -21,7 +22,7 @@ export default ()=>{
                    <li><a>Contact Details</a></li>
                    <li><a>Website Copyright Details</a></li>
                    <li><a>Terms &amp; Conditions</a></li>
-                   <li><a>Privacy Policy</a></li>
+                   <li> <Link to={'/privacy-policy'} >  Privacy Policy</Link></li>
                </div>
 
 

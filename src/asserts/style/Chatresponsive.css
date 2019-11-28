@@ -1,11 +1,14 @@
 /* chat responsive start*/
 @media (max-width: 1400px) and (min-width: 1200px) {
-
-}
-
-@media (max-width: 1199px) and (min-width: 1024px) {
     body {
         width: fit-content !important;
+    }
+    .chat1 {
+        padding-left: 0%!important;
+    }
+    p.p
+    {
+        font-size: 21px!important;
     }
 
     .chat-input-data2 {
@@ -24,7 +27,53 @@
     }
 
     .set-input {
-        margin: 17px !important;
+    }
+
+    .container-fluid {
+        width: 1367px;
+    }
+
+    .chat-input-data {
+        width: 700px !important;
+        margin-top: 2%;
+    }
+
+    .chat1-inside-data {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+    body {
+        width: fit-content !important;
+    }
+    .chat1 {
+        padding-left: 0%!important;
+        padding-top: 0%;
+    }
+    p.p
+    {
+        font-size: 21px!important;
+    }
+
+    .chat-input-data2 {
+        width: 80% !important;
+        margin-right: 8px;
+        margin-top: 10px;
+    }
+
+    .chat-input-data2 button {
+        margin-top: 25px !important;
+        width: 100px;
+    }
+
+    .chat-input-data2 p {
+        margin-top: -16px;
+    }
+
+    .set-input {
+
     }
 
     .container-fluid {
@@ -32,13 +81,13 @@
     }
 
     .chat-input-data {
-        width: 800px !important;
+        width: 660px !important;
         margin-top: 2%;
     }
 
     .chat1-inside-data {
-        margin-top: 11%;
-        margin-bottom: 2%;
+        margin-top: 2%;
+
     }
 }
 
@@ -81,6 +130,17 @@
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
+    .box1 {
+        width: 232px !important;
+
+    }
+    .chat1{
+        padding-left:0px!important;
+    }
+
+    p.p {
+        font-size: 20px!important;
+    }
     body {
         width: fit-content !important;
 
@@ -100,25 +160,31 @@
     }
 
     .set-input {
-        margin: 17px !important;
+
     }
 
     .chat-input-data {
-        width: 800px !important;
+        width: 650px !important;
         margin-top: 2%;
     }
 
     .chat1-inside-data {
-        margin-top: 11%;
-        margin-bottom: 2%;
+        margin-left: 0px;
     }
 }
-
 @media (max-width: 767px) and (min-width: 685px) {
     body {
         width: fit-content !important;
 
     }
+    p.p {
+        font-size: 20px!important;
+    }
+
+    .chat1 {
+        padding-left:0 !important;
+
+    }
 
     .chat-input-data2 {
         width: 99% !important;
@@ -134,83 +200,23 @@
     }
 
     .set-input {
-        margin: 17px !important;
+        margin: 30px !important;
     }
 
     .container-fluid {
         width: 100%;
     }
 
-    .headerLogo {
-        width: 50% !important;
-        margin-left: 25%;
-        height: 100%;
 
-    }
-
-    .section1-paragraph {
-        margin-top: 5px !important;
-        width: 92%;
-    }
-
-    .section1-paragraph h4 {
-        margin-left: -6%;
-        margin-top: 1px;
-        font-size: 35px !important;
-    }
-
-    .anchor-section1 {
-        margin-left: -62%;
-        margin-top: 42px !important;
-        font-size: 33px !important;
-    }
-
-    .mr-2 {
-        margin-right: 0.5rem !important;
-        padding: 0px;
-        font-size: 25px;
-        font-weight: initial;
-    }
-
-    .scroll_btn {
-        margin-left: -10%;
-    }
-
-    p.p {
-        font-size: 29px !important;
-    }
-
-    .footer-div2 {
-        margin-top: -49px;
-        font-size: 24px !important;
-
-    }
-
-    .footer-p1 {
-        text-align: center;
-        margin-bottom: 3rem;
-        font-size: 22px;
-    }
-
-    .footer {
-        height: 680px !important;
-        margin-top: 18% !important;
-    }
-
-    .footer-ul {
-        margin: 0;
-        font-size: 23px;
-        text-align: center;
-        padding: 0;
-    }
 
     .chat-input-data {
-        width: 800px !important;
+        width: 698px !important;
         margin-top: 2%;
     }
 
+
     .chat1-inside-data {
-        margin-top: 11%;
+        margin-top: 3%;
         margin-bottom: 2%;
     }
 }
@@ -220,7 +226,11 @@
         width: fit-content !important;
 
     }
+    .chat1 {
+        padding:0 !important;
+        margin-top: 2%;
 
+    }
     .chat-input-data2 {
         width: 99% !important;
     }
@@ -235,33 +245,25 @@
     }
 
     .set-input {
-        margin: 17px !important;
+
     }
 
-    .mr-2 {
-        margin-right: 0.5rem !important;
-        padding: 0px;
-        font-size: 22px;
-        font-weight: bold;
-    }
 
-    .scroll_btn {
-        margin-left: -10%;
-    }
+
 
     p.p {
-        padding-top: 6%;
-        font-size: 27px;
+        padding-top: 0!important;
+        font-size: 23px;
         margin-left: 16px;
     }
 
     .chat-input-data {
-        width: 95% !important;
+        width: 80% !important;
         margin-top: 2%;
     }
 
     .chat1-inside-data {
-        margin-top: 11%;
+        margin-top: 3%;
         margin-bottom: 2%;
     }
 }
@@ -269,6 +271,10 @@
 @media (max-width: 567px) and (min-width: 480px) {
     body {
         width: fit-content !important;
+
+    }
+    .chat1 {
+        padding-left:0 !important;
 
     }
 
@@ -323,21 +329,17 @@
         width: fit-content !important;
 
     }
+    .chat1 {
+        padding-left:0 !important;
+
+    }
 
     .chat-input-data {
-        margin: 2%;
-        width: 96% !important;
-        border-radius: 31px !important;
+        margin-top: 2%;
+        width: 84% !important;
+        border-radius: 53px !important;
     }
 }
+
 
 /* chat responsive end*/
-/*robo chat responsive end*/
-
-@media (max-width: 991px) and (min-width: 768px) {
-    .box1 {
-        width: 232px !important;
-
-    }
-}
-

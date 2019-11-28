@@ -1,7 +1,7 @@
 import React from 'react'
 import Style from '../section-1/style'
 import 'animate.css/animate.css'
-import Move from '../qualificationdata/qualificationdata'
+//import Move from '../qualificationdata/qualificationdata'
 // import { FontAwesomeIcon } from 'fortawesome/fortawesome'
 import '../../asserts/style/style.css'
 import smallIcon from '../../asserts/images/Group2.png'
