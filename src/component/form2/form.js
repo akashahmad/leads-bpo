@@ -15,24 +15,6 @@ export default() => {
     const [phonenum, setphonenum] = useState("");
 
 
-    const addFirstName = e => {
-        setfirstName(e.target.value)
-    };
-
-    const addLastname = e => {
-        setlastName(e.target.value)
-    };
-    const addEmail = e => {
-        setemail(e.target.value)
-    };
-    const addPhone = e => {
-        setphone(e.target.value);
-
-    };
-    const addPostBody = e => {
-        setpostBody(e.target.value)
-    };
-
     const phoneNumberValidator = number => {
         console.log(number)
         let re = /^(44\s?\d{10}|0044\s?\d{10}})?$/;
@@ -105,11 +87,11 @@ export default() => {
                                     <span className="">*</span>
                                 </label>
                                 <div className="" id="">
-                                       <span style={{marginRight:'7px'}} id="" className="">
+                                       <span style={{marginRight:'7px'}} >
                                             <input style={{width:'48%'}} name="firstname" id="input_1_2"
                                                    placeholder=" FIRST NAME" className="fields"
                                                    value={firstName}
-                                                   onChange={addFirstName}
+                                                   onChange={(event)=>setfirstName(even.target.value)}
                                                    type="text"
                                                    required/>
                                         </span>
@@ -118,7 +100,9 @@ export default() => {
                                           <input  style={{width:'50%'}}  type="text"
                                                   className="fields"
                                                   placeholder="  LAST NAME"
-                                                  name="lastName"  value={lastName} onChange={addLastname} required/>
+                                                  name="lastName"  value={lastName}
+                                                  onChange={(event)=>setlastName(even.target.value)}
+                                                  required/>
                                         </span>
                                 </div>
 
@@ -133,7 +117,7 @@ export default() => {
                                                placeholder="  Requested Format: 0044 1434634996 " className="fields"
                                                value={phone}
                                                type="number"
-                                               onChange={addPhone}
+                                               onChange={(event)=>setphone(even.target.value)}
                                                required/>
                                         <p style={{color:"Red"}}>{error}</p>
 
@@ -148,7 +132,7 @@ export default() => {
 
                                         <input id="input_1_5" type="email" placeholder="  Email" className="fields"
                                                name='email' value={email}
-                                               onChange={addEmail}
+                                               onChange={(event)=>setemail(even.target.value)}
                                                pattern='[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\.[A-Za-z]{2,4}'
                                                title="for example: abc@gmail.com" required/>
 
@@ -160,7 +144,7 @@ export default() => {
                                     <div className="">
                                             <textarea type="text" placeholder="Your Question" className="text-area"
                                                       value={postBody}
-                                                      onChange={addPostBody}
+                                                      onChange={(event)=>setpostBody(even.target.value)}
                                                       rows="8" cols="50"
                                             />
                                     </div>
