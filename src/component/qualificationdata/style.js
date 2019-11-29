@@ -129,7 +129,7 @@ button[disabled]{
     margin-top: -15px;
     }
 .chat-input-data2 .btn{
-                   margin-top: 20%;
+     margin-top: 20%!important;
     width: 84px;
     background: #F37F00;
             

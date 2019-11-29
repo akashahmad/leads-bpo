@@ -7,6 +7,8 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import '../../asserts/style/Chatresponsive.css';
 import {Link} from 'react-router-dom'
+import {PhonevalidationapiPath} from '../../config'
+
 export default () => {
     const [Validnum, setValidnum] = useState(true);
     const listOfName = [
@@ -252,22 +254,6 @@ export default () => {
                                                 setShowQuestions(newMessate);
                                             }
                                         }
-                                        else if(single.type === "text")
-                                             {
-                                                 if ((showQuestions[index].value).length >= 16 )
-                                                 {
-                                                     let newMessate = [...showQuestions];
-                                                     newMessate[index].message = "Length should be less than 16 character  ";
-                                                     setShowQuestions(newMessate);
-                                                 }
-                                                 else
-                                                     {
-                                                let newMessate = [...showQuestions];
-                                                 newMessate[index].disable = true;
-                                                newMessate.push({question: "typing"});
-                                                setShowQuestions(newMessate);
-                                               }
-                                          }
                                         else {
                                             let newMessate = [...showQuestions];
                                             newMessate[index].disable = true;
@@ -324,6 +310,7 @@ export default () => {
                                                        type={single.type}
                                                        required={true}
                                                        minLength={2}
+                                                       maxLength={16}
                                                        autoFocus
                                                        onChange={event => {
                                                            let newMessate = [...showQuestions];
@@ -348,10 +335,13 @@ export default () => {
                                     <div style={{marginTop: "49px", marginLeft: "34px"}}>
                                         <p className="sub-input" style={{color: "white"}}>
                                             I accept the<Link className="link"
-                                            to={'/privacy-policy'} style={{color: "#F37F00"}}> &nbsp;Privacy Policy </Link>
+                                            to={'/privacy-policy'} target="_blank" style={{color: "#F37F00"}}>
+                                            &nbsp;Privacy Policy </Link>
                                             &nbsp;and
                                             <Link className="link"
-                                                to={'/privacy-policy'}  style={{color: "#F37F00"}}>
+                                                to={'/privacy-policy'}
+                                                  target="_blank"
+                                                  style={{color: "#F37F00"}}>
                                                  &nbsp; Terms & Conditions.</Link></p></div>
                                     <div style={{marginLeft: ""}}>
                                         <Button

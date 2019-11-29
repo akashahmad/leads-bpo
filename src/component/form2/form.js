@@ -2,6 +2,7 @@ import React, {useState, useEffect, Component} from 'react'
 import axios from 'axios';
 import Style from './style';
 import {apiPath} from '../../config'
+ import {PhonevalidationapiPath} from '../../config'
 import '../../asserts/style/style.css'
 import {Link} from 'react-router-dom'
 export default() => {
@@ -11,12 +12,35 @@ export default() => {
     const [phone, setphone] = useState("");
     const [error, setError] = useState("");
     const [postBody, setpostBody] = useState("");
-    const [Validnum, setValidnum] = useState(true);
-    const [phonenum, setphonenum] = useState("");
+    const [checkValidaty, setValidaty] = useState(true);
+
+
+
+
+    const phoneNumberValid = number => {
+        const word = number;
+        const newnumber = word.substring(word.length - 10);
+        const  validnumber="0"+newnumber;
+
+        let payLoad = {phone: validnumber};
+        axios.post(PhonevalidationapiPath+ "/api/phoneVerification", payLoad)
+            .then(response => {
+                setphone(number);
+                let payLoad = {firstName: firstName, lastName: lastName, phone: phone, email: email, postBody: postBody};
+                axios.post(apiPath + "/api/team", payLoad)
+                    .then(response => {
+                        window.location.replace("/thank-you");
+                    })
+            })
+            .catch(err => {
+               setError(err.message);
+               return
+            });
+
+    };
 
 
     const phoneNumberValidator = number => {
-        console.log(number)
         let re = /^(44\s?\d{10}|0044\s?\d{10})}?$/;
        // console.log(re.test(String(number).toLowerCase()))
         return (
@@ -32,29 +56,11 @@ export default() => {
             setError("* Enter phone number with pattern:0044 1434634996");
             return
         }
-        else
-        {
-            if(!Validnum)
-            {
-                setError("Phone number is switched off");
-                return
+       if(checkValidaty === true)
+       {
+           phoneNumberValid(phone)
+       }
 
-            }
-            else {
-                setphonenum(phone);
-            }
-
-
-        }
-        let payLoad = {firstName: firstName, lastName: lastName, phone: phonenum, email: email, postBody: postBody};
-        axios.post(apiPath + "/api/team", payLoad)
-            .then(response => {
-                window.location.replace("/thank-you");
-                console.log(response);
-            })
-            .catch(err => {
-                console.log(err);
-            });
     };
 
     return (
@@ -91,6 +97,8 @@ export default() => {
                                             <input style={{width:'48%'}} name="firstname" id="input_1_2"
                                                    placeholder=" FIRST NAME" className="fields"
                                                    value={firstName}
+                                                   minLength={2}
+                                                   maxLength={16}
                                                    onChange={(event)=>setfirstName(event.target.value)}
                                                    type="text"
                                                    required/>
@@ -101,6 +109,8 @@ export default() => {
                                                   className="fields"
                                                   placeholder="  LAST NAME"
                                                   name="lastName"  value={lastName}
+                                                  minLength={2}
+                                                  maxLength={16}
                                                   onChange={(event)=>setlastName(event.target.value)}
                                                   required/>
                                         </span>
@@ -155,9 +165,10 @@ export default() => {
                                         width: "30px"}} required/>
                                     <p className="sub-input" style={{color: "#035F80"}}>
                                         I accept the<Link className="link" to={'/privacy-policy'}
+                                                          target="_blank"
                                                           style={{color: "#F37F00"}}> &nbsp;Privacy Policy </Link>&nbsp;and
                                         <Link className="link"
-                                              to={'/privacy-policy'}  style={{color: "#F37F00"}}>
+                                              to={'/privacy-policy'} target="_blank"  style={{color: "#F37F00"}}>
                                             &nbsp; Terms & Conditions.</Link>
                                     </p>
                                 </div>
