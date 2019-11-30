@@ -3,10 +3,14 @@ import React from 'react'
 export default()=>(
     <style js="true">{`
 
-   
+
+    .termsandcondition-heading {
+        font-weight: 700;
+    }
     .terms-and-conditions{
         font-size: 38px;
         margin: 15px;
+        margin-top: 60px;
     }
     .termsandcondition-heading {
         margin-left: 30px;

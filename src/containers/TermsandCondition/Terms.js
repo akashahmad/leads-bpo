@@ -9,8 +9,8 @@ export default ()=>{
         <>
         <Header/>
        
-        <div className="terms-and-conditions mt-5"><h2 className="mt-5 termsandcondition-heading ">Website Terms and Conditions of Use</h2> 
-        <h2 className="termsandcondition-heading">Our Terms</h2>  
+        <div className="terms-and-conditions "><h2 className=" mt-7 termsandcondition-heading ">Website Terms and Conditions of Use Our Terms</h2> 
+       
         
         <ol className="strong">
   <li>These Terms explain how you may use this 
