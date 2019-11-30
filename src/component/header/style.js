@@ -19,7 +19,7 @@ export default()=>(
         }
         .button-header-text {
             padding-left: 15px;
-            margin-top: -2px;
+            margin-top: -6px;
             color: white;
             font-size: 24px;
         }
