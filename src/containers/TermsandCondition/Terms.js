@@ -2,6 +2,7 @@ import React from 'react';
 import Style from './style';
 import Header from '../../component/header/header';
 import Footer from '../../component/footer/footer';
+import '../../asserts/style/zubairresponsive.css';
 
 export default ()=>{
     return(
