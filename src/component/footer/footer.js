@@ -23,7 +23,7 @@ export default () => {
             <div className="lists-footer-lastsection">
                 <li><a>Contact Details</a></li>
                 <li><a>Website Copyright Details</a></li>
-                <li><Link to={"/chat"}>Terms &amp; Conditions</Link></li>
+                <li><Link to={"term&Condition"}>Terms &amp; Conditions</Link></li>
                 <li><Link to={"/privacy-policy"}>Privacy Policy</Link></li>
             </div>
             <Style/>
