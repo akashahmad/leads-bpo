@@ -47,10 +47,9 @@ export default () => {
     text-align: whi;
     color: white;
                }
- .chat-inside-data
-            {
-
-               }
+ .chat-inside-data {
+    height: 85px;
+}
              .chat1 {
                 padding-left: 3%;
                 padding-top: 2%;
@@ -87,9 +86,10 @@ export default () => {
     font-size: 22px;
     width: 300px;
     padding-left: 6px;
-    margin-top: 27px;
+    margin-top: 22px;
             }
-            .button{margin-top: 26%!important;
+            .button{
+            margin-top: 23%!important;
     margin-right: 16px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -123,20 +123,22 @@ button[disabled]{
     border-radius: 55px;
 }
     .sub-input{
-   font-size: 22px;
-    width: 513px;
+   font-size: 23px;
+    width: 509px;
     margin-left: -5px;
     margin-top: -15px;
     }
 .chat-input-data2 .btn{
-     margin-top: 20%!important;
-    width: 84px;
+     margin-left: 32px;
+    margin-top: 14%!important;
+    width: 80px;
+    height: 63px;
     background: #F37F00;
             
             }
 
 
-    a:hover {
+  .sub-input  a:hover {
     color: white !important;
     text-decoration: underline;
 }

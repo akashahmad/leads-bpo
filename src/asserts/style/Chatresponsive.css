@@ -39,8 +39,7 @@
     }
 
     .chat1-inside-data {
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin-top: 1%;
     }
 }
 
@@ -58,7 +57,7 @@
     }
 
     .chat-input-data2 {
-        width: 80% !important;
+        width: 68% !important;
         margin-right: 8px;
         margin-top: 10px;
     }
@@ -81,7 +80,7 @@
     }
 
     .chat-input-data {
-        width: 660px !important;
+        width: 678px !important;
         margin-top: 2%;
     }
 
@@ -130,6 +129,13 @@
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
+    .scroll_btn {
+        margin-left: -1%!important;
+    }
+    .container-fluid{
+        width: 757px;
+        margin-left: 5px;
+    }
     .box1 {
         width: 232px !important;
 
@@ -164,12 +170,13 @@
     }
 
     .chat-input-data {
-        width: 650px !important;
+        width: 672px !important;
         margin-top: 2%;
     }
 
     .chat1-inside-data {
         margin-left: 0px;
+        margin-top: 2%;
     }
 }
 @media (max-width: 767px) and (min-width: 685px) {

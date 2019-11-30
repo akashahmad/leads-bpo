@@ -10,7 +10,8 @@ import {Link} from 'react-router-dom'
 import {PhonevalidationapiPath} from '../../config'
 
 export default () => {
-    const [Validnum, setValidnum] = useState(true);
+    const [checkValidaty, setValidaty] = useState(true);
+
     const listOfName = [
         "Lara",
         "Kate",
@@ -125,6 +126,8 @@ export default () => {
         return re.test(String(number).toLowerCase());
     };
 
+
+
     const validateEmail = email => {
         let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
@@ -221,19 +224,41 @@ export default () => {
 
                                                              }
                                                      else {
-                                                                 if (!Validnum) {
+                                                                 if (!checkValidaty) {
                                                                      let newMessate1 = [...showQuestions];
-                                                                     newMessate1[index].message = " * NUMBER IS SWITCHED OFF";
+                                                                     newMessate1[index].message = " * Request failed with status code 509";
                                                                      setShowQuestions(newMessate1);
 
 
                                                                  }
                                                                  else {
-                                                                     let newMessate = [...showQuestions];
-                                                                     newMessate[index].disable = true;
-                                                                     newMessate[index].value = "+" + showQuestions[index].value;
-                                                                     newMessate.push({question: "typing"});
-                                                                     setShowQuestions(newMessate);
+
+                                                                     const word = showQuestions[index].value;
+                                                                     const newnumber = word.substring(word.length - 10);
+                                                                     const  validnumber="0"+newnumber;
+
+                                                                     let payLoad = {phone: validnumber};
+                                                                     axios.post(PhonevalidationapiPath+ "/api/phoneVerification", payLoad)
+                                                                         .then(response => {
+                                                                             let newMessate = [...showQuestions];
+                                                                             newMessate[index].disable = true;
+                                                                             newMessate[index].value = "+" + showQuestions[index].value;
+                                                                             newMessate.push({question: "typing"});
+                                                                             setShowQuestions(newMessate);
+
+                                                                         })
+                                                                         .catch(err => {
+                                                                             let newMessate1 = [...showQuestions];
+                                                                             newMessate1[index].message = "Request failed with status code 509";
+                                                                             setShowQuestions(newMessate1);
+
+                                                                             //setError(err.message);
+                                                                            // return
+                                                                         });
+
+
+
+
 
                                                                  }
                                                              }
