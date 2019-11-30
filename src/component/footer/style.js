@@ -32,6 +32,10 @@ export default ()=>{
                 list-style: none;
                 padding-left: 1%;
             }
+            .lists-footer-lastsection li a {
+                color: #f17f05;
+                width:800px;
+            }
             
             `}
         </style>

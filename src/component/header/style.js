@@ -45,7 +45,9 @@ export default()=>(
         .section1-row{
             padding-top: 1%;
         }
-        
+        .section1-row {
+            margin-bottom: -16px;
+        }
         .section1-paragraph{
             display: flex;
             padding-top: 2%;

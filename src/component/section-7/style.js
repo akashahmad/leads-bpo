@@ -15,7 +15,6 @@ export default()=>(
         .left-side-section7{
             display: flex;
             flex-direction: column;
-            /* justify-content: center; */
             align-items: center;
         }
         .paragraph1-section7{
@@ -33,7 +32,6 @@ export default()=>(
         .middle-section7{
             display: flex;
             flex-direction: column;
-            /* justify-content: center; */
             align-items: center;
         }
 
@@ -55,7 +53,6 @@ export default()=>(
         .right-side-section7{
             display: flex;
             flex-direction: column;
-            /* justify-content: center; */
             align-items: center;
         }
         .right-paragraph1-section7{
@@ -63,13 +60,13 @@ export default()=>(
             font-size: 25px;
             color: #f38524;
             font-weight: 500;
-            width: 374px;
+            width: 452px;
             text-align: center;
         }
         .right-paragraph2-section7{
             font-size: 21px;
-            width: 360px;
-            padding-left: 4px;
+            width: 392px;
+            // padding-left: 4px;
             color: #5896af;
         }
         .col-data{
