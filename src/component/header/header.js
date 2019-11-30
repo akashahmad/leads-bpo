@@ -14,7 +14,7 @@ export default ()=>{
                     <div className="d-flex flex-column align-items-end content">
                         <div className="section1-paragraph">
                             <h4 className="paragragh1-section1">Contact for Support: </h4>
-                         <a className="anchor-section1"><Link to={'/help'}>Debt Expert UK</Link></a>                           
+                         <a className="anchor-section1"><Link to={'/chat'}>Debt Expert UK</Link></a>
                         </div>
                       <p className=" link-header">debtexpertuk.netlify.com</p>
                         </div>
