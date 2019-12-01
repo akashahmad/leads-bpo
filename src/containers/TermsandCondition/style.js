@@ -7,10 +7,23 @@ export default()=>(
     .termsandcondition-heading {
         font-weight: 700;
     }
+    .TermsandCondition.margin-bottom-of-terms {
+        padding-bottom: 60px;
+    }
+    .TermsandCondition {
+        background-color: #eee;
+        padding: 10px;
+        margin-top: 39px;
+    }
     .terms-and-conditions{
         font-size: 38px;
         margin: 15px;
         margin-top: 60px;
+        background-color: #fff;
+        padding: 60px;
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .termsandcondition-heading {
         margin-left: 30px;

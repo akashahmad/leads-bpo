@@ -1,4 +1,4 @@
-@media (max-width: 767px) and (min-width: 685px) { }
+@media (max-width: 767px) and (min-width: 685px) { 
 .section1-paragraph h4 {
     font-size: 29px;
    
@@ -9,4 +9,5 @@
 .justify-content-between {
     justify-content: space-between!important;
     margin-right: 10px!important;
+}
 }
