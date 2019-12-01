@@ -1,12 +1,19 @@
-@media (max-width: 767px) and (min-width: 685px) { }
-.section1-paragraph h4 {
-    font-size: 29px;
-   
-}
-.d-flex.justify-content-between.header {
-    margin-right: 10px!important;
-}
-.justify-content-between {
-    justify-content: space-between!important;
-    margin-right: 10px!important;
-}
+@media (max-width: 479px) and (min-width: 320px) {
+    body {
+        width: fit-content !important;
+    }
+    h4.paragragh1-section1 {
+        font-size: 33px!important;
+    }
+    img.headerLogo {
+        margin-left: 1px!important;
+    }
+    img.headerLogo {
+        margin-left: -5px;
+        margin-top: -8px!important;
+    }
+  
+
+ }
+
+    

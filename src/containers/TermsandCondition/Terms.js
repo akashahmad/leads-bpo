@@ -9,64 +9,64 @@ export default ()=>{
 
         <>
         <Header/>
-       
+       <div className="TermsandCondition margin-bottom-of-terms">
         <div className="terms-and-conditions "><h2 className=" mt-7 termsandcondition-heading ">Website Terms and Conditions of Use Our Terms</h2> 
        
         
         <ol className="strong">
   <li>These Terms explain how you may use this 
-  Website ('the Site'), Which is provided by us free of <br/> charge.</li>
+  Website ('the Site'), Which is provided by us free of charge.</li>
   <li>References in these Terms to the Site includes the following website and all associated subdomains and web pages:</li>
   <li>You should read these Terms carefully before using the Site.</li>
-  <li>By accessing or using the Site or otherwise<br/>
-      indicating your consent ,you agree to be bound by these <br/> Terms and Conditions,and policies referred to in them.
+  <li>By accessing or using the Site or otherwise
+      indicating your consent ,you agree to be bound by these  Terms and Conditions,and policies referred to in them.
   </li>
   <li>
-      If you do bnot agree with or accept any of these Terms and Conditions and/or Privacy Policy,you <br/>
+      If you do bnot agree with or accept any of these Terms and Conditions and/or Privacy Policy,you 
       should  stop using the Site immedatley.
   </li>
   <li>
      If you have any questons about the Site,please contact us by: <br/>
   </li>
   <li>
-  Content<br/>
-  means any text,images,video,audio or other multimedia content,software or other information or <br/> material submitted to or on the Site;<br/>
-  Terms<br/>
-  means these terms and conditions of use as updated from to time;<br/>
-  Intellectual property rights<br/>
-  means right such as copyright,trade marks,domain names,design right,database right,patents<br/>
+  Content
+  means any text,images,video,audio or other multimedia content,software or other information or  material submitted to or on the Site;
+  Terms
+  means these terms and conditions of use as updated from to time;
+  Intellectual property rights
+  means right such as copyright,trade marks,domain names,design right,database right,patents
   and all other intellectual property right of any kind whether or not they are registered or unregistered<br/>
-  (anywhere in the world);<br/>
-  Unwanted Submission <br/>
-  has the meaning given to it the section entitled "Submitting information to the site";<br/>
-  Privacy policy<br/>
-  means the policy which governs how we<br/>
-  process any personal data collected from you;<br/>
-  Site<br/>
+  (anywhere in the world);
+  Unwanted Submission 
+  has the meaning given to it the section entitled "Submitting information to the site";
+  Privacy policy
+  means the policy which governs how we
+  process any personal data collected from you;
+  Site
   has the meaning given to it in clasue 1.1;<br/>
-  We,us or our<br/>
-  means Money Tree Media Ltd Company registration number the registered office of which is<br/>
+  We,us or our
+  means Money Tree Media Ltd Company registration number the registered office of which is
   at:<br/>
   Money Tree Media Ltd is an introducer firm.<br/>
-  References to us in these Terms also includes any group cpmpanies which we may have from time to <br/>
+  References to us in these Terms also includes any group cpmpanies which we may have from time to
   time.<br/>
-  You or your<br/>
+  You or your
   means the person accessing or using the Site or its Content.<br/>
-  Partner Advisor<br/>
-  means a 3rd party entity who is appropriately regulated to provide financial advice in relation to your<br/>
+  Partner Advisor
+  means a 3rd party entity who is appropriately regulated to provide financial advice in relation to your
    online enquiry.</li>
-   <li>We are regulated by <br/>
-   Information Commissioner's Office DPA no.ZA068562<br/>
-   (hereafter our "regulators")
+   <li>We are regulated by 
+   Information Commissioner's Office DPA no.ZA068562
+   (hereafter our "regulators").
    </li>
-   <li>Your use of the Site means that you must also comply(where applicable)with:<br/>
-   our Privacy policy 
+   <li>Your use of the Site means that you must also comply(where applicable) with 
+   our Privacy policy. 
    </li>
    <li>
-       We reserve the right, at our sole discretion,to change,modify,add or remove portions of these<br/>
-       Terms of Use at any time it is your responsibilty to check these Terms of Use periodically for<br/>
-       changes.You continued use of the Site following the posting of changes will mean that you accept<br/>
-       and agree to the changes.<br/>
+       We reserve the right, at our sole discretion,to change,modify,add or remove portions of these
+       Terms of Use at any time it is your responsibilty to check these Terms of Use periodically for
+       changes.<br/>You continued use of the Site following the posting of changes will mean that you accept
+       and agree to the changes.
        
    </li> 
    </ol>
@@ -75,71 +75,71 @@ export default ()=>{
 <div className="strong">
     <ol>
         <li>
-        The Site is for your personal, non-commercial and non-exclusive use only. As long as you comply<br/> with these Terms of Use, Money Tree Media Ltd grants you a personal, non-exclusive, non-transferable, and non-
-        <br/>commercial limited privilege to enter and use the Site.
+        The Site is for your personal, non-commercial and non-exclusive use only. As long as you completely with these Terms of Use, Money Tree Media Ltd grants you a personal, non-exclusive, non-transferable, and non-
+        commercial limited privilege to enter and use the Site.
         </li>
         <li>
-        You may not use any “page-scraper”, “robot”, “spider”, “deep-link” or other automatic device,<br/>
-         program, algorithm or methodology, or any similar or equivalent manual process, to access, copy,<br/>
+        You may not use any “page-scraper”, “robot”, “spider”, “deep-link” or other automatic device,
+         program, algorithm or methodology, or any similar or equivalent manual process, to access, copy,
          acquire, or monitor any part of the Site, or in any way reproduce or circumvent the navigational 
-         <br/>structure or presentation of the Site or any Content, to obtain or attempt to obtain any materials,<br/>
+         structure or presentation of the Site or any Content, to obtain or attempt to obtain any materials,
           documents or information through any means not purposely made available through the Site.
         </li>
         <li>
-        You may not attempt to gain unauthorized access to any part or feature of the Site, or any other<br/>
+        You may not attempt to gain unauthorized access to any part or feature of the Site, or any other
         systems or networks connected to the Site or to any of our servers, or to any of the services offered 
-        <br/>on or through the Site, by password “mining”, hacking or any other illegitimate means.
+        on or through the Site, by password “mining”, hacking or any other illegitimate means.
         </li>
         <li>
-        You may not scan, probe or test the vulnerability of the Site or any network connected to the Site,<br/>
-         nor breach the security or authentication measures on the Site or any network connected to the<br/>
+        You may not scan, probe or test the vulnerability of the Site or any network connected to the Site,
+         nor breach the security or authentication measures on the Site or any network connected to the
          Site.
         </li>
         <li>
-        You may not reverse look-up, trace or seek to trace any information on any other user of or visitor to <br/>
-         the Site, or any other customer of ours, to its source, or exploit the Site or any service or<br/>
-         information made available or offered by or through the Site, in any way where the purpose is to<br/>
+        You may not reverse look-up, trace or seek to trace any information on any other user of or visitor to 
+         the Site, or any other customer of ours, to its source, or exploit the Site or any service or
+         information made available or offered by or through the Site, in any way where the purpose is to
          reveal any information, including but not limited to personal identification or information, other than 
-        <br/>your own information, as provided for by the Site. 
+        your own information, as provided for by the Site. 
         </li>
         <li>
-        You agree that you will not take any action that imposes an unreasonable or disproportionately <br/>
-         large load on the infrastructure of the Site or our systems or networks, or any systems or networks <br/>
+        You agree that you will not take any action that imposes an unreasonable or disproportionately 
+         large load on the infrastructure of the Site or our systems or networks, or any systems or networks 
           connected to the Site. 
         </li>
         <li>
-        You agree not to use any device, software or routine to interfere or attempt to interfere with the <br/>
-        proper working of the Site or any transaction being conducted on the Site, or with any other<br/>
+        You agree not to use any device, software or routine to interfere or attempt to interfere with the 
+        proper working of the Site or any transaction being conducted on the Site, or with any other
          person’s use of the Site.  
         </li>
         <li>
-        You may not forge headers or otherwise manipulate identifiers in order to disguise the origin of any<br/>
-         message or transmittal you send to us on or through <br/>
-        the Site or any service offered on or through the Site. You may not pretend that you are, or that you represent, someone else, or impersonate any<br/>
+        You may not forge headers or otherwise manipulate identifiers in order to disguise the origin of any
+         message or transmittal you send to us on or through 
+        the Site or any service offered on or through the Site. You may not pretend that you are, or that you represent, someone else, or impersonate any
          other individual or entity. 
         </li>
         <li>
-        You may not use the Site or any Content for any purpose that is unlawful or prohibited by these <br/>
-         Terms of Use, or to solicit the performance of any illegal activity or other activity which infringes<br/>
+        You may not use the Site or any Content for any purpose that is unlawful or prohibited by these 
+         Terms of Use, or to solicit the performance of any illegal activity or other activity which infringes
          our rights or those of others.
         </li>
         <li>
-        The Site is intended for use only by those who can access it from within the UK. If you choose to <br/>
-        access the Site from locations outside the UK, you are responsible for compliance with local laws<br/>
+        The Site is intended for use only by those who can access it from within the UK. If you choose to 
+        access the Site from locations outside the UK, you are responsible for compliance with local laws
          where they are applicable.
         </li>
         <li>
-        You agree that you are solely responsible for all costs and expenses you may incur in relation to <br/>
+        You agree that you are solely responsible for all costs and expenses you may incur in relation to 
          any 3rd party agreements you consensually enter into such as an Insolvency Practitioners fees.
 
         </li>
         <li>
-        Our services are not targeted towards, nor intended for use by, anyone under the age of 18. If you <br/>
+        Our services are not targeted towards, nor intended for use by, anyone under the age of 18. If you 
         are under the age of 18, you are not permitted to use our services.
         </li>
         <li>
-        The services offered on this Site are completely free to use you and we do not charge you <br/>
-         whatsoever. However we may receive a commission from our selected partners for referring you to <br/>
+        The services offered on this Site are completely free to use you and we do not charge you
+         whatsoever. However we may receive a commission from our selected partners for referring you to 
         them as an introducer.
         </li>
         <li>
@@ -149,11 +149,11 @@ export default ()=>{
         A list of our selected partners can be found here:
         </li>
         <li>
-        We seek to make the Site as accessible as possible. If you have any difficulties using the Site,<br/>
+        We seek to make the Site as accessible as possible. If you have any difficulties using the Site,
          please contact us at:
         </li>
         <li>
-        We may prevent or suspend your access to the Site if you do not comply with any part of these<br/>
+        We may prevent or suspend your access to the Site if you do not comply with any part of these
          Terms, any terms or policies to which they refer or any applicable law.
         </li>
     </ol>
@@ -164,14 +164,14 @@ export default ()=>{
 <div>
     <ol className="strong">
         <li>
-        This Site and all intellectual property rights in it, including but not limited to any Content, are owned<br/>
-         by us, our licensors or both (as applicable). We and our licensors reserve all of our and their rights in <br/>
-        any intellectual property in connection with these Terms. This means, for example, that we and they <br/>
+        This Site and all intellectual property rights in it, including but not limited to any Content, are owned
+         by us, our licensors or both (as applicable). We and our licensors reserve all of our and their rights in 
+        any intellectual property in connection with these Terms. This means, for example, that we and they 
         remain owners of them and free to use them as we and they see fit.</li>
             <li>
-            Nothing in these Terms grants you any legal rights in the Site other than as necessary to enable you <br/>
-             to lawfully access the Site as intended and authorized by us. You agree not to adjust to try to<br/>
-              circumvent or delete any notices contained on the Site (including any intellectual property notices) and <br/>
+            Nothing in these Terms grants you any legal rights in the Site other than as necessary to enable you 
+             to lawfully access the Site as intended and authorized by us. You agree not to adjust to try to
+              circumvent or delete any notices contained on the Site (including any intellectual property notices) and 
               in particular in any digital rights or other security technology embedded or contained within the Site.
             
         </li>
@@ -183,18 +183,18 @@ export default ()=>{
 <div>
     <ol className="strong">
         <li>
-        While we try to make sure that the Site is secure, we cannot guarantee the security of any <br/>
-         information that is transferred or potentially intercepted over the internet. We therefore cannot<br/>
-         guarantee that it will be kept confidential. For that reason, you should not submit any information<br/>
-         that you regard as sensitive information or valuable (Unwanted Submissions) to the Site. While we value <br/>
+        While we try to make sure that the Site is secure, we cannot guarantee the security of any 
+         information that is transferred or potentially intercepted over the internet. We therefore cannot
+         guarantee that it will be kept confidential. For that reason, you should not submit any information
+         that you regard as sensitive information or valuable (Unwanted Submissions) to the Site. While we value
         your feedback, you agree not to submit any Unwanted Submissions.
         </li>
         <li>
-        We may use any Unwanted Submissions as we see reasonably fit in relation to servicing your<br/>
-         online enquiry (bear in mind that we have no way of knowing whether such information is <br/>
+        We may use any Unwanted Submissions as we see reasonably fit in relation to servicing your
+         online enquiry (bear in mind that we have no way of knowing whether such information is
         confidential or valuable because we do not monitor the Site to check for these specific matters). <br/>
-        Therefore, we will not be legally responsible for keeping any Unwanted Submissions confidential<br/>
-         nor will we be legally responsible to you or anybody else for any use of such Unwanted<br/>
+        Therefore, we will not be legally responsible for keeping any Unwanted Submissions confidential
+         nor will we be legally responsible to you or anybody else for any use of such Unwanted
          Submissions.
              
         </li>
@@ -208,21 +208,21 @@ export default ()=>{
 <div>
     <ol className="strong">
         <li>
-        While we try to make sure that the Site is accurate, up-to-date and free from bugs, we cannot <br/>
-        guarantee that it will be. Furthermore, we cannot guarantee that the Site will be fit or suitable for <br/>
-        any purpose. Any reliance that you may place on the information on this Site is at your own risk.<br/>
+        While we try to make sure that the Site is accurate, up-to-date and free from bugs, we cannot 
+        guarantee that it will be. Furthermore, we cannot guarantee that the Site will be fit or suitable for 
+        any purpose. Any reliance that you may place on the information on this Site is at your own risk.
         
         </li>
         <li>
         We may suspend or terminate operation of the Site at any time as we see fit.
         </li>
             <li>
-            Content is provided for your general information purposes only and to inform you about us, news,<br/>
-             features, services and other websites that may be of interest. It does not constitute technical,<br/>
+            Content is provided for your general information purposes only and to inform you about us, news,
+             features, services and other websites that may be of interest. It does not constitute technical,
              financial or legal advice or any other type of advice and should not be relied on for any purposes.   
         </li>
         <li>
-        While we try to make sure that the Site is available for your use, we do not promise that the Site is<br/>
+        While we try to make sure that the Site is available for your use, we do not promise that the Site is
          available at all times nor do we promise the uninterrupted use by you of the Site.
         </li>
     </ol>
@@ -231,11 +231,9 @@ export default ()=>{
 <div>
     <h2 className="termsandcondition-heading">Hyperlinks and third party sites</h2>
     <p className="ap">
-    The Site may contain hyperlinks or references to third party websites other than the Site. Any such <br/>
-    hyperlinks or references are provided for your convenience only. We have no control over third party websites and accept no legal responsibility for any content, material or information contained in them. <br/>
-    The display of any hyperlink and reference to any third party<br/>
-     website does not mean that we endorse <br/>
-    that third party’s website, products or services. Your use of a third party site may be governed by the <br/>
+    The Site may contain hyperlinks or references to third party websites other than the Site. Any such 
+    hyperlinks or references are provided for your convenience only.<br/> We have no control over third party websites and accept no legal responsibility for any content, material or information contained in them. <br/>
+    The display of any hyperlink and reference to any third party website does not mean that we endorse that third party’s website, products or services. Your use of a third party site may be governed by the 
     terms and conditions of that third party site.</p>
 </div> <div>
     <h2 className="termsandcondition-heading">
@@ -244,8 +242,8 @@ export default ()=>{
 </div>
 <div>
 <p className="ap">
-Except for any legal responsibility that we cannot exclude in law (such as for death or personal injury),<br/>
- we are not legally responsible for any losses or incorrect financial advice provided by the referred<br/>
+Except for any legal responsibility that we cannot exclude in law (such as for death or personal injury),
+ we are not legally responsible for any losses or incorrect financial advice provided by the referred
  regulated 3rd party. This exclusion shall include, but not be limited to:</p>
 </div>
 <div>
@@ -253,7 +251,6 @@ Except for any legal responsibility that we cannot exclude in law (such as for d
     (a) losses that:
     </p>
 </div>
-
 <div>
     <ol className="strong">
         <li>
@@ -276,8 +273,8 @@ Except for any legal responsibility that we cannot exclude in law (such as for d
 </div>
 <div>
 <p className="ap">
-We shall have no liability to you for any breach of these Terms caused by any event or circumstance <br/>
-beyond our reasonable control including, but not limited to, strikes, lock-outs or other industrial <br/>
+We shall have no liability to you for any breach of these Terms caused by any event or circumstance 
+beyond our reasonable control including, but not limited to, strikes, lock-outs or other industrial 
 disputes; breakdown of systems or network access; or flood, fire, explosion or accident.
 </p>
 
@@ -297,11 +294,11 @@ No one other than a party to these Terms has any right to enforce any of these T
 </div>
 <div>
 <p className="ap">
-    At National Debt Help, we are committed to providing our customers with the highest standards of<br/>
-    service throughout the customer journey. In so doing, we are committed to ensuring that the Financial<br/>
+    At National Debt Help, we are committed to providing our customers with the highest standards of
+    service throughout the customer journey. In so doing, we are committed to ensuring that the Financial 
     Conduct Authority’s Principle of “treating customers fairly” is adhered to at all times.</p>
     <p className="ap">
-    We recognise that both our customers and ourselves have everything to gain if we are looking out for your<br/> 
+    We recognise that both our customers and ourselves have everything to gain if we are looking out for your 
     best interests and treat you fairly in all aspects of our dealings with you.</p>
     
     <p className="ap">
@@ -325,7 +322,7 @@ Provide you with clear information about the products and services they offer, i
 <p className="ap">
 Let us know about your individual needs, circumstances and preferences.<br/>
 
-Let us know if there is any aspect of our service, or of a product our partners have discussed or<br/>
+Let us know if there is any aspect of our service, or of a product our partners have discussed or
  recommended, that you don’t understand.<br/>
 
 Tell us if you think there are ways we can improve our service.
@@ -336,42 +333,42 @@ Tell us if you think there are ways we can improve our service.
 
 </div>
 <div>  <p className="ap">
-National Debt Help’ website(s) (our website(s)) uses cookies to distinguish you from other users of our <nr/>
-website(s).This helps us to provide you with a good experience when you browse our website(s) and <br/>
+National Debt Help’ website(s) (our website(s)) uses cookies to distinguish you from other users of our 
+website(s).This helps us to provide you with a good experience when you browse our website(s) and 
 also allows us to improve our website(s). This policy explains what we mean by “cookies”,
- the cookies <br/>
- we use on our website(s), what the cookies do, how long they last for and where you can find out more<br/>
+ the cookies. <br/>
+ we use on our website(s), what the cookies do, how long they last for and where you can find out more
  information about them.</p>
  <p className="ap">What are cookies?</p>
- <p className="ap">Cookies are pieces of data created when you visit a website, and contain a unique, identification <br/>
- number. Some cookies are stored in the cookie directory of your hard drive, and do not expire at the <br/>end of your session. Cookies do not contain any personal information about you and cannot be used to<br/> identify an individual user.</p>
+ <p className="ap">Cookies are pieces of data created when you visit a website, and contain a unique, identification 
+ number, Some cookies are stored in the cookie directory of your hard drive, and do not expire at the end of your session, Cookies do not contain any personal information about you and cannot be used to identify an individual user.</p>
 
 </div>
   <div>
   <p className="ap">
-      Cookies have a lifetime. Many only last until you close your browser or for a short time. These <br/>
-       called ‘session cookies’. Some last far longer though, for example, to enable a website to recognise <br/>
-       you when you return to them. These are called ‘persistent cookies’. Where possible, we’ll let you know <br/>
+      Cookies have a lifetime. Many only last until you close your browser or for a short time. These 
+       called ‘session cookies’. Some last far longer though, for example, to enable a website to recognise 
+       you when you return to them. These are called ‘persistent cookies’. Where possible, we’ll let you know 
        how long these cookies last for.
 
   
       </p>
-      <p className="ap">Cookies set directly by a website owner (like us) are generally known as ‘first party cookies’. Many <br/>
-       (if not most) modern websites also use bits of hidden technology provided by other parties. Online <br/>
-       advertising is a particularly common example. These other parties may also set cookies when you use<br/>
+      <p className="ap">Cookies set directly by a website owner (like us) are generally known as ‘first party cookies’, Many 
+       (if not most) modern websites also use bits of hidden technology provided by other parties, Online 
+       advertising is a particularly common example. These other parties may also set cookies when you use
         our website. If they do so, their cookies are generally known as ‘third party cookies’.</p>
 
 
-  <p className="ap">There are some other computer technologies which are technically different to cookies but are used to <br/>perform very similar jobs and function in a very similar way. For example, ‘locally stored objects'(or <br/>
-‘flash cookies’) are used to power some online video content, and ‘web bugs'(or ‘web beacons’) are <br/>
-used for many of the same purposes as cookies. When we provide services to you through our <br/>
-website, we want to make them easy to use, useful and reliable. Cookies are used to improve services<br/>
+  <p className="ap">There are some other computer technologies which are technically different to cookies but are used to perform very similar jobs and function in a very similar way. For example, ‘locally stored objects'(or 
+‘flash cookies’) are used to power some online video content, and ‘web bugs'(or ‘web beacons’) are 
+used for many of the same purposes as cookies. When we provide services to you through our 
+website, we want to make them easy to use, useful and reliable. Cookies are used to improve services
  for you through, for example:</p>
- <p className="ap">enabling a service to recognise your device so you don’t have to give the same information several <br/>
+ <p className="ap">enabling a service to recognise your device so you don’t have to give the same information several 
  times during one task;</p>
- <p className="ap">recognising that you may already have given a username and password so you don’t need to do it for <br/>
-  every web page requested; and measuring how many people are using services, so they can be made <br/>
- easier to use and there is enough capacity to ensure they are fast. Now that we have explained what <br/>
+ <p className="ap">recognising that you may already have given a username and password so you don’t need to do it for 
+  every web page requested; and measuring how many people are using services, so they can be made 
+ easier to use and there is enough capacity to ensure they are fast. Now that we have explained what 
  cookies are, please read “Our use of cookies” to understand why we use them.
 
  </p></div>
@@ -388,60 +385,60 @@ website, we want to make them easy to use, useful and reliable. Cookies are used
 <div><h2 className="termsandcondition-heading">Third party cookies</h2></div>
 <div>
 <p className="ap">
-    These are cookies which are set by other people. Aside from setting cookies ourselves, we also allow <br/>
-    carefully-selected third parties to set cookies during your visit to our website. These organisations<br/>
+    These are cookies which are set by other people. Aside from setting cookies ourselves, we also allow 
+    carefully-selected third parties to set cookies during your visit to our website. These organisations
      provide us with information on how you use our website(s). They may also use cookies to promote our
-    <br/> newest products and latest offers to you on other websites based on your previous activity at with us. <br/>
-    For example, you may see products that you viewed on our website(s) presented on other websites as<br/>
+    newest products and latest offers to you on other websites based on your previous activity at with us. <br/>
+    For example, you may see products that you viewed on our website(s) presented on other websites as
      you move around the internet.
     </p>
-    <p className="ap">We regularly review the cookies we use and which our suppliers use to keep them to the minimum we <br/>
-think we need. In doing so, we aim to respect your right to privacy in your online life, which is very <br/>important to us, but also ensure you have a good browsing experience and ensure we have enough of <br/>the right kind of information to improve our website and the services which we offer. During your visit <br/>to our website(s) you may notice some cookies that are not related to our website(s). This happens <br/>when you visit a page with content embedded from a third party or use some of the links to social <br/>networking websites (e.g. FaceBook). We love it when you share information through a social media <br/>network but when you do so, please be aware that, these websites may place cookies on your device. <br/>
-We do not control how a third party uses their cookies. You should check these third party websites’<br/> 
+    <p className="ap">We regularly review the cookies we use and which our suppliers use to keep them to the minimum we >
+think we need. In doing so, we aim to respect your right to privacy in your online life, which is very important to us, but also ensure you have a good browsing experience and ensure we have enough of the right kind of information to improve our website and the services which we offer. During your visit to our website(s) you may notice some cookies that are not related to our website(s). This happens when you visit a page with content embedded from a third party or use some of the links to social networking websites (e.g. FaceBook). We love it when you share information through a social media network but when you do so, please be aware that, these websites may place cookies on your device. <br/>
+We do not control how a third party uses their cookies. You should check these third party websites’
 privacy policies for more information about their cookies if you are concerned about this.</p>
 </div>
 <div><h2 className="termsandcondition-heading">Analytics cookies</h2></div>
 <div>
-<p className="ap">We use various software tools that allow us to study, and then improve, how customers interact with <br/> our website(s) – this is known as website analytics. Examples of analytical tools that we use are:<br/> Google Analytics, Adobe Analytics and User Replay.</p>
+<p className="ap">We use various software tools that allow us to study, and then improve, how customers interact with  our website(s) – this is known as website analytics. Examples of analytical tools that we use are:<br/> Google Analytics, Adobe Analytics and User Replay.</p>
     
-    <p className="ap">Analytics cookies allow us to understand more about how many visitors we have to the website(s), <br/>
-    how many times they visit us and how many times a user viewed specific webpages within our site.<br/>
-     Although analytics cookies allow us to gather specific information about the pages that you visit and<br/>
-     whether you have visited our site(s) multiple times, we cannot use them to find out details such as your <br/>
+    <p className="ap">Analytics cookies allow us to understand more about how many visitors we have to the website(s),
+    how many times they visit us and how many times a user viewed specific webpages within our site.
+     Although analytics cookies allow us to gather specific information about the pages that you visit and
+     whether you have visited our site(s) multiple times, we cannot use them to find out details such as your 
     name or address.</p></div>
     <div><h2 className="termsandcondition-heading">How you can manage cookies</h2></div>
     <div>
     <p className="ap">
-        We hope you are happy with our cookie policy, but if you do not want to accept cookies from our<br/>
-         website(s) you can change your browser settings so that cookies are not accepted. If you choose to do <br/>
+        We hope you are happy with our cookie policy, but if you do not want to accept cookies from our
+         website(s) you can change your browser settings so that cookies are not accepted. If you choose to do 
         this, please be aware our website(s) may no longer function as intended.
         </p>
-        <p className="ap">All popular browsers (e.g. Chrome, Internet Explorer, Edge and Safari) allow you to amend your cookie <br/>
-        settings so that cookies are no longer enabled across all websites that you visit. For further <br/>
-         information about cookies and how to disable them please go to the Information Commissioner’s<br/>
+        <p className="ap">All popular browsers (e.g. Chrome, Internet Explorer, Edge and Safari) allow you to amend your cookie 
+        settings so that cookies are no longer enabled across all websites that you visit. For further 
+         information about cookies and how to disable them please go to the Information Commissioner’s
          webpage on cookies;</p>
     </div>
 <div><h3  className="termsandcondition-heading" >Updates to our cookie policy</h3></div>
 <div>
-<p className="ap">We review our use of cookies and similar technologies regularly. In doing so, we may change the <br/>
-     cookies and other technologies we use, and how we use them. As a result, we will need to change this <br/>
+<p className="ap">We review our use of cookies and similar technologies regularly. In doing so, we may change the
+     cookies and other technologies we use, and how we use them. As a result, we will need to change this 
      Cookie Policy from time to time to keep it accurate and up to date.
 
 </p>
 </div>
 <div><h2 className="termsandcondition-heading">Contact us</h2></div>
-<p className="ap">If you want any further information about our approach to cookies and similar technologies, our<br/>
+<p className="ap">If you want any further information about our approach to cookies and similar technologies, our
  website in general or have any other privacy questions relating to us, we’d be happy to help you. Please write to us</p>
 
    <div><h2 className="termsandcondition-heading">Your Right to be Forgotten / Erasure Of Your Personal Information</h2></div>
    <div>
-   <p className="ap">Under the General Data Protection Regulation (GDPR), all individuals have the right to request the<br/>
+   <p className="ap">Under the General Data Protection Regulation (GDPR), all individuals have the right to request the
         deletion or removal of personal data (the right to be forgotten) under the following circumstances:</p>
    </div>
    <div>
     <ol className="strong">
         <li>
-        Where the personal data is no longer necessary in relation to the purpose for which it was originally <br/>
+        Where the personal data is no longer necessary in relation to the purpose for which it was originally 
         collected/processed.
         </li>
         <li>
@@ -449,7 +446,7 @@ privacy policies for more information about their cookies if you are concerned a
              
         </li>
         <li>
-        When the individual objects to the processing and there is no overriding legitimate interest for <br/>
+        When the individual objects to the processing and there is no overriding legitimate interest for 
         continuing the processing.
         </li>
         <li>
@@ -457,23 +454,26 @@ privacy policies for more information about their cookies if you are concerned a
         </li>
         <li>The personal data has to be erased in order to comply with a legal obligation.</li>
         <li>The personal data is processed in relation to the offer of information society services to a child.</li>
-        <li>There are some circumstances where the right “to be forgotten” does not apply i.e. where we need<br/>
+        <li>There are some circumstances where the right “to be forgotten” does not apply i.e. where we need
          to comply with a legal obligation.</li>
     </ol>
 </div>
 <div><h2 className="termsandcondition-heading">Governing Law</h2></div>
 <div>
 <p className="ap">
-    By continuing to use the Site, you explicitly agree that the Terms and Conditions within this website <br/>
-     shall be construed and governed by the laws of England and Wales and you irrevocably agree to <br/>
+    By continuing to use the Site, you explicitly agree that the Terms and Conditions within this website 
+     shall be construed and governed by the laws of England and Wales and you irrevocably agree to 
     submit to the exclusive jurisdiction of the English courts.
 
 
     </p>
+</div> </div>
 </div>
+<Footer/>
+
         <Style/>
-       </div>
-       <Footer/>
+        
+       
         </>
     );
 }
