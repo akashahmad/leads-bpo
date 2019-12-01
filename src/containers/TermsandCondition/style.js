@@ -3,7 +3,10 @@ import React from 'react'
 export default()=>(
     <style js="true">{`
 
-
+    img.headerLogo {
+        margin-left: -5px;
+        margin-top: -8px!important;
+    }
     .termsandcondition-heading {
         font-weight: 700;
     }

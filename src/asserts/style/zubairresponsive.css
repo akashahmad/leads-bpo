@@ -1,7 +1,19 @@
-@media (max-width: 1199px) and (min-width: 1024px) {
-
-
+@media (max-width: 479px) and (min-width: 320px) {
+    body {
+        width: fit-content !important;
+    }
     h4.paragragh1-section1 {
         font-size: 33px!important;
     }
+    img.headerLogo {
+        margin-left: 1px!important;
+    }
+    img.headerLogo {
+        margin-left: -5px;
+        margin-top: -8px!important;
+    }
+  
+
  }
+
+    
