@@ -1,13 +1,7 @@
-@media (max-width: 767px) and (min-width: 685px) { 
-.section1-paragraph h4 {
-    font-size: 29px;
-   
-}
-.d-flex.justify-content-between.header {
-    margin-right: 10px!important;
-}
-.justify-content-between {
-    justify-content: space-between!important;
-    margin-right: 10px!important;
-}
-}
+@media (max-width: 1199px) and (min-width: 1024px) {
+
+
+    h4.paragragh1-section1 {
+        font-size: 33px!important;
+    }
+ }
