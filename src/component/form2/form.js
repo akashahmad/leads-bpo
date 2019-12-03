@@ -2,7 +2,7 @@ import React, {useState, useEffect, Component} from 'react'
 import axios from 'axios';
 import Style from './style';
 import {apiPath} from '../../config'
- import {PhonevalidationapiPath} from '../../config'
+import {PhonevalidationapiPath} from '../../config'
 import '../../asserts/style/style.css'
 import {Link} from 'react-router-dom'
 export default() => {
@@ -36,8 +36,7 @@ export default() => {
                setError(err.message);
                return
             });
-
-    };
+};
 
 
     const phoneNumberValidator = number => {
@@ -60,7 +59,6 @@ export default() => {
        {
            phoneNumberValid(phone)
        }
-
     };
 
     return (

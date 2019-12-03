@@ -113,9 +113,9 @@
         margin: 17px !important;
     }
 
-    .container-fluid {
+    /* .container-fluid {
         width: 99%;
-    }
+    } */
 
     .chat-input-data {
         width: 800px !important;
@@ -132,10 +132,10 @@
     .scroll_btn {
         margin-left: -1%!important;
     }
-    .container-fluid{
+    /* .container-fluid{
         width: 757px;
         margin-left: 5px;
-    }
+    } */
     .box1 {
         width: 232px !important;
 
