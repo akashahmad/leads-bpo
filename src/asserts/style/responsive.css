@@ -1,11 +1,4 @@
 @media (max-width: 479px) and (min-width: 320px) {
-    body{
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-    }
-
     .middle-section7 {
         margin-left: -70px!important;
     }
