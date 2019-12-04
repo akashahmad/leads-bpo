@@ -3,12 +3,7 @@ body{
     margin: 0px;
     font-family: red hat Display;    
 }
-header{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-}
+
 
 .footer{
     /*background-image: url('../images/gplay.png');*/
