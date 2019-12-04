@@ -1,5 +1,5 @@
 @media (max-width: 479px) and (min-width: 320px) {
-    header{
+    body{
         position: fixed;
         left: 0px;
         top: 0px;
