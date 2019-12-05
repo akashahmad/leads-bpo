@@ -1,9 +1,6 @@
 /* chat responsive start*/
 @media (max-width: 1400px) and (min-width: 1200px) {
-    body {
-        width: fit-content !important;
-    }
-    .chat1 {
+      .chat1 {
         padding-left: 0%!important;
     }
     p.p
